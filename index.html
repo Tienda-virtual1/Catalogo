@@ -308,7 +308,12 @@
                 const nombre = prod.nombre || "Producto sin nombre";
                 const marca = prod.marca || "Sin Marca";
                 const precio = Number(prod.precio_regular || 0);
-                const imagen = prod.imagen_principal || "";
+                
+                // Validamos si hay imagen real o usamos una por defecto limpia directamente
+                const imagen = (prod.imagen_principal && prod.imagen_principal.trim() !== "") 
+                    ? prod.imagen_principal 
+                    : 'https://via.placeholder.com/150?text=Sin+Imagen';
+
                 const descripcion = prod.descripcion_corta || prod.descripcion || ""; 
                 
                 const stockGeneral = prod.stock_general;
@@ -316,7 +321,6 @@
             
                 const inputId = `qty-${sku}-${index}`;
                 const colorContainerId = `colors-${sku}-${index}`;
-                const imgId = `img-${sku}-${index}`;
                 const labelColorId = `selected-color-${sku}-${index}`;
                 const btnAgregarId = `btn-agregar-${sku}-${index}`;
                 const stockAvisoId = `stock-aviso-${sku}-${index}`;
@@ -335,7 +339,7 @@
                 tarjeta.innerHTML = `
                     <div>
                         <div class="w-full h-44 mb-3 flex items-center justify-center bg-gray-50 rounded-lg overflow-hidden relative">
-                            <img id="${imgId}" src="${imagen}" alt="${nombre}" class="h-full object-contain p-2 transition-all duration-300" onerror="this.src='https://via.placeholder.com/150?text=Sin+Imagen'">
+                            <img src="${imagen}" alt="${nombre}" class="h-full object-contain p-2" loading="lazy">
                             
                             ${descripcion ? `
                                 <div class="absolute top-2 right-2 z-20">
@@ -380,8 +384,7 @@
                     </div>
                 `;
                 
-                grid.appendChild(tarjeta);
-    
+                grid.appendChild(tarjeta);    
                 const containerColores = document.getElementById(colorContainerId);
                 const labelColorSeleccionado = document.getElementById(labelColorId);
                 const btnAgregar = document.getElementById(btnAgregarId);
