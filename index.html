@@ -298,8 +298,13 @@
                 const nombre = prod.nombre || "Producto sin nombre";
                 const marca = prod.marca || "Sin Marca";
                 const precioRegular = Number(prod.precio_regular || 0);
-                const precioOferta = prod.precio_oferta ? Number(prod.precio_oferta) : null;
-                const etiquetas = prod.etiquetas || [];
+                const precioOferta = (prod.precio_oferta !== null && prod.precio_oferta !== "" && prod.precio_oferta !== undefined) ? Number(prod.precio_oferta) : null;
+                
+                // Asegurar que etiquetas sea siempre un arreglo válido
+                let etiquetas = prod.etiquetas || [];
+                if (typeof etiquetas === 'string') {
+                    etiquetas = etiquetas.split(',').map(e => e.trim()).filter(e => e.length > 0);
+                }
                 
                 const imagen = (prod.imagen_principal && prod.imagen_principal.trim() !== "") 
                     ? prod.imagen_principal 
@@ -326,19 +331,19 @@
                     deshabilitarBoton = "disabled";
                 }
 
-                // Generar HTML para las etiquetas (badges) si las tiene
+                // Generar HTML para las etiquetas (badges)
                 let htmlEtiquetas = '';
                 if (etiquetas.length > 0) {
-                    htmlEtiquetas = '<div class="absolute top-2 left-2 z-20 flex flex-col gap-1">';
+                    htmlEtiquetas = '<div class="absolute top-2 left-2 z-30 flex flex-col gap-1 pointer-events-none">';
                     etiquetas.forEach(etiqueta => {
-                        htmlEtiquetas += `<span class="bg-red-500 text-white text-[10px] font-bold px-2 py-0.5 rounded-full shadow-sm">${etiqueta}</span>`;
+                        htmlEtiquetas += `<span class="bg-red-500 text-white text-[10px] font-bold px-2 py-0.5 rounded-full shadow-md">${etiqueta}</span>`;
                     });
                     htmlEtiquetas += '</div>';
                 }
 
-                // Generar HTML para los precios (Evaluando si hay oferta)
+                // Generar HTML para los precios
                 let htmlPrecios = '';
-                const precioParaCarrito = precioOferta !== null ? precioOferta : precioRegular;
+                const precioParaCarrito = (precioOferta !== null && precioOferta < precioRegular) ? precioOferta : precioRegular;
 
                 if (precioOferta !== null && precioOferta < precioRegular) {
                     htmlPrecios = `
@@ -353,17 +358,17 @@
             
                 tarjeta.innerHTML = `
                     <div>
-                        <div class="w-full h-44 mb-3 flex items-center justify-center bg-gray-50 rounded-lg overflow-hidden relative">
+                        <div class="w-full h-44 mb-3 flex items-center justify-center bg-gray-50 rounded-lg relative overflow-hidden">
                             ${htmlEtiquetas}
                             <img src="${imagen}" alt="${nombre}" class="h-full object-contain p-2" loading="lazy">
                             
                             ${descripcion ? `
-                                <div class="absolute top-2 right-2 z-20">
+                                <div class="absolute top-2 right-2 z-30">
                                     <button type="button" onclick="const d = document.getElementById('${descId}'); d.classList.toggle('hidden');" 
                                             class="w-7 h-7 bg-white/90 backdrop-blur-sm border shadow-sm rounded-full flex items-center justify-center text-emerald-700 cursor-pointer hover:bg-emerald-50 transition focus:outline-none">
                                         <i class="fa-solid fa-info text-xs"></i>
                                     </button>
-                                    <div id="${descId}" class="hidden absolute right-0 top-9 w-48 p-2.5 bg-gray-900 text-white text-xs rounded-lg shadow-xl z-30 text-left">
+                                    <div id="${descId}" class="hidden absolute right-0 top-9 w-48 p-2.5 bg-gray-900 text-white text-xs rounded-lg shadow-xl z-40 text-left">
                                         <p class="font-semibold text-emerald-400 mb-0.5">Detalles:</p>
                                         ${descripcion}
                                     </div>
