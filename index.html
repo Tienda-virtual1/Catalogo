@@ -300,11 +300,8 @@
                 const precioRegular = Number(prod.precio_regular || 0);
                 const precioOferta = (prod.precio_oferta !== null && prod.precio_oferta !== "" && prod.precio_oferta !== undefined) ? Number(prod.precio_oferta) : null;
                 
-                // Asegurar que etiquetas sea siempre un arreglo válido
-                let etiquetas = prod.etiquetas || [];
-                if (typeof etiquetas === 'string') {
-                    etiquetas = etiquetas.split(',').map(e => e.trim()).filter(e => e.length > 0);
-                }
+                // Capturamos la etiqueta individual del JSON
+                const etiquetaTexto = prod.etiqueta ? prod.etiqueta.trim() : "";
                 
                 const imagen = (prod.imagen_principal && prod.imagen_principal.trim() !== "") 
                     ? prod.imagen_principal 
@@ -331,14 +328,12 @@
                     deshabilitarBoton = "disabled";
                 }
 
-                // Generar HTML para las etiquetas (badges)
-                let htmlEtiquetas = '';
-                if (etiquetas.length > 0) {
-                    htmlEtiquetas = '<div class="absolute top-2 left-2 z-30 flex flex-col gap-1 pointer-events-none">';
-                    etiquetas.forEach(etiqueta => {
-                        htmlEtiquetas += `<span class="bg-red-500 text-white text-[10px] font-bold px-2 py-0.5 rounded-full shadow-md">${etiqueta}</span>`;
-                    });
-                    htmlEtiquetas += '</div>';
+                // Generar HTML para la etiqueta si existe
+                let htmlEtiqueta = '';
+                if (etiquetaTexto !== "") {
+                    htmlEtiqueta = `<div class="absolute top-2 left-2 z-30 pointer-events-none">
+                        <span class="bg-red-500 text-white text-[10px] font-bold px-2 py-0.5 rounded-full shadow-md">${etiquetaTexto}</span>
+                    </div>`;
                 }
 
                 // Generar HTML para los precios
@@ -359,7 +354,7 @@
                 tarjeta.innerHTML = `
                     <div>
                         <div class="w-full h-44 mb-3 flex items-center justify-center bg-gray-50 rounded-lg relative overflow-hidden">
-                            ${htmlEtiquetas}
+                            ${htmlEtiqueta}
                             <img src="${imagen}" alt="${nombre}" class="h-full object-contain p-2" loading="lazy">
                             
                             ${descripcion ? `
