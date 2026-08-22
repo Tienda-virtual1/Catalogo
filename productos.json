@@ -1238,11 +1238,329 @@
         "subcategorias": [
             "Blocks"
         ],
-        "imagen_principal": "nan",
+        "imagen_principal": "imagenes/Block/Block Justus triple renglon.jpg",
         "stock_general": null,
         "colores": [],
         "precio_regular": 5.0,
         "precio_oferta": 4.5,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "BLOC-02",
+        "nombre": "Block A4 cuadriculado 50 hojas",
+        "marca": "Justus",
+        "subcategorias": [
+            "Blocks"
+        ],
+        "imagen_principal": "imagenes/Block/Block Justus cuadric.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "BLOC-11",
+        "nombre": "Block cuadriculado A4 50 hojas",
+        "marca": "Stanford",
+        "subcategorias": [
+            "Blocks"
+        ],
+        "imagen_principal": "imagenes/Block/Block Stanford cuadric.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 5.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "BLOC-21",
+        "nombre": "Block cuadriculado A4 44 hojas",
+        "marca": "Alpha",
+        "subcategorias": [
+            "Blocks"
+        ],
+        "imagen_principal": "imagenes/Block/Block Alpha cuadric.jpg",
+        "stock_general": null,
+        "colores": [
+            {
+                "nombre": "Surtido",
+                "stock": 15,
+                "imagen": ""
+            },
+            {
+                "nombre": "Azul",
+                "stock": 3,
+                "imagen": ""
+            },
+            {
+                "nombre": "Amarillo",
+                "stock": 3,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rojo",
+                "stock": 3,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde",
+                "stock": 3,
+                "imagen": ""
+            },
+            {
+                "nombre": "Negro",
+                "stock": 3,
+                "imagen": ""
+            }
+        ],
+        "precio_regular": 3.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "BLOC-22",
+        "nombre": "Block rayado A4 44 hojas",
+        "marca": "Alpha",
+        "subcategorias": [
+            "Blocks"
+        ],
+        "imagen_principal": "imagenes/Block/Block Alpha rayado.jpg",
+        "stock_general": null,
+        "colores": [
+            {
+                "nombre": "Surtido",
+                "stock": 15,
+                "imagen": ""
+            },
+            {
+                "nombre": "Azul",
+                "stock": 3,
+                "imagen": ""
+            },
+            {
+                "nombre": "Amarillo",
+                "stock": 3,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rojo",
+                "stock": 3,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde",
+                "stock": 3,
+                "imagen": ""
+            },
+            {
+                "nombre": "Negro",
+                "stock": 3,
+                "imagen": ""
+            }
+        ],
+        "precio_regular": 3.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "BLOC-31",
+        "nombre": "Block arcoiris A4",
+        "marca": "Trivex",
+        "subcategorias": [
+            "Blocks"
+        ],
+        "imagen_principal": "imagenes/Block/Block arcoiris A4.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 3.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "BLOC-32",
+        "nombre": "Block cartulina de colores A4",
+        "marca": "Trivex",
+        "subcategorias": [
+            "Blocks"
+        ],
+        "imagen_principal": "imagenes/Block/Block cartulina colores A4.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 5.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "BLOC-33",
+        "nombre": "Block cartulina de colores A3 15 hojas",
+        "marca": "Trivex",
+        "subcategorias": [
+            "Blocks"
+        ],
+        "imagen_principal": "imagenes/Block/Block cartulina colores A3.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 8.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "BLOC-34",
+        "nombre": "Block papel lustre A4",
+        "marca": "Trivex",
+        "subcategorias": [
+            "Blocks"
+        ],
+        "imagen_principal": "imagenes/Block/Block lustre A4.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 3.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "BLOC-35",
+        "nombre": "Block papel lustre A3 14 hojas",
+        "marca": "Trivex",
+        "subcategorias": [
+            "Blocks"
+        ],
+        "imagen_principal": "imagenes/Block/Block papel lustre A3.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 6.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "BLOC-36",
+        "nombre": "Block todo papel A4 15 hojas",
+        "marca": "Trivex",
+        "subcategorias": [
+            "Blocks"
+        ],
+        "imagen_principal": "imagenes/Block/Block todo papel A4.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 5.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "BLOC-37",
+        "nombre": "Block cartulina negra A4 14 hojas",
+        "marca": "Trivex",
+        "subcategorias": [
+            "Blocks"
+        ],
+        "imagen_principal": "imagenes/Block/Block cartulina negra A4.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 5.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "BLOC-38",
+        "nombre": "Block cartulina plastificada A4 14 hojas",
+        "marca": "Trivex",
+        "subcategorias": [
+            "Blocks"
+        ],
+        "imagen_principal": "imagenes/Block/Block plastificada A4.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 5.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "BLOC-39",
+        "nombre": "block sketch book A4 empastado 30 hojas",
+        "marca": "Trivex",
+        "subcategorias": [
+            "Blocks"
+        ],
+        "imagen_principal": "imagenes/Block/sketchbook A4 empastado colores.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 4.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "BLOC-40",
+        "nombre": "block sketch book A4 anillado 50 hojas",
+        "marca": "Trivex",
+        "subcategorias": [
+            "Blocks"
+        ],
+        "imagen_principal": "imagenes/Block/sketchbook A4 espiralado colores.jpg",
+        "stock_general": null,
+        "colores": [
+            {
+                "nombre": "Surtido",
+                "stock": 5,
+                "imagen": "imagenes/Block/sketchbook A4 espiralado colores.jpg"
+            },
+            {
+                "nombre": "Rojo",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Azul",
+                "stock": 3,
+                "imagen": "imagenes/Block/sketchbook A4 espiralado.jpg"
+            }
+        ],
+        "precio_regular": 6.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "BLOC-41",
+        "nombre": "block sketch book A3 empastado 20 hojas",
+        "marca": "Trivex",
+        "subcategorias": [
+            "Blocks"
+        ],
+        "imagen_principal": "imagenes/Block/sketchbook A3 empastado.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 8.0,
+        "precio_oferta": null,
         "palabras_clave": [],
         "descripcion_corta": "",
         "etiqueta": null
