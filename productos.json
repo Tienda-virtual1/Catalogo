@@ -1,0 +1,1250 @@
+[
+    {
+        "sku": "CUAD-01",
+        "nombre": "Cuaderno A4 cuadriculado 60gr 100 hojas",
+        "marca": "Atlas",
+        "subcategorias": [
+            "Cuadernos"
+        ],
+        "imagen_principal": "imagenes/Cuadernos/Atlas cuadriculado.jpg",
+        "stock_general": null,
+        "colores": [
+            {
+                "nombre": "Surtido",
+                "stock": 25,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rojo",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Azul",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Amarillo",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde limón",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Celeste",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Naranja",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Lila",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rosado",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Blanco",
+                "stock": 10,
+                "imagen": ""
+            }
+        ],
+        "precio_regular": 4.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CUAD-02",
+        "nombre": "Cuaderno A4 triple renglón 60gr 100 hojas",
+        "marca": "Atlas",
+        "subcategorias": [
+            "Cuadernos"
+        ],
+        "imagen_principal": "imagenes/Cuadernos/Atlas t renglon.jpg",
+        "stock_general": null,
+        "colores": [
+            {
+                "nombre": "Surtido",
+                "stock": 25,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rojo",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Azul",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Amarillo",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde limón",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Celeste",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Naranja",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Lila",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rosado",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Blanco",
+                "stock": 10,
+                "imagen": ""
+            }
+        ],
+        "precio_regular": 4.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CUAD-03",
+        "nombre": "Cuaderno A4 rayado 60gr 100 hojas",
+        "marca": "Atlas",
+        "subcategorias": [
+            "Cuadernos"
+        ],
+        "imagen_principal": "imagenes/Cuadernos/Atlas rayado.jpg",
+        "stock_general": null,
+        "colores": [
+            {
+                "nombre": "Surtido",
+                "stock": 25,
+                "imagen": "imagenes/Cuadernos/Atlas rayado.jpg"
+            },
+            {
+                "nombre": "Rojo",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Azul",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Amarillo",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde limón",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Celeste",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Naranja",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Lila",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rosado",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Blanco",
+                "stock": 10,
+                "imagen": ""
+            }
+        ],
+        "precio_regular": 4.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CUAD-11",
+        "nombre": "Cuaderno A4 cuadriculado 56gr 72 hojas",
+        "marca": "Arcoiris",
+        "subcategorias": [
+            "Cuadernos"
+        ],
+        "imagen_principal": "imagenes/Cuadernos/Arcoiris cuadric.jpg",
+        "stock_general": null,
+        "colores": [
+            {
+                "nombre": "Surtido",
+                "stock": 25,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rojo",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Azul",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Amarillo",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Celeste",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Naranja",
+                "stock": 10,
+                "imagen": ""
+            }
+        ],
+        "precio_regular": 2.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": "Económico"
+    },
+    {
+        "sku": "CUAD-12",
+        "nombre": "Cuaderno A4 triple renglón 56gr 72 hojas",
+        "marca": "Arcoiris",
+        "subcategorias": [
+            "Cuadernos"
+        ],
+        "imagen_principal": "imagenes/Cuadernos/Arcoiris TR.jpg",
+        "stock_general": null,
+        "colores": [
+            {
+                "nombre": "Surtido",
+                "stock": 25,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rojo",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Azul",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Amarillo",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Celeste",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Naranja",
+                "stock": 10,
+                "imagen": ""
+            }
+        ],
+        "precio_regular": 2.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": "Económico"
+    },
+    {
+        "sku": "CUAD-13",
+        "nombre": "Cuaderno A4 rayado 56gr 72 hojas",
+        "marca": "Arcoiris",
+        "subcategorias": [
+            "Cuadernos"
+        ],
+        "imagen_principal": "imagenes/Cuadernos/Arcoiris rayado.jpg",
+        "stock_general": null,
+        "colores": [
+            {
+                "nombre": "Surtido",
+                "stock": 25,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rojo",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Azul",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Amarillo",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Celeste",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Naranja",
+                "stock": 10,
+                "imagen": ""
+            }
+        ],
+        "precio_regular": 2.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": "Económico"
+    },
+    {
+        "sku": "CUAD-21",
+        "nombre": "Cuaderno A4 decroly 70gr 80 hojas",
+        "marca": "Alpha Kids",
+        "subcategorias": [
+            "Cuadernos"
+        ],
+        "imagen_principal": "imagenes/Cuadernos/Alpha decroly.jpg",
+        "stock_general": null,
+        "colores": [
+            {
+                "nombre": "Surtido",
+                "stock": 25,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rojo",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Azul",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Amarillo",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Celeste",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Morado",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Marrón",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Turquesa",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Naranja",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde limón",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rosado",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Blanco",
+                "stock": 10,
+                "imagen": ""
+            }
+        ],
+        "precio_regular": 5.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CUAD-22",
+        "nombre": "Cuaderno A4 1x1 70gr 80 hojas",
+        "marca": "Alpha Kids",
+        "subcategorias": [
+            "Cuadernos"
+        ],
+        "imagen_principal": "imagenes/Cuadernos/Alpha 1x1.jpg",
+        "stock_general": null,
+        "colores": [
+            {
+                "nombre": "Surtido",
+                "stock": 25,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rojo",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Azul",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Amarillo",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Celeste",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Morado",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Marrón",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Turquesa",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Naranja",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde limón",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rosado",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Blanco",
+                "stock": 10,
+                "imagen": ""
+            }
+        ],
+        "precio_regular": 5.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CUAD-23",
+        "nombre": "Cuaderno A4 2x2 70gr 80 hojas",
+        "marca": "Alpha Kids",
+        "subcategorias": [
+            "Cuadernos"
+        ],
+        "imagen_principal": "imagenes/Cuadernos/Alpha 2x2.jpg",
+        "stock_general": null,
+        "colores": [
+            {
+                "nombre": "Surtido",
+                "stock": 25,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rojo",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Azul",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Amarillo",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Celeste",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Morado",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Marrón",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Turquesa",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Naranja",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde limón",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rosado",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Blanco",
+                "stock": 10,
+                "imagen": ""
+            }
+        ],
+        "precio_regular": 5.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CUAD-24",
+        "nombre": "Cuaderno A4 triple max 70gr 80 hojas",
+        "marca": "Alpha Kids",
+        "subcategorias": [
+            "Cuadernos"
+        ],
+        "imagen_principal": "imagenes/Cuadernos/Alpha triplekids.jpg",
+        "stock_general": null,
+        "colores": [
+            {
+                "nombre": "Surtido",
+                "stock": 25,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rojo",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Azul",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Amarillo",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Celeste",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Morado",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Marrón",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Turquesa",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Naranja",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde limón",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rosado",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Blanco",
+                "stock": 10,
+                "imagen": ""
+            }
+        ],
+        "precio_regular": 5.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CUAD-31",
+        "nombre": "Cuaderno A4 cuadriculado 60gr 92 hojas",
+        "marca": "Alpha Scool",
+        "subcategorias": [
+            "Cuadernos"
+        ],
+        "imagen_principal": "imagenes/Cuadernos/alpha scool cuadriculado.jpg",
+        "stock_general": null,
+        "colores": [
+            {
+                "nombre": "Surtido",
+                "stock": 25,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rojo",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Azul",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Amarillo",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Celeste",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Lila",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Turquesa",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Naranja",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde limón",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Blanco",
+                "stock": 10,
+                "imagen": ""
+            }
+        ],
+        "precio_regular": 5.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CUAD-32",
+        "nombre": "Cuaderno A4 triple renglón 60gr 92 hojas",
+        "marca": "Alpha Scool",
+        "subcategorias": [
+            "Cuadernos"
+        ],
+        "imagen_principal": "imagenes/Cuadernos/alpha scool triple renglon.jpg",
+        "stock_general": null,
+        "colores": [
+            {
+                "nombre": "Surtido",
+                "stock": 25,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rojo",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Azul",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Amarillo",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Celeste",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Lila",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Turquesa",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Naranja",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde limón",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Blanco",
+                "stock": 10,
+                "imagen": ""
+            }
+        ],
+        "precio_regular": 5.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CUAD-41",
+        "nombre": "Cuaderno A4 cuadriculado 60gr 88 hojas",
+        "marca": "Alpha Scool S",
+        "subcategorias": [
+            "Cuadernos"
+        ],
+        "imagen_principal": "imagenes/Cuadernos/alpha scool s cuadriculado.jpg",
+        "stock_general": null,
+        "colores": [
+            {
+                "nombre": "Surtido",
+                "stock": 25,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rojo",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Azul",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Amarillo",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Celeste",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Lila",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Turquesa",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Naranja",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde limón",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Blanco",
+                "stock": 10,
+                "imagen": ""
+            }
+        ],
+        "precio_regular": 4.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CUAD-42",
+        "nombre": "Cuaderno A4 triple renglón 60gr 88 hojas",
+        "marca": "Alpha Scool S",
+        "subcategorias": [
+            "Cuadernos"
+        ],
+        "imagen_principal": "imagenes/Cuadernos/alpha scool s triple renglon.jpg",
+        "stock_general": null,
+        "colores": [
+            {
+                "nombre": "Surtido",
+                "stock": 25,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rojo",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Azul",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Amarillo",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Celeste",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Lila",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Turquesa",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Naranja",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde limón",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Blanco",
+                "stock": 10,
+                "imagen": ""
+            }
+        ],
+        "precio_regular": 4.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CUAD-43",
+        "nombre": "Cuaderno A4 rayado 60gr 88 hojas",
+        "marca": "Alpha Scool S",
+        "subcategorias": [
+            "Cuadernos"
+        ],
+        "imagen_principal": "imagenes/Cuadernos/alpha scool s rayado.jpg",
+        "stock_general": null,
+        "colores": [
+            {
+                "nombre": "Surtido",
+                "stock": 25,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rojo",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Azul",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Amarillo",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Celeste",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Lila",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Turquesa",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Naranja",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde limón",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Blanco",
+                "stock": 10,
+                "imagen": ""
+            }
+        ],
+        "precio_regular": 4.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CUAD-51",
+        "nombre": "Caja de Cuadernos A4 cuadriculado",
+        "marca": "Atlas",
+        "subcategorias": [
+            "Cuadernos"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [
+            {
+                "nombre": "Surtido",
+                "stock": 5,
+                "imagen": ""
+            }
+        ],
+        "precio_regular": 0.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "Caja x 25 cuadernos, colores surtidos",
+        "etiqueta": null
+    },
+    {
+        "sku": "CUAD-52",
+        "nombre": "Caja de Cuadernos A4 cuadriculados",
+        "marca": "Arcoiris",
+        "subcategorias": [
+            "Cuadernos"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [
+            {
+                "nombre": "Surtido",
+                "stock": 5,
+                "imagen": ""
+            }
+        ],
+        "precio_regular": 0.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "Caja x 50 cuadernos, colores surtidos",
+        "etiqueta": null
+    },
+    {
+        "sku": "CUAD-53",
+        "nombre": "Caja de Cuadernos A4 cuadriculados",
+        "marca": "Alpha Scool",
+        "subcategorias": [
+            "Cuadernos"
+        ],
+        "imagen_principal": "imagenes/Cuadernos/Caja cuadernos Alpha Scool.jpg",
+        "stock_general": null,
+        "colores": [
+            {
+                "nombre": "Surtido",
+                "stock": 5,
+                "imagen": ""
+            }
+        ],
+        "precio_regular": 0.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "Caja x 25 cuadernos, colores surtidos",
+        "etiqueta": null
+    },
+    {
+        "sku": "CUAD-54",
+        "nombre": "Caja de Cuadernos A4 cuadriculados",
+        "marca": "Alpha Scool S",
+        "subcategorias": [
+            "Cuadernos"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [
+            {
+                "nombre": "Surtido",
+                "stock": 5,
+                "imagen": ""
+            }
+        ],
+        "precio_regular": 0.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "Caja x 25 cuadernos, colores surtidos",
+        "etiqueta": null
+    },
+    {
+        "sku": "CUAD-61",
+        "nombre": "Cuaderno A5 cuadriculado",
+        "marca": "",
+        "subcategorias": [
+            "Cuadernos"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [
+            {
+                "nombre": "Surtido",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rojo",
+                "stock": 0,
+                "imagen": ""
+            },
+            {
+                "nombre": "Azul",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Amarillo",
+                "stock": 0,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Celeste",
+                "stock": 3,
+                "imagen": ""
+            },
+            {
+                "nombre": "Naranja",
+                "stock": 0,
+                "imagen": ""
+            }
+        ],
+        "precio_regular": 0.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CUAD-71",
+        "nombre": "Cuaderno universitario A4 anillado",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Cuadernos"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": "No",
+        "colores": [],
+        "precio_regular": 0.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CUAD-81",
+        "nombre": "Cuaderno universitario A5 anillado",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Cuadernos"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": "No",
+        "colores": [],
+        "precio_regular": 0.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "BLOC-01",
+        "nombre": "Block A4 triple renglón 50 hojas",
+        "marca": "Justus",
+        "subcategorias": [
+            "Blocks"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 5.0,
+        "precio_oferta": 4.5,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    }
+]
