@@ -183,6 +183,40 @@
             "Lectura": ["Libros", "Cuentos"],
             "Aseo": ["Jabones", "Papel toalla"]
         };
+
+        const mapaIconosSubcategorias = {
+            // Útiles
+            "Cuadernos": "fa-book",
+            "Blocks": "fa-note-sticky",
+            "Colores": "fa-palette",
+            "Plumones": "fa-highlighter",
+            "Pegamentos": "fa-bottle-droplet",
+            "Fólderes": "fa-folder-closed",
+            "Lapiceros": "fa-pen",
+            "Borradores": "fa-eraser",
+            
+            // Arte y Manualidades
+            "Pinturas": "fa-paintbrush",
+            "Pinceles": "fa-brush",
+            "Lápices de colores": "fa-pencil",
+            
+            // Papelería
+            "Hojas bond": "fa-file",
+            "Cartulinas": "fa-file-lines",
+            "Sobres": "fa-envelope",
+            
+            // Juguetes
+            "Didácticos": "fa-shapes",
+            "Puzzles": "fa-puzzle-piece",
+            
+            // Lectura
+            "Libros": "fa-book-open",
+            "Cuentos": "fa-book-bookmark",
+            
+            // Aseo
+            "Jabones": "fa-soap",
+            "Papel toalla": "fa-toilet-paper"
+        };
     
         async function cargarCatalogo() {
             try {
@@ -260,23 +294,27 @@
             }
     
             subcategoriasAsociadas.forEach(subcat => {
-                const tarjetaSub = document.createElement('div');
-                tarjetaSub.className = "bg-white rounded-xl shadow-sm border p-6 flex flex-col items-center justify-center cursor-pointer hover:shadow-md hover:border-emerald-600 transition group";
-                tarjetaSub.innerHTML = `
-                    <div class="w-16 h-16 rounded-full bg-emerald-50 flex items-center justify-center mb-4 group-hover:bg-emerald-100 transition">
-                        <i class="fa-solid fa-folder-open text-2xl text-emerald-700"></i>
-                    </div>
-                    <h3 class="font-bold text-gray-800 text-center text-base group-hover:text-emerald-700 transition">${subcat}</h3>
-                    <span class="text-xs text-gray-400 mt-1">Ver productos</span>
-                `;
-                
-                tarjetaSub.addEventListener('click', () => {
-                    history.pushState({ vista: 'productos', subcategoria: subcat }, '', `#sub-${subcat.toLowerCase()}`);
-                    mostrarProductosDeSubcategoria(subcat);
-                });
+            const tarjetaSub = document.createElement('div');
+            tarjetaSub.className = "bg-white rounded-xl shadow-sm border p-6 flex flex-col items-center justify-center cursor-pointer hover:shadow-md hover:border-emerald-600 transition group";
+            
+            // Obtenemos la clase del ícono del diccionario, o usamos uno genérico por defecto
+            const iconoClase = mapaIconosSubcategorias[subcat] || "fa-folder-open";
     
-                grid.appendChild(tarjetaSub);
+            tarjetaSub.innerHTML = `
+                <div class="w-16 h-16 rounded-full bg-emerald-50 flex items-center justify-center mb-4 group-hover:bg-emerald-100 transition">
+                    <i class="fa-solid ${iconoClase} text-2xl text-emerald-700"></i>
+                </div>
+                <h3 class="font-bold text-gray-800 text-center text-base group-hover:text-emerald-700 transition">${subcat}</h3>
+                <span class="text-xs text-gray-400 mt-1">Ver productos</span>
+            `;
+            
+            tarjetaSub.addEventListener('click', () => {
+                history.pushState({ vista: 'productos', subcategoria: subcat }, '', `#sub-${subcat.toLowerCase()}`);
+                mostrarProductosDeSubcategoria(subcat);
             });
+    
+            grid.appendChild(tarjetaSub);
+        });
 
             document.getElementById('catalogo').scrollIntoView({ behavior: 'smooth' });
         }
