@@ -170,7 +170,7 @@
         </div>
     </div>
 
-    <!-- SCRIPT DE FUNCIONALIDAD -->
+   <!-- SCRIPT DE FUNCIONALIDAD -->
     <script>
         let todosLosProductos = [];
         let carrito = []; // Arreglo para almacenar los productos seleccionados
@@ -280,6 +280,22 @@
 
             document.getElementById('catalogo').scrollIntoView({ behavior: 'smooth' });
         }
+
+        // --- FUNCIÓN FALTANTE QUE FILTRA LOS PRODUCTOS POR SUBCATEGORÍA ---
+        function mostrarProductosDeSubcategoria(subcat) {
+            document.getElementById('titulo-seccion').innerText = `Subcategoría: ${subcat}`;
+            const banner = document.querySelector('section.bg-gradient-to-b');
+            if (banner) banner.style.display = 'none';
+
+            // Filtramos el arreglo revisando si el producto contiene la subcategoría
+            const productosFiltrados = todosLosProductos.filter(prod => {
+                if (!prod.subcategorias) return false;
+                return prod.subcategorias.some(s => s.toLowerCase() === subcat.toLowerCase());
+            });
+
+            renderizarProductos(productosFiltrados);
+            document.getElementById('catalogo').scrollIntoView({ behavior: 'smooth' });
+        }
     
         function renderizarProductos(productos) {
             const grid = document.getElementById('grid-productos');
@@ -300,7 +316,6 @@
                 const precioRegular = Number(prod.precio_regular || 0);
                 const precioOferta = (prod.precio_oferta !== null && prod.precio_oferta !== "" && prod.precio_oferta !== undefined) ? Number(prod.precio_oferta) : null;
                 
-                // Capturamos la etiqueta individual del JSON
                 const etiquetaTexto = prod.etiqueta ? prod.etiqueta.trim() : "";
                 
                 const imagen = (prod.imagen_principal && prod.imagen_principal.trim() !== "") 
@@ -328,7 +343,6 @@
                     deshabilitarBoton = "disabled";
                 }
 
-                // Generar HTML para la etiqueta si existe
                 let htmlEtiqueta = '';
                 if (etiquetaTexto !== "") {
                     htmlEtiqueta = `<div class="absolute top-2 left-2 z-30 pointer-events-none">
@@ -336,7 +350,6 @@
                     </div>`;
                 }
 
-                // Generar HTML para los precios
                 let htmlPrecios = '';
                 const precioParaCarrito = (precioOferta !== null && precioOferta < precioRegular) ? precioOferta : precioRegular;
 
@@ -469,7 +482,6 @@
             const cantidad = parseInt(document.getElementById(inputId).value);
             const colorSeleccionado = document.getElementById(labelColorId).innerText;
 
-            // Buscar si ya existe el producto con el mismo color en el carrito
             const index = carrito.findIndex(item => item.nombre === nombre && item.color === colorSeleccionado);
 
             if (index !== -1) {
@@ -480,7 +492,6 @@
 
             actualizarContadorCarrito();
             
-            // Animación sutil o aviso rápido visual
             const btn = document.getElementById(inputId.replace('qty-', 'btn-agregar-'));
             const textoOriginal = btn.innerText;
             btn.innerText = "¡Agregado!";
@@ -575,7 +586,6 @@
                 return;
             }
 
-            // Cambia este número por tu número de WhatsApp con código de país (ej. 51999999999 para Perú)
             const numeroWhatsApp = "51977939042"; 
 
             let mensaje = "Hola, ¡quiero realizar el siguiente pedido de útiles / productos! 📋%0A%0A";
