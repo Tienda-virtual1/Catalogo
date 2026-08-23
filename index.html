@@ -842,36 +842,100 @@
                 });
             });
         
-            // Función central de búsqueda
+            // Función auxiliar para quitar tildes y pasar a minúsculas
+            function normalizarTexto(texto) {
+                if (!texto) return "";
+                return texto
+                    .toLowerCase()
+                    .normalize("NFD")
+                    .replace(/[\u0300-\u036f]/g, ""); // Remueve tildes y diacríticos
+            }
+        
+            // Función central de búsqueda inteligente con sistema de puntuación
             function ejecutarBusqueda(termino) {
-                const texto = (termino || "").toLowerCase().trim();
+                const textoCrudo = termino || "";
+                const textoBusqueda = normalizarTexto(textoCrudo).trim();
+                
                 if (!Array.isArray(todosLosProductos)) return;
         
-                if (!texto) {
+                // Si el buscador está vacío, mostramos el catálogo completo original
+                if (!textoBusqueda) {
                     if (typeof renderizarProductos === "function") {
                         renderizarProductos(todosLosProductos);
                     }
                     return;
                 }
         
-                const resultados = todosLosProductos.filter(producto => {
-                    const nombre = (producto.nombre || "").toLowerCase();
-                    const marca = (producto.marca || "").toLowerCase();
-                    const descripcion = (producto.descripcion_corta || "").toLowerCase();
-                    const etiqueta = (producto.etiqueta || "").toLowerCase();
+                // Dividimos el texto en palabras individuales por si buscan "lapiz azul"
+                const palabrasBusqueda = textoBusqueda.split(/\s+/);
+        
+                // Evaluamos cada producto y le asignamos una puntuación de relevancia
+                const productosConPuntuacion = todosLosProductos.map(producto => {
+                    const nombre = normalizarTexto(producto.nombre || "");
+                    const marca = normalizarTexto(producto.marca || "");
+                    const descripcion = normalizarTexto(producto.descripcion_corta || "");
+                    const etiqueta = normalizarTexto(producto.etiqueta || "");
                     const palabrasClave = Array.isArray(producto.palabras_clave) 
-                        ? producto.palabras_clave.join(" ").toLowerCase() 
+                        ? normalizarTexto(producto.palabras_clave.join(" ")) 
                         : "";
-                    
-                    return nombre.includes(texto) ||
-                           marca.includes(texto) ||
-                           descripcion.includes(texto) ||
-                           etiqueta.includes(texto) ||
-                           palabrasClave.includes(texto);
+        
+                    let puntaje = 0;
+                    let coincide = false;
+        
+                    // Revisamos cada palabra que escribió el usuario
+                    palabrasBusqueda.forEach(palabra => {
+                        if (!palabra) return;
+        
+                        let palabraCoincideLocal = false;
+        
+                        // 1. Coincidencia exacta en el nombre (La más alta prioridad)
+                        if (nombre === palabra) {
+                            puntaje += 100;
+                            palabraCoincideLocal = true;
+                        }
+                        // 2. El nombre empieza con la palabra buscada
+                        else if (nombre.startsWith(palabra)) {
+                            puntaje += 50;
+                            palabraCoincideLocal = true;
+                        }
+                        // 3. El nombre contiene la palabra
+                        else if (nombre.includes(palabra)) {
+                            puntaje += 25;
+                            palabraCoincideLocal = true;
+                        }
+                        
+                        // Coincidencias secundarias (marca, etiquetas, claves)
+                        if (marca.includes(palabra)) {
+                            puntaje += 15;
+                            palabraCoincideLocal = true;
+                        }
+                        if (etiqueta.includes(palabra)) {
+                            puntaje += 10;
+                            palabraCoincideLocal = true;
+                        }
+                        if (palabrasClave.includes(palabra) || descripcion.includes(palabra)) {
+                            puntaje += 5;
+                            palabraCoincideLocal = true;
+                        }
+        
+                        // Si al menos una palabra del término de búsqueda hizo match, el producto entra
+                        if (palabraCoincideLocal) {
+                            coincide = true;
+                        }
+                    });
+        
+                    return { producto, puntaje, coincide };
                 });
         
+                // Filtramos solo los que tuvieron coincidencias y los ORDENAMOS de mayor a menor puntuación
+                const resultadosOrdenados = productosConPuntuacion
+                    .filter(item => item.coincide)
+                    .sort((a, b) => b.puntaje - a.puntaje) // El mayor puntaje (más relevante) va primero
+                    .map(item => item.producto);
+        
+                // Renderizamos los resultados ya ordenados de forma inteligente
                 if (typeof renderizarProductos === "function") {
-                    renderizarProductos(resultados);
+                    renderizarProductos(resultadosOrdenados);
                 }
             }
         
