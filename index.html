@@ -810,8 +810,7 @@
                 });
             }
         
-            // 2. Conectar eventos para ambos inputs (escritorio y móvil)
-            // Conectar eventos para ambos inputs (escritorio y móvil)
+            // Conectar eventos para ambos inputs
             [inputBuscadorEscritorio, inputBuscadorMovil].forEach(input => {
                 if (!input) return;
         
@@ -819,9 +818,10 @@
                     const texto = e.target.value;
                     ejecutarBusqueda(texto);
         
-                    // Cada vez que haya texto en el buscador, hacemos scroll hacia los resultados
-                    if (texto.trim().length > 0) {
-                        enfocarResultados();
+                    // En móvil, evitamos hacer scroll con cada letra para que no se oculte el teclado ni el buscador.
+                    // Solo reiniciamos la bandera si borran todo.
+                    if (texto.trim().length === 0) {
+                        yaSeDesplazo = false;
                     }
                 });
         
@@ -829,7 +829,7 @@
                     if (e.key === "Enter") {
                         ejecutarBusqueda(e.target.value);
                         input.blur(); // Oculta el teclado virtual en móviles
-                        enfocarResultados();
+                        enfocarResultados(); // Aquí sí bajamos con el offset correcto al presionar Enter
                     }
                 });
             });
