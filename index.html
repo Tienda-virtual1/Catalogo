@@ -332,6 +332,12 @@
                 const stockGeneral = prod.stock_general;
                 const estaDisponibleGeneral = (stockGeneral === "" || stockGeneral === null || stockGeneral === undefined || Number(stockGeneral) > 0);
             
+                // Definir texto dinámico para el stock general o por defecto "Stock: Disponible"
+                let textoStockInicial = "Stock: Disponible";
+                if (stockGeneral !== "" && stockGeneral !== null && stockGeneral !== undefined && !isNaN(stockGeneral)) {
+                    textoStockInicial = `Stock: ${stockGeneral}`;
+                }
+
                 const inputId = `qty-${sku}-${index}`;
                 const colorContainerId = `colors-${sku}-${index}`;
                 const labelColorId = `selected-color-${sku}-${index}`;
@@ -397,7 +403,7 @@
                         ${htmlPrecios}
                         <div class="flex justify-between items-center text-xs text-gray-500 mb-1.5">
                             <span>Color: <span id="${labelColorId}" class="font-bold text-gray-700">Selecciona</span></span>
-                            <span id="${stockAvisoId}" class="text-gray-400 font-medium"></span>
+                            <span id="${stockAvisoId}" class="text-gray-400 font-medium">${textoStockInicial}</span>
                         </div>
                         <div class="flex flex-wrap gap-1.5 p-1" id="${colorContainerId}"></div>
                     </div>
@@ -461,8 +467,8 @@
                             }
                     
                             const avisoStockActivo = document.getElementById(stockAvisoId);
-                            if (avisoStockActivo && estaDisponibleGeneral) {
-                                avisoStockActivo.innerText = `Stock: ${stockColor}`;
+                            if (avisoStockActivo) {
+                                avisoStockActivo.innerText = (stockColor !== "" && stockColor !== null && stockColor !== undefined && !isNaN(stockColor)) ? `Stock: ${stockColor}` : "Stock: Disponible";
                             }
 
                             // Actualizar límites y funciones con el stock específico del color seleccionado
@@ -471,11 +477,11 @@
                             btnAgregar.onclick = () => agregarAlCarrito(nombre, precioParaCarrito, inputId, labelColorId, stockColor);
 
                             const inputElem = document.getElementById(inputId);
-                            if(parseInt(inputElem.value) > stockColor) {
+                            if(stockColor !== null && stockColor !== undefined && stockColor !== "" && parseInt(inputElem.value) > stockColor) {
                                 inputElem.value = stockColor > 0 ? stockColor : 1;
                             }
 
-                            if (stockColor <= 0) {
+                            if (stockColor !== null && stockColor !== undefined && stockColor !== "" && Number(stockColor) <= 0) {
                                 btnAgregar.disabled = true;
                                 btnAgregar.innerText = "Agotado";
                                 btnAgregar.className = "flex-1 bg-gray-400 text-white h-10 rounded-lg cursor-not-allowed transition text-sm font-medium";
@@ -497,9 +503,9 @@
                         btnAgregar.onclick = () => agregarAlCarrito(nombre, precioParaCarrito, inputId, labelColorId, primerColorValido.stock);
 
                         const avisoStockInicial = document.getElementById(stockAvisoId);
-                        if (avisoStockInicial && estaDisponibleGeneral) {
-                            avisoStockInicial.innerText = `Stock: ${primerColorValido.stock}`;
-                            if (primerColorValido.stock <= 0) {
+                        if (avisoStockInicial) {
+                            avisoStockInicial.innerText = (primerColorValido.stock !== "" && primerColorValido.stock !== null && primerColorValido.stock !== undefined && !isNaN(primerColorValido.stock)) ? `Stock: ${primerColorValido.stock}` : "Stock: Disponible";
+                            if (Number(primerColorValido.stock) <= 0) {
                                 btnAgregar.disabled = true;
                                 btnAgregar.innerText = "Agotado";
                                 btnAgregar.className = "flex-1 bg-gray-400 text-white h-10 rounded-lg cursor-not-allowed transition text-sm font-medium";
@@ -509,6 +515,11 @@
                 } else {
                     labelColorSeleccionado.innerText = "Único";
                     containerColores.innerHTML = '<span class="text-xs text-gray-400">Sin variantes</span>';
+                    
+                    const avisoStockUnico = document.getElementById(stockAvisoId);
+                    if (avisoStockUnico) {
+                        avisoStockUnico.innerText = textoStockInicial;
+                    }
                 }
             });
         }
