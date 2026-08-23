@@ -810,7 +810,7 @@
                 });
             }
         
-            // Conectar eventos para ambos inputs
+            // Conectar eventos para ambos inputs de manera independiente según el dispositivo
             [inputBuscadorEscritorio, inputBuscadorMovil].forEach(input => {
                 if (!input) return;
         
@@ -818,8 +818,14 @@
                     const texto = e.target.value;
                     ejecutarBusqueda(texto);
         
-                    // En móvil, evitamos hacer scroll con cada letra para que no se oculte el teclado ni el buscador.
-                    // Solo reiniciamos la bandera si borran todo.
+                    const esCelular = window.innerWidth < 768;
+        
+                    // En PC: baja dinámicamente conforme escribes (si hay texto)
+                    if (!esCelular && texto.trim().length > 0) {
+                        enfocarResultados();
+                    }
+        
+                    // En móvil: si borran todo, reseteamos por si acaso
                     if (texto.trim().length === 0) {
                         yaSeDesplazo = false;
                     }
@@ -829,7 +835,7 @@
                     if (e.key === "Enter") {
                         ejecutarBusqueda(e.target.value);
                         input.blur(); // Oculta el teclado virtual en móviles
-                        enfocarResultados(); // Aquí sí bajamos con el offset correcto al presionar Enter
+                        enfocarResultados(); // En móvil o PC, al presionar Enter baja directo
                     }
                 });
             });
