@@ -480,16 +480,30 @@
                         btnColor.classList.add('ring-2', 'ring-emerald-600');
                         labelColorSeleccionado.innerText = nombreColor;
                         
-                        // --- CAMBIAR LA IMAGEN SEGÚN EL COLOR ---
+                        // Cambiar imagen según el color
                         const imgElement = document.getElementById(imgId);
                         if (itemColor.imagen && imgElement) {
                             imgElement.src = itemColor.imagen;
                         }
-                        // ---------------------------------------
                     
                         const avisoStockActivo = document.getElementById(stockAvisoId);
                         if (avisoStockActivo && estaDisponibleGeneral) {
                             avisoStockActivo.innerText = `Stock: ${stockColor}`;
+                            
+                            // Actualizar eventos de los botones con el stock específico de este color
+                            const btnMenos = document.querySelector(`[onclick*="${inputId}"][onclick*="-1"]`);
+                            const btnMas = document.querySelector(`[onclick*="${inputId}"][onclick*="1"]`);
+                            
+                            if(btnMenos) btnMenos.setAttribute('onclick', `ajustarCantidad('${inputId}', -1, ${stockColor})`);
+                            if(btnMas) btnMas.setAttribute('onclick', `ajustarCantidad('${inputId}', 1, ${stockColor})`);
+                            btnAgregar.setAttribute('onclick', `agregarAlCarrito('${nombre}', ${precioParaCarrito}, '${inputId}', '${labelColorId}', ${stockColor})`);
+
+                            // Resetear el input a 1 si el stock actual es menor al valor anterior, o validar
+                            const inputElem = document.getElementById(inputId);
+                            if(parseInt(inputElem.value) > stockColor) {
+                                inputElem.value = stockColor > 0 ? stockColor : 1;
+                            }
+
                             if (stockColor <= 0) {
                                 btnAgregar.disabled = true;
                                 btnAgregar.innerText = "Agotado";
@@ -524,11 +538,11 @@
             });
         }
     
-        // GESTIÓN DEL CARRITO
+        // GESTIÓN DEL CARRITO CORREGIDA
         function agregarAlCarrito(nombre, precio, inputId, labelColorId, stockMaximo) {
             const cantidad = parseInt(document.getElementById(inputId).value);
             const colorSeleccionado = document.getElementById(labelColorId).innerText;
-            const stockMax = (stockMaximo !== undefined && stockMaximo !== null && stockMaximo !== "") ? parseInt(stockMaximo) : null;
+            const stockMax = (stockMaximo !== undefined && stockMaximo !== null && stockMaximo !== "" && !isNaN(stockMaximo)) ? parseInt(stockMaximo) : null;
 
             const index = carrito.findIndex(item => item.nombre === nombre && item.color === colorSeleccionado);
 
@@ -536,7 +550,7 @@
                 let nuevaCantidad = carrito[index].cantidad + cantidad;
                 if (stockMax !== null && nuevaCantidad > stockMax) {
                     nuevaCantidad = stockMax;
-                    alert(`No puedes agregar más. El stock máximo disponible es ${stockMax}.`);
+                    alert(`No puedes agregar más. El stock máximo disponible para este color es ${stockMax}.`);
                 }
                 carrito[index].cantidad = nuevaCantidad;
             } else {
@@ -557,6 +571,22 @@
                 btn.innerText = textoOriginal;
                 btn.classList.remove("bg-emerald-900");
             }, 1000);
+        }
+
+        function ajustarCantidad(inputId, cambio, stockMaximo) {
+            const input = document.getElementById(inputId);
+            let valor = parseInt(input.value) + cambio;
+            
+            if (valor < 1) valor = 1;
+            
+            if (stockMaximo !== undefined && stockMaximo !== null && stockMaximo !== "" && !isNaN(stockMaximo)) {
+                const max = parseInt(stockMaximo);
+                if (valor > max) {
+                    valor = max;
+                }
+            }
+            
+            input.value = valor;
         }
 
         function actualizarContadorCarrito() {
