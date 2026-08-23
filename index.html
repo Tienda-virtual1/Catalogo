@@ -579,6 +579,7 @@
             
             if (valor < 1) valor = 1;
             
+            // Si hay un stock máximo definido y es un número válido, limitamos
             if (stockMaximo !== undefined && stockMaximo !== null && stockMaximo !== "" && !isNaN(stockMaximo)) {
                 const max = parseInt(stockMaximo);
                 if (valor > max) {
