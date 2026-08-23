@@ -31,12 +31,18 @@
                 <a href="#" class="hover:text-emerald-600 transition nav-item" data-categoria="Aseo">Aseo</a>
             </nav>
 
-            <!-- Buscador e Ícono de Carrito -->
-            <div class="flex items-center space-x-4">
+            <!-- Buscador de Escritorio e Ícono de Carrito -->
+            <div class="flex items-center space-x-3">
+                <!-- Buscador de Escritorio (Oculto en pantallas chicas, visible desde lg en adelante) -->
                 <div class="relative hidden lg:block">
                     <input id="input-buscador" type="text" placeholder="Buscar productos..." class="bg-gray-100 text-sm rounded-full pl-4 pr-10 py-2 focus:outline-none focus:ring-2 focus:ring-emerald-500 w-48">
                     <i class="fa-solid fa-magnifying-glass absolute right-3 top-3 text-gray-400 text-sm"></i>
                 </div>
+
+                <!-- NUEVO: Botón Lupa para Móviles (Visible solo en pantallas pequeñas, oculto en lg) -->
+                <button id="btn-toggle-buscador-movil" class="lg:hidden text-gray-700 p-2 rounded-full hover:bg-gray-100 transition focus:outline-none">
+                    <i class="fa-solid fa-magnifying-glass text-lg"></i>
+                </button>
 
                 <!-- Botón Carrito con Contador -->
                 <button id="btn-carrito" onclick="toggleCarritoModal(true)" class="relative bg-emerald-700 text-white p-2.5 rounded-full hover:bg-emerald-800 transition cursor-pointer">
@@ -49,6 +55,15 @@
                     <i class="fa-solid fa-bars"></i>
                 </button>
             </div>
+        </div>
+
+        <!-- NUEVO: Barra de Búsqueda Desplegable para Móviles (Oculta por defecto) -->
+        <div id="contenedor-buscador-movil" class="hidden lg:hidden bg-white border-t px-4 py-3">
+            <div class="relative max-w-7xl mx-auto">
+                <input id="input-buscador-movil" type="text" placeholder="Buscar productos, marcas..." class="bg-gray-100 text-sm rounded-full pl-4 pr-10 py-2.5 w-full focus:outline-none focus:ring-2 focus:ring-emerald-500">
+                <i class="fa-solid fa-magnifying-glass absolute right-4 top-3 text-gray-400 text-sm"></i>
+            </div>
+        </div>
         </div>
 
         <!-- Menú desplegable para Celular -->
@@ -776,38 +791,51 @@
 
         // Función central de búsqueda para no repetir código
         document.addEventListener("DOMContentLoaded", () => {
-            const inputBuscador = document.getElementById("input-buscador");
-            let yaSeDesplazo = false; // Control para que el scroll ocurra una sola vez al empezar a escribir
-
-            if (inputBuscador) {
-                inputBuscador.addEventListener("input", (e) => {
-                    const texto = e.target.value;
-                    ejecutarBusqueda(texto);
-                    
-                    // Si escribe algo y todavía no nos hemos desplazado, hacemos scroll una sola vez
-                    if (texto.trim().length > 0 && !yaSeDesplazo) {
-                        enfocarResultados();
-                        yaSeDesplazo = true;
-                    }
-                    
-                    // Si borra todo el texto por completo, reiniciamos el control
-                    if (texto.trim().length === 0) {
-                        yaSeDesplazo = false;
-                    }
-                });
-            
-                inputBuscador.addEventListener("keydown", (e) => {
-                    if (e.key === "Enter") {
-                        ejecutarBusqueda(e.target.value);
-                        inputBuscador.blur(); // Oculta el teclado en móviles
+            const inputBuscadorEscritorio = document.getElementById("input-buscador");
+            const inputBuscadorMovil = document.getElementById("input-buscador-movil");
+            const btnToggleBuscadorMovil = document.getElementById("btn-toggle-buscador-movil");
+            const contenedorBuscadorMovil = document.getElementById("contenedor-buscador-movil");
+        
+            let yaSeDesplazo = false;
+        
+            // 1. Mostrar / Ocultar la barra de búsqueda en celular al presionar la lupa
+            if (btnToggleBuscadorMovil && contenedorBuscadorMovil) {
+                btnToggleBuscadorMovil.addEventListener("click", () => {
+                    contenedorBuscadorMovil.classList.toggle("hidden");
+                    if (!contenedorBuscadorMovil.classList.contains("hidden") && inputBuscadorMovil) {
+                        inputBuscadorMovil.focus();
                     }
                 });
             }
         
+            // 2. Conectar eventos para ambos inputs (escritorio y móvil)
+            [inputBuscadorEscritorio, inputBuscadorMovil].forEach(input => {
+                if (!input) return;
+        
+                input.addEventListener("input", (e) => {
+                    const texto = e.target.value;
+                    ejecutarBusqueda(texto);
+        
+                    if (texto.trim().length > 0 && !yaSeDesplazo) {
+                        enfocarResultados();
+                        yaSeDesplazo = true;
+                    }
+                    if (texto.trim().length === 0) {
+                        yaSeDesplazo = false;
+                    }
+                });
+        
+                input.addEventListener("keydown", (e) => {
+                    if (e.key === "Enter") {
+                        ejecutarBusqueda(e.target.value);
+                        input.blur(); // Oculta el teclado virtual en móviles
+                    }
+                });
+            });
+        
             // Función central de búsqueda
             function ejecutarBusqueda(termino) {
                 const texto = (termino || "").toLowerCase().trim();
-                
                 if (!Array.isArray(todosLosProductos)) return;
         
                 if (!texto) {
@@ -822,7 +850,6 @@
                     const marca = (producto.marca || "").toLowerCase();
                     const descripcion = (producto.descripcion_corta || "").toLowerCase();
                     const etiqueta = (producto.etiqueta || "").toLowerCase();
-                    
                     const palabrasClave = Array.isArray(producto.palabras_clave) 
                         ? producto.palabras_clave.join(" ").toLowerCase() 
                         : "";
@@ -839,15 +866,12 @@
                 }
             }
         
-            // Scroll controlado para que no baje de más
+            // Scroll controlado con offset ajustable
             function enfocarResultados() {
                 const seccionResultados = document.getElementById("grid-productos"); 
                 if (seccionResultados) {
-                    // Calculamos la posición exacta del elemento en la página
                     const posicionElemento = seccionResultados.getBoundingClientRect().top + window.pageYOffset;
-                    
-                    // Restamos un offset (por ejemplo, 80 píxeles) para que quede un espacio cómodo arriba y no se pase
-                    const offset = 80; 
+                    const offset = 80; // Modifica este valor si deseas más o menos espacio arriba
                     
                     window.scrollTo({
                         top: posicionElemento - offset,
@@ -855,7 +879,9 @@
                     });
                 }
             }
-        });                    
+        });
+        
+        // Carga inicial del catálogo
         cargarCatalogo();
     </script>
 </body>
