@@ -370,6 +370,7 @@
                 const btnAgregarId = `btn-agregar-${sku}-${index}`;
                 const stockAvisoId = `stock-aviso-${sku}-${index}`;
                 const descId = `desc-${sku}-${index}`;
+                const imgId = `img-${sku}-${index}`;
             
                 let textoBoton = "Agregar";
                 let claseBoton = "flex-1 bg-emerald-700 text-white h-10 rounded-lg hover:bg-emerald-800 transition text-sm font-medium shadow-sm";
@@ -406,7 +407,6 @@
                     <div>
                         <div class="w-full h-44 mb-3 flex items-center justify-center bg-gray-50 rounded-lg relative overflow-hidden">
                             ${htmlEtiqueta}
-                            const imgId = `img-${sku}-${index}`;
                             <img id="${imgId}" src="${imagen}" alt="${nombre}" class="h-full object-contain p-2" loading="lazy">
                             
                             ${descripcion ? `
