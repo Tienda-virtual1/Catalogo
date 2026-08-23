@@ -185,7 +185,6 @@
         };
 
         const mapaIconosSubcategorias = {
-            // Útiles
             "Cuadernos": "fa-book",
             "Blocks": "fa-note-sticky",
             "Colores": "fa-palette",
@@ -195,26 +194,16 @@
             "Lapiceros": "fa-pen",
             "Borradores": "fa-eraser",
             "Oficina": "fa-solid fa-paperclip",
-            
-            // Arte y Manualidades
             "Pinturas": "fa-paintbrush",
             "Pinceles": "fa-brush",
             "Lápices de colores": "fa-pencil",
-            
-            // Papelería
             "Hojas bond": "fa-file",
             "Cartulinas": "fa-file-lines",
             "Sobres": "fa-envelope",
-            
-            // Juguetes
             "Didácticos": "fa-shapes",
             "Puzzles": "fa-puzzle-piece",
-            
-            // Lectura
             "Libros": "fa-book-open",
             "Cuentos": "fa-book-bookmark",
-            
-            // Aseo
             "Jabones": "fa-soap",
             "Papel toalla": "fa-toilet-paper"
         };
@@ -259,24 +248,11 @@
             }
         }
 
-        document.querySelectorAll('#menu-escritorio a').forEach(enlace => {
+        document.querySelectorAll('#menu-escritorio a, .nav-item-movil, .cat-card').forEach(enlace => {
             enlace.addEventListener('click', (e) => {
                 e.preventDefault();
-                manejarSeleccionCategoria(e.currentTarget.getAttribute('data-categoria'));
-            });
-        });
-
-        document.querySelectorAll('.nav-item-movil').forEach(enlace => {
-            enlace.addEventListener('click', (e) => {
-                e.preventDefault();
-                manejarSeleccionCategoria(e.currentTarget.getAttribute('data-categoria'));
-            });
-        });
-
-        document.querySelectorAll('.cat-card').forEach(enlace => {
-            enlace.addEventListener('click', (e) => {
-                e.preventDefault();
-                manejarSeleccionCategoria(e.currentTarget.getAttribute('data-categoria'));
+                const cat = e.currentTarget.getAttribute('data-categoria');
+                if(cat) manejarSeleccionCategoria(cat);
             });
         });
     
@@ -295,38 +271,34 @@
             }
     
             subcategoriasAsociadas.forEach(subcat => {
-            const tarjetaSub = document.createElement('div');
-            tarjetaSub.className = "bg-white rounded-xl shadow-sm border p-6 flex flex-col items-center justify-center cursor-pointer hover:shadow-md hover:border-emerald-600 transition group";
-            
-            // Obtenemos la clase del ícono del diccionario, o usamos uno genérico por defecto
-            const iconoClase = mapaIconosSubcategorias[subcat] || "fa-folder-open";
+                const tarjetaSub = document.createElement('div');
+                tarjetaSub.className = "bg-white rounded-xl shadow-sm border p-6 flex flex-col items-center justify-center cursor-pointer hover:shadow-md hover:border-emerald-600 transition group";
+                const iconoClase = mapaIconosSubcategorias[subcat] || "fa-folder-open";
     
-            tarjetaSub.innerHTML = `
-                <div class="w-16 h-16 rounded-full bg-emerald-50 flex items-center justify-center mb-4 group-hover:bg-emerald-100 transition">
-                    <i class="fa-solid ${iconoClase} text-2xl text-emerald-700"></i>
-                </div>
-                <h3 class="font-bold text-gray-800 text-center text-base group-hover:text-emerald-700 transition">${subcat}</h3>
-                <span class="text-xs text-gray-400 mt-1">Ver productos</span>
-            `;
-            
-            tarjetaSub.addEventListener('click', () => {
-                history.pushState({ vista: 'productos', subcategoria: subcat }, '', `#sub-${subcat.toLowerCase()}`);
-                mostrarProductosDeSubcategoria(subcat);
+                tarjetaSub.innerHTML = `
+                    <div class="w-16 h-16 rounded-full bg-emerald-50 flex items-center justify-center mb-4 group-hover:bg-emerald-100 transition">
+                        <i class="fa-solid ${iconoClase} text-2xl text-emerald-700"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 text-center text-base group-hover:text-emerald-700 transition">${subcat}</h3>
+                    <span class="text-xs text-gray-400 mt-1">Ver productos</span>
+                `;
+                
+                tarjetaSub.addEventListener('click', () => {
+                    history.pushState({ vista: 'productos', subcategoria: subcat }, '', `#sub-${subcat.toLowerCase()}`);
+                    mostrarProductosDeSubcategoria(subcat);
+                });
+    
+                grid.appendChild(tarjetaSub);
             });
-    
-            grid.appendChild(tarjetaSub);
-        });
 
             document.getElementById('catalogo').scrollIntoView({ behavior: 'smooth' });
         }
 
-        // --- FUNCIÓN FALTANTE QUE FILTRA LOS PRODUCTOS POR SUBCATEGORÍA ---
         function mostrarProductosDeSubcategoria(subcat) {
             document.getElementById('titulo-seccion').innerText = `Subcategoría: ${subcat}`;
             const banner = document.querySelector('section.bg-gradient-to-b');
             if (banner) banner.style.display = 'none';
 
-            // Filtramos el arreglo revisando si el producto contiene la subcategoría
             const productosFiltrados = todosLosProductos.filter(prod => {
                 if (!prod.subcategorias) return false;
                 return prod.subcategorias.some(s => s.toLowerCase() === subcat.toLowerCase());
@@ -354,13 +326,8 @@
                 const marca = prod.marca || "Sin Marca";
                 const precioRegular = Number(prod.precio_regular || 0);
                 const precioOferta = (prod.precio_oferta !== null && prod.precio_oferta !== "" && prod.precio_oferta !== undefined) ? Number(prod.precio_oferta) : null;
-                
                 const etiquetaTexto = prod.etiqueta ? prod.etiqueta.trim() : "";
-                
-                const imagen = (prod.imagen_principal && prod.imagen_principal.trim() !== "") 
-                    ? prod.imagen_principal 
-                    : 'https://via.placeholder.com/150?text=Sin+Imagen';
-
+                const imagen = (prod.imagen_principal && prod.imagen_principal.trim() !== "") ? prod.imagen_principal : 'https://via.placeholder.com/150?text=Sin+Imagen';
                 const descripcion = prod.descripcion_corta || prod.descripcion || ""; 
                 const stockGeneral = prod.stock_general;
                 const estaDisponibleGeneral = (stockGeneral === "" || stockGeneral === null || stockGeneral === undefined || Number(stockGeneral) > 0);
@@ -383,12 +350,10 @@
                     deshabilitarBoton = "disabled";
                 }
 
-                let htmlEtiqueta = '';
-                if (etiquetaTexto !== "") {
-                    htmlEtiqueta = `<div class="absolute top-2 left-2 z-30 pointer-events-none">
+                let htmlEtiqueta = etiquetaTexto !== "" ? `
+                    <div class="absolute top-2 left-2 z-30 pointer-events-none">
                         <span class="bg-red-500 text-white text-[10px] font-bold px-2 py-0.5 rounded-full shadow-md">${etiquetaTexto}</span>
-                    </div>`;
-                }
+                    </div>` : '';
 
                 let htmlPrecios = '';
                 const precioParaCarrito = (precioOferta !== null && precioOferta < precioRegular) ? precioOferta : precioRegular;
@@ -439,13 +404,12 @@
                 
                     <div class="mt-auto pt-3 border-t border-gray-100 flex items-center gap-2">
                         <div class="flex items-center border rounded-lg h-10 w-24">
-                            <button type="button" onclick="ajustarCantidad('${inputId}', -1)" class="w-8 h-full flex items-center justify-center text-gray-600 hover:bg-gray-100 hover:text-emerald-700 rounded-l-lg">-</button>
+                            <button type="button" id="btn-menos-${sku}-${index}" class="w-8 h-full flex items-center justify-center text-gray-600 hover:bg-gray-100 hover:text-emerald-700 rounded-l-lg">-</button>
                             <input type="number" value="1" id="${inputId}" class="w-8 h-full text-center text-sm font-semibold focus:outline-none" readonly>
-                            <button type="button" onclick="ajustarCantidad('${inputId}', 1)" class="w-8 h-full flex items-center justify-center text-gray-600 hover:bg-gray-100 hover:text-emerald-700 rounded-r-lg">+</button>
+                            <button type="button" id="btn-mas-${sku}-${index}" class="w-8 h-full flex items-center justify-center text-gray-600 hover:bg-gray-100 hover:text-emerald-700 rounded-r-lg">+</button>
                         </div>
                         
                         <button id="${btnAgregarId}" 
-                                onclick="agregarAlCarrito('${nombre}', ${precioParaCarrito}, '${inputId}', '${labelColorId}')" 
                                 ${deshabilitarBoton}
                                 class="${claseBoton}">
                             ${textoBoton}
@@ -454,11 +418,21 @@
                 `;
                 
                 grid.appendChild(tarjeta);
-    
+
+                // Configuración de interactividad por tarjeta (Colores y Stock)
                 const containerColores = document.getElementById(colorContainerId);
                 const labelColorSeleccionado = document.getElementById(labelColorId);
                 const btnAgregar = document.getElementById(btnAgregarId);
+                const btnMenos = document.getElementById(`btn-menos-${sku}-${index}`);
+                const btnMas = document.getElementById(`btn-mas-${sku}-${index}`);
                 const listaColores = prod.colores || [];
+
+                let stockActivoActual = stockGeneral;
+
+                // Asignar eventos iniciales de cantidad
+                btnMenos.onclick = () => ajustarCantidad(inputId, -1, stockActivoActual);
+                btnMas.onclick = () => ajustarCantidad(inputId, 1, stockActivoActual);
+                btnAgregar.onclick = () => agregarAlCarrito(nombre, precioParaCarrito, inputId, labelColorId, stockActivoActual);
                 
                 if (listaColores.length > 0) {
                     let primerColorValido = null;
@@ -476,29 +450,26 @@
                         btnColor.title = `${nombreColor} (Stock: ${stockColor})`;
 
                         btnColor.onclick = () => {
-                        containerColores.querySelectorAll('button').forEach(b => b.classList.remove('ring-2', 'ring-emerald-600'));
-                        btnColor.classList.add('ring-2', 'ring-emerald-600');
-                        labelColorSeleccionado.innerText = nombreColor;
-                        
-                        // Cambiar imagen según el color
-                        const imgElement = document.getElementById(imgId);
-                        if (itemColor.imagen && imgElement) {
-                            imgElement.src = itemColor.imagen;
-                        }
+                            containerColores.querySelectorAll('button').forEach(b => b.classList.remove('ring-2', 'ring-emerald-600'));
+                            btnColor.classList.add('ring-2', 'ring-emerald-600');
+                            labelColorSeleccionado.innerText = nombreColor;
+                            stockActivoActual = stockColor;
+                            
+                            const imgElement = document.getElementById(imgId);
+                            if (itemColor.imagen && imgElement) {
+                                imgElement.src = itemColor.imagen;
+                            }
                     
-                        const avisoStockActivo = document.getElementById(stockAvisoId);
-                        if (avisoStockActivo && estaDisponibleGeneral) {
-                            avisoStockActivo.innerText = `Stock: ${stockColor}`;
-                            
-                            // Actualizar eventos de los botones con el stock específico de este color
-                            const btnMenos = document.querySelector(`[onclick*="${inputId}"][onclick*="-1"]`);
-                            const btnMas = document.querySelector(`[onclick*="${inputId}"][onclick*="1"]`);
-                            
-                            if(btnMenos) btnMenos.setAttribute('onclick', `ajustarCantidad('${inputId}', -1, ${stockColor})`);
-                            if(btnMas) btnMas.setAttribute('onclick', `ajustarCantidad('${inputId}', 1, ${stockColor})`);
-                            btnAgregar.setAttribute('onclick', `agregarAlCarrito('${nombre}', ${precioParaCarrito}, '${inputId}', '${labelColorId}', ${stockColor})`);
+                            const avisoStockActivo = document.getElementById(stockAvisoId);
+                            if (avisoStockActivo && estaDisponibleGeneral) {
+                                avisoStockActivo.innerText = `Stock: ${stockColor}`;
+                            }
 
-                            // Resetear el input a 1 si el stock actual es menor al valor anterior, o validar
+                            // Actualizar límites y funciones con el stock específico del color seleccionado
+                            btnMenos.onclick = () => ajustarCantidad(inputId, -1, stockColor);
+                            btnMas.onclick = () => ajustarCantidad(inputId, 1, stockColor);
+                            btnAgregar.onclick = () => agregarAlCarrito(nombre, precioParaCarrito, inputId, labelColorId, stockColor);
+
                             const inputElem = document.getElementById(inputId);
                             if(parseInt(inputElem.value) > stockColor) {
                                 inputElem.value = stockColor > 0 ? stockColor : 1;
@@ -513,14 +484,18 @@
                                 btnAgregar.innerText = "Agregar";
                                 btnAgregar.className = "flex-1 bg-emerald-700 text-white h-10 rounded-lg hover:bg-emerald-800 transition text-sm font-medium shadow-sm";
                             }
-                        }
-                    };
+                        };
 
                         containerColores.appendChild(btnColor);
                     });
 
                     if (primerColorValido) {
                         labelColorSeleccionado.innerText = primerColorValido.nombre;
+                        stockActivoActual = primerColorValido.stock;
+                        btnMenos.onclick = () => ajustarCantidad(inputId, -1, primerColorValido.stock);
+                        btnMas.onclick = () => ajustarCantidad(inputId, 1, primerColorValido.stock);
+                        btnAgregar.onclick = () => agregarAlCarrito(nombre, precioParaCarrito, inputId, labelColorId, primerColorValido.stock);
+
                         const avisoStockInicial = document.getElementById(stockAvisoId);
                         if (avisoStockInicial && estaDisponibleGeneral) {
                             avisoStockInicial.innerText = `Stock: ${primerColorValido.stock}`;
@@ -538,7 +513,6 @@
             });
         }
     
-        // GESTIÓN DEL CARRITO CORREGIDA
         function agregarAlCarrito(nombre, precio, inputId, labelColorId, stockMaximo) {
             const cantidad = parseInt(document.getElementById(inputId).value);
             const colorSeleccionado = document.getElementById(labelColorId).innerText;
@@ -564,25 +538,27 @@
             actualizarContadorCarrito();
             
             const btn = document.getElementById(inputId.replace('qty-', 'btn-agregar-'));
-            const textoOriginal = btn.innerText;
-            btn.innerText = "¡Agregado!";
-            btn.classList.add("bg-emerald-900");
-            setTimeout(() => {
-                btn.innerText = textoOriginal;
-                btn.classList.remove("bg-emerald-900");
-            }, 1000);
+            if (btn) {
+                const textoOriginal = btn.innerText;
+                btn.innerText = "¡Agregado!";
+                btn.classList.add("bg-emerald-900");
+                setTimeout(() => {
+                    btn.innerText = textoOriginal;
+                    btn.classList.remove("bg-emerald-900");
+                }, 1000);
+            }
         }
 
         function ajustarCantidad(inputId, cambio, stockMaximo) {
             const input = document.getElementById(inputId);
+            if (!input) return;
             let valor = parseInt(input.value) + cambio;
             
             if (valor < 1) valor = 1;
             
-            // Si hay un stock máximo definido y es un número válido, limitamos
-            if (stockMaximo !== undefined && stockMaximo !== null && stockMaximo !== "" && !isNaN(stockMaximo)) {
+            if (stockMaximo !== undefined && stockMaximo !== null && stockMaximo !== "") {
                 const max = parseInt(stockMaximo);
-                if (valor > max) {
+                if (!isNaN(max) && valor > max) {
                     valor = max;
                 }
             }
@@ -592,12 +568,14 @@
 
         function actualizarContadorCarrito() {
             const totalItems = carrito.reduce((sum, item) => sum + item.cantidad, 0);
-            document.getElementById('cart-count').innerText = totalItems;
+            const contadorEl = document.getElementById('cart-count');
+            if(contadorEl) contadorEl.innerText = totalItems;
             renderizarItemsCarrito();
         }
 
         function toggleCarritoModal(abrir) {
             const modal = document.getElementById('modal-carrito');
+            if (!modal) return;
             if (abrir) {
                 modal.classList.remove('hidden');
                 renderizarItemsCarrito();
@@ -609,6 +587,8 @@
         function renderizarItemsCarrito() {
             const container = document.getElementById('cart-items-container');
             const totalContainer = document.getElementById('cart-total');
+            if(!container || !totalContainer) return;
+            
             container.innerHTML = '';
 
             if (carrito.length === 0) {
@@ -662,10 +642,9 @@
             if (nuevaCantidad <= 0) {
                 carrito.splice(index, 1);
             } else {
-                // Validar contra el stock máximo si existe
                 if (item.stockMax !== null && item.stockMax !== undefined) {
                     if (nuevaCantidad > item.stockMax) {
-                        nuevaCantidad = item.stockMax; // Lo frena en el tope del stock
+                        nuevaCantidad = item.stockMax;
                     }
                 }
                 item.cantidad = nuevaCantidad;
@@ -721,23 +700,6 @@
                 mostrarProductosDeSubcategoria(estado.subcategoria);
             }
         });
-
-        function ajustarCantidad(inputId, cambio, stockMaximo) {
-            const input = document.getElementById(inputId);
-            let valor = parseInt(input.value) + cambio;
-            
-            if (valor < 1) valor = 1;
-            
-            // Si hay un stock máximo definido y es un número válido, limitamos
-            if (stockMaximo !== undefined && stockMaximo !== null && stockMaximo !== "") {
-                const max = parseInt(stockMaximo);
-                if (!isNaN(max) && valor > max) {
-                    valor = max;
-                }
-            }
-            
-            input.value = valor;
-        }
 
         function obtenerEstiloColor(nombreColor) {
             if (!nombreColor) return "background-color: #9ca3af; border: 1px solid #d1d5db;";
