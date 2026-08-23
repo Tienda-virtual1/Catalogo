@@ -1242,7 +1242,7 @@
         "stock_general": null,
         "colores": [],
         "precio_regular": 5.0,
-        "precio_oferta": 4.5,
+        "precio_oferta": null,
         "palabras_clave": [],
         "descripcion_corta": "",
         "etiqueta": null
@@ -1255,9 +1255,9 @@
             "Blocks"
         ],
         "imagen_principal": "imagenes/Block/Block Justus cuadric.jpg",
-        "stock_general": null,
+        "stock_general": "No",
         "colores": [],
-        "precio_regular": 0.0,
+        "precio_regular": 5.0,
         "precio_oferta": null,
         "palabras_clave": [],
         "descripcion_corta": "",
@@ -1510,7 +1510,23 @@
         ],
         "imagen_principal": "imagenes/Block/sketchbook A4 empastado colores.jpg",
         "stock_general": null,
-        "colores": [],
+        "colores": [
+            {
+                "nombre": "Surtido",
+                "stock": 5,
+                "imagen": "imagenes/Block/sketchbook A4 empastado colores.jpg"
+            },
+            {
+                "nombre": "Rojo",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Azul",
+                "stock": 3,
+                "imagen": "imagenes/Block/sketchbook A4 empastado.jpg"
+            }
+        ],
         "precio_regular": 4.5,
         "precio_oferta": null,
         "palabras_clave": [],
@@ -1560,6 +1576,248 @@
         "stock_general": null,
         "colores": [],
         "precio_regular": 8.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "OFIC-01",
+        "nombre": "Alfileres 28 mm caja x 50 gr",
+        "marca": "Artesco",
+        "subcategorias": [
+            "Oficina"
+        ],
+        "imagen_principal": "imagenes/Oficina/caja-de-alfileres-artesco.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 2.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "OFIC-02",
+        "nombre": "Disco de alfileres (40 unidades)",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Oficina"
+        ],
+        "imagen_principal": "imagenes/Oficina/Disco-de-Alfileres.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "OFIC-11",
+        "nombre": "Chinches dorados caja x 50",
+        "marca": "Twins",
+        "subcategorias": [
+            "Oficina"
+        ],
+        "imagen_principal": "imagenes/Oficina/chinche-dorada-twins.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "OFIC-12",
+        "nombre": "Chinches de colores caja x 50",
+        "marca": "Mercyfan",
+        "subcategorias": [
+            "Oficina"
+        ],
+        "imagen_principal": "imagenes/Oficina/Chinche de colores mercyfan.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "OFIC-13",
+        "nombre": "Chinches de doblez caja  x 50",
+        "marca": "Twins",
+        "subcategorias": [
+            "Oficina"
+        ],
+        "imagen_principal": "imagenes/Oficina/CHINCHE_DOBLEZ_TWINS.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 3.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "OFIC-14",
+        "nombre": "Chinches indicador caja x 100",
+        "marca": "Faber Castell",
+        "subcategorias": [
+            "Oficina"
+        ],
+        "imagen_principal": "imagenes/Oficina/chinches-indicadores-faber.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 3.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "OFIC-15",
+        "nombre": "Chinches indicador",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Oficina"
+        ],
+        "imagen_principal": "imagenes/Oficina/Chinches indicadores.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 2.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "OFIC-21",
+        "nombre": "Clips metalico caja x 100",
+        "marca": "Twins",
+        "subcategorias": [
+            "Oficina"
+        ],
+        "imagen_principal": "imagenes/Oficina/clip metalico.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "OFIC-22",
+        "nombre": "Clips de colores caja x 100",
+        "marca": "Ove",
+        "subcategorias": [
+            "Oficina"
+        ],
+        "imagen_principal": "imagenes/Oficina/clips-ove-colores-x-100-und.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "OFIC-23",
+        "nombre": "Clips de colores caja x 50",
+        "marca": "Mercyfan",
+        "subcategorias": [
+            "Oficina"
+        ],
+        "imagen_principal": "imagenes/Oficina/clip de colores mercyfan.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "OFIC-31",
+        "nombre": "Faster de metal",
+        "marca": "Artesco",
+        "subcategorias": [
+            "Oficina",
+            "Folder"
+        ],
+        "imagen_principal": "imagenes/Oficina/fastener-ca-x-50-artesco.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.3,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "OFIC-32",
+        "nombre": "Faster gusano",
+        "marca": "Twins",
+        "subcategorias": [
+            "Oficina",
+            "Folder"
+        ],
+        "imagen_principal": "imagenes/Oficina/Faster gusano.webp",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "OFIC-41",
+        "nombre": "Grapas caja x 1000",
+        "marca": "Artesco",
+        "subcategorias": [
+            "Oficina"
+        ],
+        "imagen_principal": "imagenes/Oficina/Grapas Artesco x1000.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "OFIC-42",
+        "nombre": "Grapas caja x 5000",
+        "marca": "Artesco",
+        "subcategorias": [
+            "Oficina"
+        ],
+        "imagen_principal": "imagenes/Oficina/grapas-Artesco-x-5000.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 4.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "OFIC-51",
+        "nombre": "mini engrapador",
+        "marca": "Alpha",
+        "subcategorias": [
+            "Oficina"
+        ],
+        "imagen_principal": "imagenes/Oficina/engrapador mini.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 5.0,
         "precio_oferta": null,
         "palabras_clave": [],
         "descripcion_corta": "",
