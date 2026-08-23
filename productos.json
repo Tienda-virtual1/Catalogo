@@ -2894,5 +2894,724 @@
         "palabras_clave": [],
         "descripcion_corta": "",
         "etiqueta": null
+    },
+    {
+        "sku": "FOLD-01",
+        "nombre": "Folder doble tapa con faster gusanillo rosado",
+        "marca": "Layconsa",
+        "subcategorias": [
+            "Fólderes"
+        ],
+        "imagen_principal": "imagenes/Folder/folder layconsa rosado.webp",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 5.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "FOLD-02",
+        "nombre": "Folder doble tapa con faster gusanillo naranja",
+        "marca": "Layconsa",
+        "subcategorias": [
+            "Fólderes"
+        ],
+        "imagen_principal": "imagenes/Folder/folder layconsa naranja.webp",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 5.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "FOLD-03",
+        "nombre": "Folder doble tapa con faster gusanillo lila",
+        "marca": "Layconsa",
+        "subcategorias": [
+            "Fólderes"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 5.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "FOLD-04",
+        "nombre": "Folder doble tapa con faster gusanillo verde limón",
+        "marca": "Layconsa",
+        "subcategorias": [
+            "Fólderes"
+        ],
+        "imagen_principal": "imagenes/Folder/folder layconsa verde limon.webp",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 5.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "FOLD-05",
+        "nombre": "Folder doble tapa con faster gusanillo verde",
+        "marca": "Layconsa",
+        "subcategorias": [
+            "Fólderes"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 5.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "FOLD-06",
+        "nombre": "Folder doble tapa con faster gusanillo rojo",
+        "marca": "Layconsa",
+        "subcategorias": [
+            "Fólderes"
+        ],
+        "imagen_principal": "imagenes/Folder/folder layconsa rojo.webp",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 5.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "FOLD-07",
+        "nombre": "Folder doble tapa con faster gusanillo amarillo",
+        "marca": "Layconsa",
+        "subcategorias": [
+            "Fólderes"
+        ],
+        "imagen_principal": "imagenes/Folder/folder layconsa amarillo.webp",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 5.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "FOLD-08",
+        "nombre": "Folder doble tapa con faster gusanillo blanco",
+        "marca": "Layconsa",
+        "subcategorias": [
+            "Fólderes"
+        ],
+        "imagen_principal": "imagenes/Folder/folder layconsa blanco.webp",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 5.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "FOLD-09",
+        "nombre": "Folder doble tapa con faster gusanillo azul",
+        "marca": "Layconsa",
+        "subcategorias": [
+            "Fólderes"
+        ],
+        "imagen_principal": "imagenes/Folder/folder layconsa azul.webp",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 5.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "FOLD-10",
+        "nombre": "Folder doble tapa con faster gusanillo negro",
+        "marca": "Layconsa",
+        "subcategorias": [
+            "Fólderes"
+        ],
+        "imagen_principal": "imagenes/Folder/folder layconsa negro.webp",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 5.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "FOLD-11",
+        "nombre": "Folder doble tapa con faster gusanillo marrón",
+        "marca": "Layconsa",
+        "subcategorias": [
+            "Fólderes"
+        ],
+        "imagen_principal": "imagenes/Folder/folder layconsa marron.webp",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 5.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "FOLD-12",
+        "nombre": "Folder doble tapa con faster gusanillo celeste",
+        "marca": "Layconsa",
+        "subcategorias": [
+            "Fólderes"
+        ],
+        "imagen_principal": "imagenes/Folder/folder layconsa celeste.webp",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 5.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "FOLD-21",
+        "nombre": "Folder doble tapa con faster gusanillo rojo",
+        "marca": "Vinifán",
+        "subcategorias": [
+            "Fólderes"
+        ],
+        "imagen_principal": "imagenes/Folder/folder vinifan rojo.webp",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 5.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "FOLD-22",
+        "nombre": "Folder doble tapa con faster gusanillo verde limón",
+        "marca": "Vinifán",
+        "subcategorias": [
+            "Fólderes"
+        ],
+        "imagen_principal": "imagenes/Folder/folder vinifan verde limon.webp",
+        "stock_general": "0",
+        "colores": [],
+        "precio_regular": 5.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "FOLD-23",
+        "nombre": "Folder doble tapa con faster gusanillo turquesa",
+        "marca": "Vinifán",
+        "subcategorias": [
+            "Fólderes"
+        ],
+        "imagen_principal": "imagenes/Folder/folder vinifan turquesa.jpg",
+        "stock_general": "0",
+        "colores": [],
+        "precio_regular": 5.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "FOLD-24",
+        "nombre": "Folder doble tapa con faster gusanillo verde claro",
+        "marca": "Vinifán",
+        "subcategorias": [
+            "Fólderes"
+        ],
+        "imagen_principal": "imagenes/Folder/folder vinifan verde.webp",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 5.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "FOLD-25",
+        "nombre": "Folder doble tapa con faster gusanillo marrón",
+        "marca": "Vinifán",
+        "subcategorias": [
+            "Fólderes"
+        ],
+        "imagen_principal": "imagenes/Folder/folder vinifan marron.jpg",
+        "stock_general": "0",
+        "colores": [],
+        "precio_regular": 5.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "FOLD-26",
+        "nombre": "Folder doble tapa con faster gusanillo morado",
+        "marca": "Vinifán",
+        "subcategorias": [
+            "Fólderes"
+        ],
+        "imagen_principal": "imagenes/Folder/folder vinifan morado.jpg",
+        "stock_general": "0",
+        "colores": [],
+        "precio_regular": 5.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "FOLD-27",
+        "nombre": "Folder doble tapa con faster gusanillo blanco",
+        "marca": "Vinifán",
+        "subcategorias": [
+            "Fólderes"
+        ],
+        "imagen_principal": "imagenes/Folder/folder vinifan blanco.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 5.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "FOLD-28",
+        "nombre": "Folder doble tapa con faster gusanillo rosado",
+        "marca": "Vinifán",
+        "subcategorias": [
+            "Fólderes"
+        ],
+        "imagen_principal": "imagenes/Folder/folder vinifan rosado.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 5.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "FOLD-29",
+        "nombre": "Folder doble tapa con faster gusanillo azulino",
+        "marca": "Vinifán",
+        "subcategorias": [
+            "Fólderes"
+        ],
+        "imagen_principal": "imagenes/Folder/folder vinifan azulino.webp",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 5.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "FOLD-30",
+        "nombre": "Folder doble tapa con faster gusanillo azul marino",
+        "marca": "Vinifán",
+        "subcategorias": [
+            "Fólderes"
+        ],
+        "imagen_principal": "imagenes/Folder/folder vinifan azul marino.jpg",
+        "stock_general": "0",
+        "colores": [],
+        "precio_regular": 5.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "FOLD-31",
+        "nombre": "Folder doble tapa con faster gusanillo naranja",
+        "marca": "Vinifán",
+        "subcategorias": [
+            "Fólderes"
+        ],
+        "imagen_principal": "imagenes/Folder/folder vinifan naranja.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 5.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "FOLD-32",
+        "nombre": "Folder doble tapa con faster gusanillo amarillo",
+        "marca": "Vinifán",
+        "subcategorias": [
+            "Fólderes"
+        ],
+        "imagen_principal": "imagenes/Folder/folder vinifan amarillo.webp",
+        "stock_general": "0",
+        "colores": [],
+        "precio_regular": 5.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "FOLD-33",
+        "nombre": "Folder doble tapa con faster gusanillo guinda",
+        "marca": "Vinifán",
+        "subcategorias": [
+            "Fólderes"
+        ],
+        "imagen_principal": "imagenes/Folder/folder vinifan guinda.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 5.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "FOLD-34",
+        "nombre": "Folder doble tapa con faster gusanillo negro",
+        "marca": "Vinifán",
+        "subcategorias": [
+            "Fólderes"
+        ],
+        "imagen_principal": "imagenes/Folder/folder vinifan negro.webp",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 5.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "FOLD-35",
+        "nombre": "Folder doble tapa con faster gusanillo celeste",
+        "marca": "Vinifán",
+        "subcategorias": [
+            "Fólderes"
+        ],
+        "imagen_principal": "imagenes/Folder/folder vinifan celeste.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 5.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "FOLD-36",
+        "nombre": "Folder doble tapa con faster gusanillo magenta",
+        "marca": "Vinifán",
+        "subcategorias": [
+            "Fólderes"
+        ],
+        "imagen_principal": "imagenes/Folder/folder vinifan magenta.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 5.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "FOLD-37",
+        "nombre": "Folder doble tapa con faster gusanillo lila",
+        "marca": "Vinifán",
+        "subcategorias": [
+            "Fólderes"
+        ],
+        "imagen_principal": "imagenes/Folder/folder vinifan lila.jpg",
+        "stock_general": "0",
+        "colores": [],
+        "precio_regular": 5.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "FOLD-40",
+        "nombre": "Folde doble tapa con faster gusanillo morado",
+        "marca": "Artesco",
+        "subcategorias": [
+            "Fólderes"
+        ],
+        "imagen_principal": "imagenes/Folder/folder Artesco morado.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 5.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "FOLD-51",
+        "nombre": "Folder plástico A4 diseño Mujer 1",
+        "marca": "Vinifán",
+        "subcategorias": [
+            "Fólderes"
+        ],
+        "imagen_principal": "imagenes/Folder/folder vinifan Mujer 1.jpeg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 5.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "FOLD-52",
+        "nombre": "Folder plástico A4 diseño Mujer 2",
+        "marca": "Vinifán",
+        "subcategorias": [
+            "Fólderes"
+        ],
+        "imagen_principal": "imagenes/Folder/folder vinifan Mujer 2.jpeg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 5.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "FOLD-53",
+        "nombre": "Folde plástico A4 diseño Capibara",
+        "marca": "Vinifán",
+        "subcategorias": [
+            "Fólderes"
+        ],
+        "imagen_principal": "imagenes/Folder/folder vinifan Capibara 1.jpeg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 5.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "FOLD-54",
+        "nombre": "Folder plástico A4 diseño Hombre 1",
+        "marca": "Vinifán",
+        "subcategorias": [
+            "Fólderes"
+        ],
+        "imagen_principal": "imagenes/Folder/folder vinifan Hombre 1.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 5.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "FOLD-55",
+        "nombre": "Folder plástico A4 diseño Hombre 2",
+        "marca": "Vinifán",
+        "subcategorias": [
+            "Fólderes"
+        ],
+        "imagen_principal": "imagenes/Folder/folder vinifan Hombre 2.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 5.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "FOLD-56",
+        "nombre": "Folder plástico A4 diseño Hombre 3",
+        "marca": "Vinifán",
+        "subcategorias": [
+            "Fólderes"
+        ],
+        "imagen_principal": "imagenes/Folder/folder vinifan Hombre 3.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 5.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "FOLD-57",
+        "nombre": "Folder plástico A4 Minie Mouse",
+        "marca": "Artesco Duramax",
+        "subcategorias": [
+            "Fólderes"
+        ],
+        "imagen_principal": "imagenes/Folder/folder Artesco A4 minnie.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 5.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "FOLD-61",
+        "nombre": "Folder plástico A4 Deadpool",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Fólderes"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 4.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "FOLD-62",
+        "nombre": "Folder plástico A4 Princesas",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Fólderes"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 4.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "FOLD-71",
+        "nombre": "Folder plástico oficio Frozen",
+        "marca": "Vinifán",
+        "subcategorias": [
+            "Fólderes"
+        ],
+        "imagen_principal": "imagenes/Folder/folder oficio Vinifan frozen.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 5.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "FOLD-81",
+        "nombre": "Folder plástico Oficio",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Fólderes"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 5.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "FOLD-91",
+        "nombre": "Folder manila A4 color natural",
+        "marca": "Grafi papel",
+        "subcategorias": [
+            "Fólderes"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "FOLD-92",
+        "nombre": "Folder manila A4 color",
+        "marca": "Grafi papel",
+        "subcategorias": [
+            "Fólderes"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [
+            {
+                "nombre": "Surtido",
+                "stock": 100,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rojo",
+                "stock": 25,
+                "imagen": ""
+            },
+            {
+                "nombre": "Azul",
+                "stock": 25,
+                "imagen": ""
+            },
+            {
+                "nombre": "Amarillo",
+                "stock": 25,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde",
+                "stock": 25,
+                "imagen": ""
+            },
+            {
+                "nombre": "Naranja",
+                "stock": 25,
+                "imagen": ""
+            }
+        ],
+        "precio_regular": 1.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
     }
 ]
