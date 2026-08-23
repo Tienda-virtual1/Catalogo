@@ -734,59 +734,39 @@
             return mapaColores[normalizado] ? `background-color: ${mapaColores[normalizado]}; border: 1px solid #d1d5db;` : "background-color: #9ca3af; border: 1px solid #d1d5db;";
         }
 
-        // Función para filtrar productos según el texto ingresado en el buscador
-        function filtrarProductos(terminoBusqueda) {
-            const texto = (terminoBusqueda || "").toLowerCase().trim();
+        document.addEventListener("DOMContentLoaded", () => {
+    const inputBuscador = document.getElementById("input-buscador");
+    
+    if (inputBuscador) {
+        inputBuscador.addEventListener("input", (e) => {
+            const texto = e.target.value.toLowerCase().trim();
             
-            // Validamos que exista la variable global de productos
-            if (typeof productosOriginales === "undefined") return;
-        
-            // Si el buscador está vacío, mostramos el catálogo completo
+            // Reemplaza "MI_VARIABLE_DE_PRODUCTOS" con el nombre real de tu array (ej. productos, catalogo, etc.)
+            const lista = typeof MI_VARIABLE_DE_PRODUCTOS !== "undefined" ? MI_VARIABLE_DE_PRODUCTOS : [];
+            
+            if (lista.length === 0) return;
+
             if (!texto) {
                 if (typeof renderizarProductos === "function") {
-                    renderizarProductos(productosOriginales); 
+                    renderizarProductos(lista);
                 }
                 return;
             }
-        
-            const resultados = productosOriginales.filter(producto => {
+
+            const resultados = lista.filter(producto => {
                 const nombre = (producto.nombre || "").toLowerCase();
                 const marca = (producto.marca || "").toLowerCase();
                 const descripcion = (producto.descripcion_corta || "").toLowerCase();
-                const etiqueta = (producto.etiqueta || "").toLowerCase();
                 
-                const palabrasClave = Array.isArray(producto.palabras_clave) 
-                    ? producto.palabras_clave.join(" ").toLowerCase() 
-                    : "";
-        
-                return nombre.includes(texto) ||
-                       marca.includes(texto) ||
-                       descripcion.includes(texto) ||
-                       etiqueta.includes(texto) ||
-                       palabrasClave.includes(texto);
+                return nombre.includes(texto) || marca.includes(texto) || descripcion.includes(texto);
             });
-        
+
             if (typeof renderizarProductos === "function") {
                 renderizarProductos(resultados);
             }
-        }
-        
-        // Conectar el input de búsqueda de forma correcta y limpia
-        const inputBuscador = document.getElementById("input-buscador");
-        if (inputBuscador) {
-            // Filtra automáticamente mientras escribes
-            inputBuscador.addEventListener("input", (e) => {
-                filtrarProductos(e.target.value);
-            });
-        
-            // Opcional: Para que al presionar Enter también funcione (o quite el foco)
-            inputBuscador.addEventListener("keydown", (e) => {
-                if (e.key === "Enter") {
-                    filtrarProductos(e.target.value);
-                    inputBuscador.blur(); // Oculta el teclado en móviles o saca el foco
-                }
-            });
-        }
+        });
+    }
+});
                     
         cargarCatalogo();
     </script>
