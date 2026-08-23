@@ -775,66 +775,73 @@
         }
 
         document.addEventListener("DOMContentLoaded", () => {
-        const inputBuscador = document.getElementById("input-buscador");
-        
-        if (inputBuscador) {
-            // 1. Filtrado en tiempo real (mientras escribes)
-            inputBuscador.addEventListener("input", (e) => {
-                ejecutarBusqueda(e.target.value);
-            });
+    const inputBuscador = document.getElementById("input-buscador");
     
-            // 2. NUEVO: Al presionar "Enter"
-            inputBuscador.addEventListener("keydown", (e) => {
-                if (e.key === "Enter") {
-                    ejecutarBusqueda(e.target.value);
-                    inputBuscador.blur(); // Oculta el teclado en móviles
-                    enfocarResultados();  // Baja la vista a los productos
-                }
-            });
-        }
-    
-        // Función central de búsqueda para no repetir código
-        function ejecutarBusqueda(termino) {
-            const texto = (termino || "").toLowerCase().trim();
+    if (inputBuscador) {
+        // 1. Filtrado y scroll automático al comenzar a escribir
+        inputBuscador.addEventListener("input", (e) => {
+            const texto = e.target.value;
+            ejecutarBusqueda(texto);
             
-            if (typeof todosLosProductos === "undefined" || !Array.isArray(todosLosProductos)) return;
-    
-            if (!texto) {
-                if (typeof renderizarProductos === "function") {
-                    renderizarProductos(todosLosProductos);
-                }
-                return;
+            // Si el usuario escribe algo, hacemos scroll suave hacia los resultados
+            if (texto.trim().length > 0) {
+                enfocarResultados();
             }
+        });
     
-            const resultados = todosLosProductos.filter(producto => {
-                const nombre = (producto.nombre || "").toLowerCase();
-                const marca = (producto.marca || "").toLowerCase();
-                const descripcion = (producto.descripcion_corta || "").toLowerCase();
-                const etiqueta = (producto.etiqueta || "").toLowerCase();
-                
-                const palabrasClave = Array.isArray(producto.palabras_clave) 
-                    ? producto.palabras_clave.join(" ").toLowerCase() 
-                    : "";
-                
-                return nombre.includes(texto) ||
-                       marca.includes(texto) ||
-                       descripcion.includes(texto) ||
-                       etiqueta.includes(texto) ||
-                       palabrasClave.includes(texto);
-            });
-    
+        // 2. Al presionar "Enter" (mantiene la acción de ocultar teclado)
+        inputBuscador.addEventListener("keydown", (e) => {
+            if (e.key === "Enter") {
+                ejecutarBusqueda(e.target.value);
+                inputBuscador.blur(); // Oculta el teclado en móviles
+            }
+        });
+    }
+
+    // Función central de búsqueda para no repetir código
+    function ejecutarBusqueda(termino) {
+        const texto = (termino || "").toLowerCase().trim();
+        
+        if (typeof todosLosProductos === "undefined" || !Array.isArray(todosLosProductos)) return;
+
+        if (!texto) {
             if (typeof renderizarProductos === "function") {
-                renderizarProductos(resultados);
+                renderizarProductos(todosLosProductos);
             }
+            return;
         }
-    
-        // NUEVO: Función para hacer scroll automático hacia el catálogo/resultados
-        function enfocarResultados() {
-            const seccionResultados = document.getElementById("grid-productos"); // Cambiado aquí al ID real
-            if (seccionResultados) {
-                seccionResultados.scrollIntoView({ behavior: "smooth", block: "start" });
-            }
+
+        const resultados = todosLosProductos.filter(producto => {
+            const nombre = (producto.nombre || "").toLowerCase();
+            const marca = (producto.marca || "").toLowerCase();
+            const descripcion = (producto.descripcion_corta || "").toLowerCase();
+            const etiqueta = (producto.etiqueta || "").toLowerCase();
+            
+            const palabrasClave = Array.isArray(producto.palabras_clave) 
+                ? producto.palabras_clave.join(" ").toLowerCase() 
+                : "";
+            
+            return nombre.includes(texto) ||
+                   marca.includes(texto) ||
+                   descripcion.includes(texto) ||
+                   etiqueta.includes(texto) ||
+                   palabrasClave.includes(texto);
+        });
+
+        if (typeof renderizarProductos === "function") {
+            renderizarProductos(resultados);
         }
+    }
+
+    // Scroll ajustado para no irse demasiado abajo
+    function enfocarResultados() {
+        const seccionResultados = document.getElementById("grid-productos"); 
+        if (seccionResultados) {
+            // Usamos 'nearest' o 'center' para que el salto sea más sutil y no baje de más
+            seccionResultados.scrollIntoView({ behavior: "smooth", block: "nearest" });
+        }
+    }
+});
     });
                     
         cargarCatalogo();
