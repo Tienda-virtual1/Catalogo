@@ -351,8 +351,11 @@
                 let textoBoton = "Agregar";
                 let claseBoton = "flex-1 bg-emerald-700 text-white h-10 rounded-lg hover:bg-emerald-800 transition text-sm font-medium shadow-sm";
                 let deshabilitarBoton = "";
-            
-                if (stockGeneral === 0 || stockGeneral === "0" || Number(stockGeneral) === 0 || stockGeneral === false) {
+    
+                // Solo se marca como agotado si el stock es un número válido y es exactamente 0
+                const esStockCero = (stockGeneral !== "" && stockGeneral !== null && stockGeneral !== undefined && !isNaN(stockGeneral) && Number(stockGeneral) === 0);
+    
+                if (esStockCero) {
                     textoBoton = "Agotado";
                     claseBoton = "flex-1 bg-gray-400 text-white h-10 rounded-lg cursor-not-allowed transition text-sm font-medium";
                     deshabilitarBoton = "disabled";
@@ -523,8 +526,8 @@
                         avisoStockUnico.innerText = textoStockInicial;
                     }
 
-                    // NUEVO: Asegurar que si el stock único es 0, el botón se bloquee aquí también
-                    if (stockGeneral !== "" && stockGeneral !== null && stockGeneral !== undefined && Number(stockGeneral) <= 0) {
+                    // Bloquear si el stock general único es cero real
+                    if (esStockCero) {
                         btnAgregar.disabled = true;
                         btnAgregar.innerText = "Agotado";
                         btnAgregar.className = "flex-1 bg-gray-400 text-white h-10 rounded-lg cursor-not-allowed transition text-sm font-medium";
