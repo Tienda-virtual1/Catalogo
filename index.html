@@ -873,7 +873,11 @@
                 const seccionResultados = document.getElementById("grid-productos"); 
                 if (seccionResultados) {
                     const posicionElemento = seccionResultados.getBoundingClientRect().top + window.pageYOffset;
-                    const offset = 400; // Modifica este valor si deseas más o menos espacio arriba
+                    
+                    // Detectamos si es celular (menor a 768px de ancho) o PC
+                    // En PC usamos 400 y en celular un valor más chico (por ejemplo, 80 o 100)
+                    const esCelular = window.innerWidth < 768;
+                    const offset = esCelular ? 90 : 400; 
                     
                     window.scrollTo({
                         top: posicionElemento - offset,
