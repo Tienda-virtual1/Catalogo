@@ -311,12 +311,12 @@
         function renderizarProductos(productos) {
             const grid = document.getElementById('grid-productos');
             grid.innerHTML = ''; 
-    
+        
             if (productos.length === 0) {
                 grid.innerHTML = '<p class="text-gray-500 col-span-full text-center py-8">No hay productos disponibles en esta sección.</p>';
                 return;
             }
-    
+        
             productos.forEach((prod, index) => {
                 const tarjeta = document.createElement('div');
                 tarjeta.className = "bg-white rounded-xl shadow-sm border p-4 flex flex-col h-full justify-between hover:shadow-md transition relative";
@@ -332,14 +332,13 @@
                     : 'https://via.placeholder.com/150?text=Sin+Imagen';
                 const descripcion = prod.descripcion_corta || prod.descripcion || ""; 
                 const stockGeneral = prod.stock_general;
-                const estaDisponibleGeneral = (stockGeneral === "" || stockGeneral === null || stockGeneral === undefined || Number(stockGeneral) > 0);
             
                 // Definir texto dinámico para el stock general o por defecto "Stock: Disponible"
                 let textoStockInicial = "Stock: Disponible";
                 if (stockGeneral !== "" && stockGeneral !== null && stockGeneral !== undefined && !isNaN(stockGeneral)) {
                     textoStockInicial = `Stock: ${stockGeneral}`;
                 }
-
+        
                 const inputId = `qty-${sku}-${index}`;
                 const colorContainerId = `colors-${sku}-${index}`;
                 const labelColorId = `selected-color-${sku}-${index}`;
@@ -351,24 +350,24 @@
                 let textoBoton = "Agregar";
                 let claseBoton = "flex-1 bg-emerald-700 text-white h-10 rounded-lg hover:bg-emerald-800 transition text-sm font-medium shadow-sm";
                 let deshabilitarBoton = "";
-    
+        
                 // Solo se marca como agotado si el stock es un número válido y es exactamente 0
                 const esStockCero = (stockGeneral !== "" && stockGeneral !== null && stockGeneral !== undefined && !isNaN(stockGeneral) && Number(stockGeneral) === 0);
-    
+        
                 if (esStockCero) {
                     textoBoton = "Agotado";
                     claseBoton = "flex-1 bg-gray-400 text-white h-10 rounded-lg cursor-not-allowed transition text-sm font-medium";
                     deshabilitarBoton = "disabled";
                 }
-
+        
                 let htmlEtiqueta = etiquetaTexto !== "" ? `
                     <div class="absolute top-2 left-2 z-30 pointer-events-none">
                         <span class="bg-red-500 text-white text-[10px] font-bold px-2 py-0.5 rounded-full shadow-md">${etiquetaTexto}</span>
                     </div>` : '';
-
+        
                 let htmlPrecios = '';
                 const precioParaCarrito = (precioOferta !== null && precioOferta < precioRegular) ? precioOferta : precioRegular;
-
+        
                 if (precioOferta !== null && precioOferta < precioRegular) {
                     htmlPrecios = `
                         <div class="flex items-center gap-2 mb-1">
@@ -403,7 +402,7 @@
                         <span class="text-xs text-emerald-700 font-semibold bg-emerald-50 px-2.5 py-1 rounded-full">${marca}</span>
                         <h3 class="font-medium text-gray-800 text-sm line-clamp-2 mt-2">${nombre}</h3>
                     </div>
-                
+            
                     <div class="my-3">
                         ${htmlPrecios}
                         <div class="flex justify-between items-center text-xs text-gray-500 mb-1.5">
@@ -412,11 +411,11 @@
                         </div>
                         <div class="flex flex-wrap gap-1.5 p-1" id="${colorContainerId}"></div>
                     </div>
-                
+            
                     <div class="mt-auto pt-3 border-t border-gray-100 flex items-center gap-2">
                         <div class="flex items-center border rounded-lg h-10 w-24">
                             <button type="button" id="btn-menos-${sku}-${index}" class="w-8 h-full flex items-center justify-center text-gray-600 hover:bg-gray-100 hover:text-emerald-700 rounded-l-lg">-</button>
-                            <input type="number" value="1" id="${inputId}" class="w-8 h-full text-center text-sm font-semibold focus:outline-none" readonly>
+                            <input type="number" value="${esStockCero ? 0 : 1}" id="${inputId}" class="w-8 h-full text-center text-sm font-semibold focus:outline-none" readonly>
                             <button type="button" id="btn-mas-${sku}-${index}" class="w-8 h-full flex items-center justify-center text-gray-600 hover:bg-gray-100 hover:text-emerald-700 rounded-r-lg">+</button>
                         </div>
                         
@@ -429,37 +428,40 @@
                 `;
                 
                 grid.appendChild(tarjeta);
-
-                // Configuración de interactividad por tarjeta (Colores y Stock)
+        
                 const containerColores = document.getElementById(colorContainerId);
                 const labelColorSeleccionado = document.getElementById(labelColorId);
                 const btnAgregar = document.getElementById(btnAgregarId);
                 const btnMenos = document.getElementById(`btn-menos-${sku}-${index}`);
                 const btnMas = document.getElementById(`btn-mas-${sku}-${index}`);
                 const listaColores = prod.colores || [];
-
+        
                 let stockActivoActual = stockGeneral;
-
-                // Asignar eventos iniciales de cantidad
-                btnMenos.onclick = () => ajustarCantidad(inputId, -1, stockActivoActual);
-                btnMas.onclick = () => ajustarCantidad(inputId, 1, stockActivoActual);
+        
+                if (esStockCero) {
+                    if (btnMenos) btnMenos.onclick = null;
+                    if (btnMas) btnMas.onclick = null;
+                } else {
+                    btnMenos.onclick = () => ajustarCantidad(inputId, -1, stockActivoActual);
+                    btnMas.onclick = () => ajustarCantidad(inputId, 1, stockActivoActual);
+                }
                 btnAgregar.onclick = () => agregarAlCarrito(nombre, precioParaCarrito, inputId, labelColorId, stockActivoActual);
                 
                 if (listaColores.length > 0) {
                     let primerColorValido = null;
-
+        
                     listaColores.forEach((itemColor, idx) => {
                         const nombreColor = itemColor.nombre;
                         const stockColor = itemColor.stock;
-
+        
                         if (idx === 0) primerColorValido = { nombre: nombreColor, stock: stockColor };
-
+        
                         const btnColor = document.createElement('button');
                         btnColor.type = "button";
                         btnColor.className = `w-5 h-5 rounded-full focus:outline-none ring-offset-2 ${idx === 0 ? 'ring-2 ring-emerald-600' : ''} transition transform hover:scale-110 shadow-sm`;
                         btnColor.style.cssText = obtenerEstiloColor(nombreColor);
                         btnColor.title = `${nombreColor} (Stock: ${stockColor})`;
-
+        
                         btnColor.onclick = () => {
                             containerColores.querySelectorAll('button').forEach(b => b.classList.remove('ring-2', 'ring-emerald-600'));
                             btnColor.classList.add('ring-2', 'ring-emerald-600');
@@ -470,35 +472,26 @@
                             if (itemColor.imagen && imgElement) {
                                 imgElement.src = itemColor.imagen;
                             }
-                    
+                
                             const avisoStockActivo = document.getElementById(stockAvisoId);
                             if (avisoStockActivo) {
                                 avisoStockActivo.innerText = (stockColor !== "" && stockColor !== null && stockColor !== undefined && !isNaN(stockColor)) ? `Stock: ${stockColor}` : "Stock: Disponible";
                             }
-
-                            // Actualizar límites y funciones con el stock específico del color seleccionado
-                            btnMenos.onclick = () => ajustarCantidad(inputId, -1, stockColor);
-                            btnMas.onclick = () => ajustarCantidad(inputId, 1, stockColor);
-                            btnAgregar.onclick = () => agregarAlCarrito(nombre, precioParaCarrito, inputId, labelColorId, stockColor);
-
+        
                             const inputElem = document.getElementById(inputId);
-                            if(stockColor !== null && stockColor !== undefined && stockColor !== "" && parseInt(inputElem.value) > stockColor) {
-                                inputElem.value = stockColor > 0 ? stockColor : 1;
+                            if (inputElem && stockColor !== null && stockColor !== undefined && stockColor !== "" && parseInt(inputElem.value) > Number(stockColor)) {
+                                inputElem.value = Number(stockColor) > 0 ? stockColor : 1;
                             }
-                            
-                            const inputElem = document.getElementById(inputId);
-
+        
                             if (stockColor !== null && stockColor !== undefined && stockColor !== "" && Number(stockColor) <= 0) {
                                 btnAgregar.disabled = true;
                                 btnAgregar.innerText = "Agotado";
                                 btnAgregar.className = "flex-1 bg-gray-400 text-white h-10 rounded-lg cursor-not-allowed transition text-sm font-medium";
                                 
-                                // Bloquear input en 0 y anular botones
                                 if (inputElem) inputElem.value = 0;
                                 btnMenos.onclick = null;
                                 btnMas.onclick = null;
                             } else {
-                                // Si el color SÍ tiene stock, habilitar botón y RESTAURAR el input a 1 si estaba en 0
                                 btnAgregar.disabled = false;
                                 btnAgregar.innerText = "Agregar";
                                 btnAgregar.className = "flex-1 bg-emerald-700 text-white h-10 rounded-lg hover:bg-emerald-800 transition text-sm font-medium shadow-sm";
@@ -506,32 +499,38 @@
                                 if (inputElem && (parseInt(inputElem.value) <= 0 || isNaN(parseInt(inputElem.value)))) {
                                     inputElem.value = 1;
                                 }
-    
-                                // Reactivar funciones normales para este color con stock
+        
                                 btnMenos.onclick = () => ajustarCantidad(inputId, -1, stockColor);
                                 btnMas.onclick = () => ajustarCantidad(inputId, 1, stockColor);
                                 btnAgregar.onclick = () => agregarAlCarrito(nombre, precioParaCarrito, inputId, labelColorId, stockColor);
                             }
-                            };
-
+                        };
+        
                         containerColores.appendChild(btnColor);
                     });
-
+        
                     if (primerColorValido) {
                         labelColorSeleccionado.innerText = primerColorValido.nombre;
                         stockActivoActual = primerColorValido.stock;
-                        btnMenos.onclick = () => ajustarCantidad(inputId, -1, primerColorValido.stock);
-                        btnMas.onclick = () => ajustarCantidad(inputId, 1, primerColorValido.stock);
-                        btnAgregar.onclick = () => agregarAlCarrito(nombre, precioParaCarrito, inputId, labelColorId, primerColorValido.stock);
-
+                        
                         const avisoStockInicial = document.getElementById(stockAvisoId);
+                        const inputElem = document.getElementById(inputId);
+        
+                        if (primerColorValido.stock !== null && primerColorValido.stock !== undefined && primerColorValido.stock !== "" && Number(primerColorValido.stock) <= 0) {
+                            btnAgregar.disabled = true;
+                            btnAgregar.innerText = "Agotado";
+                            btnAgregar.className = "flex-1 bg-gray-400 text-white h-10 rounded-lg cursor-not-allowed transition text-sm font-medium";
+                            if (inputElem) inputElem.value = 0;
+                            btnMenos.onclick = null;
+                            btnMas.onclick = null;
+                        } else {
+                            btnMenos.onclick = () => ajustarCantidad(inputId, -1, primerColorValido.stock);
+                            btnMas.onclick = () => ajustarCantidad(inputId, 1, primerColorValido.stock);
+                            btnAgregar.onclick = () => agregarAlCarrito(nombre, precioParaCarrito, inputId, labelColorId, primerColorValido.stock);
+                        }
+        
                         if (avisoStockInicial) {
                             avisoStockInicial.innerText = (primerColorValido.stock !== "" && primerColorValido.stock !== null && primerColorValido.stock !== undefined && !isNaN(primerColorValido.stock)) ? `Stock: ${primerColorValido.stock}` : "Stock: Disponible";
-                            if (Number(primerColorValido.stock) <= 0) {
-                                btnAgregar.disabled = true;
-                                btnAgregar.innerText = "Agotado";
-                                btnAgregar.className = "flex-1 bg-gray-400 text-white h-10 rounded-lg cursor-not-allowed transition text-sm font-medium";
-                            }
                         }
                     }
                 } else {
@@ -542,14 +541,12 @@
                     if (avisoStockUnico) {
                         avisoStockUnico.innerText = textoStockInicial;
                     }
-            
-                    // Bloquear si el stock general único es cero real
+        
                     if (esStockCero) {
                         btnAgregar.disabled = true;
                         btnAgregar.innerText = "Agotado";
                         btnAgregar.className = "flex-1 bg-gray-400 text-white h-10 rounded-lg cursor-not-allowed transition text-sm font-medium";
                         
-                        // Bloquear input y botones de cantidad
                         const inputElem = document.getElementById(inputId);
                         if (inputElem) inputElem.value = 0;
                         if (btnMenos) btnMenos.onclick = null;
