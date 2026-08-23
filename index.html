@@ -830,9 +830,7 @@
     
         // NUEVO: Función para hacer scroll automático hacia el catálogo/resultados
         function enfocarResultados() {
-            // Asegúrate de cambiar "contenedor-productos" por el ID real de la sección 
-            // o grid donde se dibujan las cards de tus productos en el HTML
-            const seccionResultados = document.getElementById("contenedor-productos"); 
+            const seccionResultados = document.getElementById("grid-productos"); // Cambiado aquí al ID real
             if (seccionResultados) {
                 seccionResultados.scrollIntoView({ behavior: "smooth", block: "start" });
             }
