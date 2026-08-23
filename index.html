@@ -34,7 +34,7 @@
             <!-- Buscador e Ícono de Carrito -->
             <div class="flex items-center space-x-4">
                 <div class="relative hidden lg:block">
-                    <input type="text" placeholder="Buscar productos..." class="bg-gray-100 text-sm rounded-full pl-4 pr-10 py-2 focus:outline-none focus:ring-2 focus:ring-emerald-500 w-48">
+                    <input id="input-buscador" type="text" placeholder="Buscar productos..." class="bg-gray-100 text-sm rounded-full pl-4 pr-10 py-2 focus:outline-none focus:ring-2 focus:ring-emerald-500 w-48">
                     <i class="fa-solid fa-magnifying-glass absolute right-3 top-3 text-gray-400 text-sm"></i>
                 </div>
 
@@ -730,6 +730,49 @@
             };
         
             return mapaColores[normalizado] ? `background-color: ${mapaColores[normalizado]}; border: 1px solid #d1d5db;` : "background-color: #9ca3af; border: 1px solid #d1d5db;";
+        }
+
+        // Función para filtrar productos según el texto ingresado en el buscador
+        function filtrarProductos(terminoBusqueda) {
+            const texto = terminoBusqueda.toLowerCase().trim();
+            
+            // Si el buscador está vacío, puedes mostrar todos los productos o la categoría actual
+            if (!texto) {
+                // Llama aquí a tu función que renderiza los productos por defecto
+                renderizarProductos(productosOriginales); 
+                return;
+            }
+        
+            const resultados = productosOriginales.filter(producto => {
+                // Unimos los campos permitidos en un solo texto de búsqueda en minúsculas
+                const nombre = (producto.nombre || "").toLowerCase();
+                const marca = (producto.marca || "").toLowerCase();
+                const descripcion = (producto.descripcion_corta || "").toLowerCase();
+                const etiqueta = (producto.etiqueta || "").toLowerCase();
+                
+                // Convertimos el array de palabras clave en un texto plano
+                const palabrasClave = Array.isArray(producto.palabras_clave) 
+                    ? producto.palabras_clave.join(" ").toLowerCase() 
+                    : "";
+        
+                // Verificamos si el término está presente en cualquiera de estos campos
+                return nombre.includes(texto) ||
+                       marca.includes(texto) ||
+                       descripcion.includes(texto) ||
+                       etiqueta.includes(texto) ||
+                       palabrasClave.includes(texto);
+            });
+        
+            // Renderizamos los productos que coincidieron con la búsqueda
+            renderizarProductos(resultados);
+        }
+        
+        // Event listener para conectar el input de búsqueda de tu HTML (asegúrate de darle un ID, ej: id="input-buscador")
+        const inputBuscador = document.getElementById("input-buscador");
+        if (inputBuscador) {
+            inputBuscador.addEventListener("input", (e) => {
+                filtrarProductos(e.target.value);
+            });
         }
             
         cargarCatalogo();
