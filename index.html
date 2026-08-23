@@ -777,19 +777,29 @@
         // Función central de búsqueda para no repetir código
         document.addEventListener("DOMContentLoaded", () => {
             const inputBuscador = document.getElementById("input-buscador");
-            
+            let yaSeDesplazo = false; // Control para que el scroll ocurra una sola vez al empezar a escribir
+
             if (inputBuscador) {
-                // 1. Filtrado en tiempo real mientras se escribe (sin saltos molestos de scroll)
                 inputBuscador.addEventListener("input", (e) => {
-                    ejecutarBusqueda(e.target.value);
+                    const texto = e.target.value;
+                    ejecutarBusqueda(texto);
+                    
+                    // Si escribe algo y todavía no nos hemos desplazado, hacemos scroll una sola vez
+                    if (texto.trim().length > 0 && !yaSeDesplazo) {
+                        enfocarResultados();
+                        yaSeDesplazo = true;
+                    }
+                    
+                    // Si borra todo el texto por completo, reiniciamos el control
+                    if (texto.trim().length === 0) {
+                        yaSeDesplazo = false;
+                    }
                 });
             
-                // 2. Al presionar "Enter" se oculta el teclado y se hace un scroll sutil hacia los resultados
                 inputBuscador.addEventListener("keydown", (e) => {
                     if (e.key === "Enter") {
                         ejecutarBusqueda(e.target.value);
                         inputBuscador.blur(); // Oculta el teclado en móviles
-                        enfocarResultados();  // Desplazamiento suave y controlado
                     }
                 });
             }
