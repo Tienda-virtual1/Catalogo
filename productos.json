@@ -1822,5 +1822,1077 @@
         "palabras_clave": [],
         "descripcion_corta": "",
         "etiqueta": null
+    },
+    {
+        "sku": "CART-01",
+        "nombre": "Cartulina escolar blanca pliego",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Cartulinas"
+        ],
+        "imagen_principal": "imagenes/Cartulina/CARTULINA-PLIEGO-blanco.webp",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CART-02",
+        "nombre": "Cartulina escolar negra pliego",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Cartulinas"
+        ],
+        "imagen_principal": "imagenes/Cartulina/Cartulina escolar negra.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.8,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CART-03",
+        "nombre": "Cartulina escolar amarillo pastel pliego",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Cartulinas"
+        ],
+        "imagen_principal": "imagenes/Cartulina/CARTULINA-PLIEGO-amarillo pastel.webp",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.8,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CART-04",
+        "nombre": "Cartulina escolar rosado pastel pliego",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Cartulinas"
+        ],
+        "imagen_principal": "imagenes/Cartulina/CARTULINA-PLIEGO-rosado pastel.webp",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.8,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CART-05",
+        "nombre": "Cartulina escolar celeste pastel pliego",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Cartulinas"
+        ],
+        "imagen_principal": "imagenes/Cartulina/CARTULINA-PLIEGO-celeste pastel.webp",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.8,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CART-06",
+        "nombre": "Cartulina escolar verde pastel pliego",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Cartulinas"
+        ],
+        "imagen_principal": "imagenes/Cartulina/CARTULINA-PLIEGO-verde pastel.webp",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.8,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CART-11",
+        "nombre": "Cartulina tipo canson amarillo",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Cartulinas"
+        ],
+        "imagen_principal": "imagenes/Cartulina/cartulina amarillo.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CART-12",
+        "nombre": "Cartulina tipo canson naranja",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Cartulinas"
+        ],
+        "imagen_principal": "imagenes/Cartulina/cartulina naranja.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CART-13",
+        "nombre": "Cartulina tipo canson rojo",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Cartulinas"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CART-14",
+        "nombre": "Cartulina tipo canson morado",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Cartulinas"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CART-15",
+        "nombre": "Cartulina tipo canson fucsia",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Cartulinas"
+        ],
+        "imagen_principal": "imagenes/Cartulina/cartulina fucsia.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CART-16",
+        "nombre": "Cartulina tipo canson lila",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Cartulinas"
+        ],
+        "imagen_principal": "imagenes/Cartulina/cartulina lila.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CART-17",
+        "nombre": "Cartulina tipo canson turquesa",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Cartulinas"
+        ],
+        "imagen_principal": "imagenes/Cartulina/cartulina turquesa.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CART-18",
+        "nombre": "Cartulina tipo canson azul",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Cartulinas"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CART-19",
+        "nombre": "Cartulina tipo canson azulino",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Cartulinas"
+        ],
+        "imagen_principal": "imagenes/Cartulina/cartulina azulino.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CART-20",
+        "nombre": "Cartulina tipo canson verde oscuro",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Cartulinas"
+        ],
+        "imagen_principal": "imagenes/Cartulina/cartulina verde oscuro.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CART-21",
+        "nombre": "Cartulina tipo canson verde claro",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Cartulinas"
+        ],
+        "imagen_principal": "imagenes/Cartulina/cartulina verde claro.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CART-22",
+        "nombre": "Cartulina tipo canson verde limón",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Cartulinas"
+        ],
+        "imagen_principal": "imagenes/Cartulina/cartulina verde limón.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CART-23",
+        "nombre": "Cartulina tipo canson marrón",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Cartulinas"
+        ],
+        "imagen_principal": "imagenes/Cartulina/cartulina marrón.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CART-24",
+        "nombre": "Cartulina tipo canson rosado",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Cartulinas"
+        ],
+        "imagen_principal": "imagenes/Cartulina/cartulina rosado.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CART-25",
+        "nombre": "Cartulina tipo canson rosado chicle",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Cartulinas"
+        ],
+        "imagen_principal": "imagenes/Cartulina/cartulina rosado chicle.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CART-26",
+        "nombre": "Cartulina tipo canson celeste",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Cartulinas"
+        ],
+        "imagen_principal": "imagenes/Cartulina/cartulina celeste.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CART-27",
+        "nombre": "Cartulina tipo canson piel",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Cartulinas"
+        ],
+        "imagen_principal": "imagenes/Cartulina/cartulina piel.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CART-28",
+        "nombre": "Cartulina tipo canson negro",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Cartulinas"
+        ],
+        "imagen_principal": "imagenes/Cartulina/cartul-colorline-38-negro-canson-150g-15907030-default-1.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CART-31",
+        "nombre": "Cartulina plastificada blanco",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Cartulinas"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CART-32",
+        "nombre": "Cartulina plastificada amarilla",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Cartulinas"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CART-33",
+        "nombre": "Cartulina plastificada celeste",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Cartulinas"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CART-34",
+        "nombre": "Cartulina plastificada turquesa",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Cartulinas"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CART-35",
+        "nombre": "Cartulina plastificada verde claro",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Cartulinas"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CART-36",
+        "nombre": "Cartulina plastificada azulino",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Cartulinas"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CART-37",
+        "nombre": "Cartulina plastificada morado",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Cartulinas"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CART-38",
+        "nombre": "Cartulina plastificada fucsia",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Cartulinas"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CART-39",
+        "nombre": "Cartulina plastificada rosado",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Cartulinas"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CART-40",
+        "nombre": "Cartulina plastificada naranja",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Cartulinas"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CART-41",
+        "nombre": "Cartulina plastificada rojo",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Cartulinas"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CART-42",
+        "nombre": "Cartulina plastificada marrón",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Cartulinas"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CART-43",
+        "nombre": "Cartulina plastificada negro",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Cartulinas"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CART-44",
+        "nombre": "Cartulina plastificada melón",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Cartulinas"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CART-45",
+        "nombre": "Cartulina plastificada lila",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Cartulinas"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CART-46",
+        "nombre": "Cartulina plastificada verde oscuro",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Cartulinas"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CART-51",
+        "nombre": "Cartulina fosforescente amarillo",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Cartulinas"
+        ],
+        "imagen_principal": "imagenes/Cartulina/Cartulina fosforescente amarillo.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CART-52",
+        "nombre": "Cartulina fosforescente fucsia",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Cartulinas"
+        ],
+        "imagen_principal": "imagenes/Cartulina/cartulina fosforescente fucsia.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CART-53",
+        "nombre": "Cartulina fosforescente naranja",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Cartulinas"
+        ],
+        "imagen_principal": "imagenes/Cartulina/Cartulina fosforescente naranja.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CART-54",
+        "nombre": "Cartulina fosforescente verde",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Cartulinas"
+        ],
+        "imagen_principal": "imagenes/Cartulina/cartulina fosforescente verde.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CART-61",
+        "nombre": "Cartulina corrugada amarilla",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Cartulinas"
+        ],
+        "imagen_principal": "imagenes/Cartulina/cart corrugada amarilla.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 2.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CART-62",
+        "nombre": "Cartulina corrugada azul",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Cartulinas"
+        ],
+        "imagen_principal": "imagenes/Cartulina/Cart corrugada azul.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 2.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CART-63",
+        "nombre": "Cartulina corrugada rojo",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Cartulinas"
+        ],
+        "imagen_principal": "imagenes/Cartulina/cart corrugada rojo.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 2.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CART-64",
+        "nombre": "Cartulina corrugada verde",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Cartulinas"
+        ],
+        "imagen_principal": "imagenes/Cartulina/cart escarchada verde.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 2.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CART-65",
+        "nombre": "Cartulina corrugada rosado",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Cartulinas"
+        ],
+        "imagen_principal": "imagenes/Cartulina/cart corrugada rosado.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 2.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CART-71",
+        "nombre": "Cartulina escarchada dorado",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Cartulinas"
+        ],
+        "imagen_principal": "imagenes/Cartulina/cart escarchada dorada.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 5.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CART-72",
+        "nombre": "Cartulina escarchada plateado",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Cartulinas"
+        ],
+        "imagen_principal": "imagenes/Cartulina/cart escarchada plateado.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 5.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CART-73",
+        "nombre": "Cartulina escarchada fucsia",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Cartulinas"
+        ],
+        "imagen_principal": "imagenes/Cartulina/cart escarchada fucsia.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 5.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CART-74",
+        "nombre": "Cartulina escarchada azul",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Cartulinas"
+        ],
+        "imagen_principal": "imagenes/Cartulina/cart escarchada azul.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 5.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CART-75",
+        "nombre": "Cartulina escarchada rojo",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Cartulinas"
+        ],
+        "imagen_principal": "imagenes/Cartulina/cart escarchada roja.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 5.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CART-76",
+        "nombre": "Cartulina escarchada verde",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Cartulinas"
+        ],
+        "imagen_principal": "imagenes/Cartulina/cart corrugada verde.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 5.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CART-81",
+        "nombre": "Cartulina corrugada escarchada dorado",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Cartulinas"
+        ],
+        "imagen_principal": "imagenes/Cartulina/cart corrugada escarchada dorada.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 6.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CART-82",
+        "nombre": "Cartulina corrugada escarchada plateado",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Cartulinas"
+        ],
+        "imagen_principal": "imagenes/Cartulina/cart corrugada escarchada plateado.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 6.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CART-83",
+        "nombre": "Cartulina corrugada escarchada fucsia",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Cartulinas"
+        ],
+        "imagen_principal": "imagenes/Cartulina/cart corrugada escarchada fucsia.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 6.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CART-84",
+        "nombre": "Cartulina corrugada escarchada azul",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Cartulinas"
+        ],
+        "imagen_principal": "imagenes/Cartulina/cart corrugada escarchada azul.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 6.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CART-85",
+        "nombre": "Cartulina corrugada escarchada rojo",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Cartulinas"
+        ],
+        "imagen_principal": "imagenes/Cartulina/cart corrugada escarchada roja.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 6.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CART-86",
+        "nombre": "Cartulina corrugada escarchada verde",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Cartulinas"
+        ],
+        "imagen_principal": "imagenes/Cartulina/cart corrugada escarchada verde.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 6.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CART-91",
+        "nombre": "Cartulina corrugada metálica plateado",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Cartulinas"
+        ],
+        "imagen_principal": "imagenes/Cartulina/cart corrugada metalica plateada.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 3.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CART-92",
+        "nombre": "Cartulina corrugada metálica dorado",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Cartulinas"
+        ],
+        "imagen_principal": "imagenes/Cartulina/cart corrugada metalica dorado.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 3.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CART-93",
+        "nombre": "Cartulina corrugada metálica fucsia",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Cartulinas"
+        ],
+        "imagen_principal": "imagenes/Cartulina/cart corrugada metalica fucsia.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 3.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CART-94",
+        "nombre": "Cartulina corrugada metálica verde",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Cartulinas"
+        ],
+        "imagen_principal": "imagenes/Cartulina/cart corrugada metalica verde.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 3.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CART-95",
+        "nombre": "Cartulina corrugada metálica azul",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Cartulinas"
+        ],
+        "imagen_principal": "imagenes/Cartulina/cart corrugada metalica azul.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 3.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CART-96",
+        "nombre": "Cartulina corrugada metálica rojo",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Cartulinas"
+        ],
+        "imagen_principal": "imagenes/Cartulina/cart corrugada metalica rojo.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 3.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
     }
 ]
