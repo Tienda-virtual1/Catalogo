@@ -525,16 +525,26 @@
         }
     
         // GESTIÓN DEL CARRITO
-        function agregarAlCarrito(nombre, precio, inputId, labelColorId) {
+        function agregarAlCarrito(nombre, precio, inputId, labelColorId, stockMaximo) {
             const cantidad = parseInt(document.getElementById(inputId).value);
             const colorSeleccionado = document.getElementById(labelColorId).innerText;
+            const stockMax = (stockMaximo !== undefined && stockMaximo !== null && stockMaximo !== "") ? parseInt(stockMaximo) : null;
 
             const index = carrito.findIndex(item => item.nombre === nombre && item.color === colorSeleccionado);
 
             if (index !== -1) {
-                carrito[index].cantidad += cantidad;
+                let nuevaCantidad = carrito[index].cantidad + cantidad;
+                if (stockMax !== null && nuevaCantidad > stockMax) {
+                    nuevaCantidad = stockMax;
+                    alert(`No puedes agregar más. El stock máximo disponible es ${stockMax}.`);
+                }
+                carrito[index].cantidad = nuevaCantidad;
             } else {
-                carrito.push({ nombre, precio, cantidad, color: colorSeleccionado });
+                let cantidadFinal = cantidad;
+                if (stockMax !== null && cantidadFinal > stockMax) {
+                    cantidadFinal = stockMax;
+                }
+                carrito.push({ nombre, precio, cantidad: cantidadFinal, color: colorSeleccionado, stockMax: stockMax });
             }
 
             actualizarContadorCarrito();
@@ -615,9 +625,19 @@
         }
 
         function cambiarCantidadItem(index, cambio) {
-            carrito[index].cantidad += cambio;
-            if (carrito[index].cantidad <= 0) {
+            const item = carrito[index];
+            let nuevaCantidad = item.cantidad + cambio;
+
+            if (nuevaCantidad <= 0) {
                 carrito.splice(index, 1);
+            } else {
+                // Validar contra el stock máximo si existe
+                if (item.stockMax !== null && item.stockMax !== undefined) {
+                    if (nuevaCantidad > item.stockMax) {
+                        nuevaCantidad = item.stockMax; // Lo frena en el tope del stock
+                    }
+                }
+                item.cantidad = nuevaCantidad;
             }
             actualizarContadorCarrito();
         }
@@ -671,10 +691,20 @@
             }
         });
 
-        function ajustarCantidad(inputId, cambio) {
+        function ajustarCantidad(inputId, cambio, stockMaximo) {
             const input = document.getElementById(inputId);
             let valor = parseInt(input.value) + cambio;
+            
             if (valor < 1) valor = 1;
+            
+            // Si hay un stock máximo definido y es un número válido, limitamos
+            if (stockMaximo !== undefined && stockMaximo !== null && stockMaximo !== "") {
+                const max = parseInt(stockMaximo);
+                if (!isNaN(max) && valor > max) {
+                    valor = max;
+                }
+            }
+            
             input.value = valor;
         }
 
