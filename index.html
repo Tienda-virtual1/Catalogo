@@ -735,24 +735,37 @@
         }
 
         document.addEventListener("DOMContentLoaded", () => {
-    const inputBuscador = document.getElementById("input-buscador");
+        const inputBuscador = document.getElementById("input-buscador");
+        
+        if (inputBuscador) {
+            // 1. Filtrado en tiempo real (mientras escribes)
+            inputBuscador.addEventListener("input", (e) => {
+                ejecutarBusqueda(e.target.value);
+            });
     
-    if (inputBuscador) {
-        inputBuscador.addEventListener("input", (e) => {
-            const texto = e.target.value.toLowerCase().trim();
+            // 2. NUEVO: Al presionar "Enter"
+            inputBuscador.addEventListener("keydown", (e) => {
+                if (e.key === "Enter") {
+                    ejecutarBusqueda(e.target.value);
+                    inputBuscador.blur(); // Oculta el teclado en móviles
+                    enfocarResultados();  // Baja la vista a los productos
+                }
+            });
+        }
+    
+        // Función central de búsqueda para no repetir código
+        function ejecutarBusqueda(termino) {
+            const texto = (termino || "").toLowerCase().trim();
             
-            // Verificamos que la variable exista y tenga datos
             if (typeof todosLosProductos === "undefined" || !Array.isArray(todosLosProductos)) return;
-
-            // Si borran todo el texto, mostramos el catálogo completo de nuevo
+    
             if (!texto) {
                 if (typeof renderizarProductos === "function") {
                     renderizarProductos(todosLosProductos);
                 }
                 return;
             }
-
-            // Filtramos usando tu variable todosLosProductos
+    
             const resultados = todosLosProductos.filter(producto => {
                 const nombre = (producto.nombre || "").toLowerCase();
                 const marca = (producto.marca || "").toLowerCase();
@@ -769,14 +782,22 @@
                        etiqueta.includes(texto) ||
                        palabrasClave.includes(texto);
             });
-
-            // Renderizamos los resultados en pantalla
+    
             if (typeof renderizarProductos === "function") {
                 renderizarProductos(resultados);
             }
-        });
-    }
-});
+        }
+    
+        // NUEVO: Función para hacer scroll automático hacia el catálogo/resultados
+        function enfocarResultados() {
+            // Asegúrate de cambiar "contenedor-productos" por el ID real de la sección 
+            // o grid donde se dibujan las cards de tus productos en el HTML
+            const seccionResultados = document.getElementById("contenedor-productos"); 
+            if (seccionResultados) {
+                seccionResultados.scrollIntoView({ behavior: "smooth", block: "start" });
+            }
+        }
+    });
                     
         cargarCatalogo();
     </script>
