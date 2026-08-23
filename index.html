@@ -741,26 +741,36 @@
         inputBuscador.addEventListener("input", (e) => {
             const texto = e.target.value.toLowerCase().trim();
             
-            // Reemplaza "MI_VARIABLE_DE_PRODUCTOS" con el nombre real de tu array (ej. productos, catalogo, etc.)
-            const lista = typeof MI_VARIABLE_DE_PRODUCTOS !== "undefined" ? MI_VARIABLE_DE_PRODUCTOS : [];
-            
-            if (lista.length === 0) return;
+            // Verificamos que la variable exista y tenga datos
+            if (typeof todosLosProductos === "undefined" || !Array.isArray(todosLosProductos)) return;
 
+            // Si borran todo el texto, mostramos el catálogo completo de nuevo
             if (!texto) {
                 if (typeof renderizarProductos === "function") {
-                    renderizarProductos(lista);
+                    renderizarProductos(todosLosProductos);
                 }
                 return;
             }
 
-            const resultados = lista.filter(producto => {
+            // Filtramos usando tu variable todosLosProductos
+            const resultados = todosLosProductos.filter(producto => {
                 const nombre = (producto.nombre || "").toLowerCase();
                 const marca = (producto.marca || "").toLowerCase();
                 const descripcion = (producto.descripcion_corta || "").toLowerCase();
+                const etiqueta = (producto.etiqueta || "").toLowerCase();
                 
-                return nombre.includes(texto) || marca.includes(texto) || descripcion.includes(texto);
+                const palabrasClave = Array.isArray(producto.palabras_clave) 
+                    ? producto.palabras_clave.join(" ").toLowerCase() 
+                    : "";
+                
+                return nombre.includes(texto) ||
+                       marca.includes(texto) ||
+                       descripcion.includes(texto) ||
+                       etiqueta.includes(texto) ||
+                       palabrasClave.includes(texto);
             });
 
+            // Renderizamos los resultados en pantalla
             if (typeof renderizarProductos === "function") {
                 renderizarProductos(resultados);
             }
