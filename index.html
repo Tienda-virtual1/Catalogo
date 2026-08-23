@@ -772,10 +772,27 @@
         }
         
         // Conectar el input de escritorio
+        // Conectar el input de escritorio
         const inputBuscador = document.getElementById("input-buscador");
         if (inputBuscador) {
             inputBuscador.addEventListener("input", (e) => {
                 filtrarProductos(e.target.value);
+            });
+
+            // NUEVO: Para que detecte cuando presionas la tecla "Enter"
+            inputBuscador.addEventListener("keydown", (e) => {
+                if (e.key === "Enter") {
+                    filtrarProductos(e.target.value);
+                }
+            });
+        }
+
+        // NUEVO: Para que detecte cuando haces clic en el botón de la lupa
+        // (Asegúrate de cambiar "btn-lupa" por el ID real que tenga tu botón de la lupa en el HTML)
+        const botonLupa = document.getElementById("btn-lupa");
+        if (botonLupa && inputBuscador) {
+            botonLupa.addEventListener("click", () => {
+                filtrarProductos(inputBuscador.value);
             });
         }
                     
