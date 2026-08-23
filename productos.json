@@ -3613,5 +3613,293 @@
         "palabras_clave": [],
         "descripcion_corta": "",
         "etiqueta": null
+    },
+    {
+        "sku": "CUEN-01",
+        "nombre": "Cuento El soldadito de plomo",
+        "marca": "Coquito",
+        "subcategorias": [
+            "Cuentos"
+        ],
+        "imagen_principal": "imagenes/Cuentos/El soldadito de plomo.jpg",
+        "stock_general": "1",
+        "colores": [],
+        "precio_regular": 5.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CUEN-02",
+        "nombre": "Cuento El gato con botas",
+        "marca": "Coquito",
+        "subcategorias": [
+            "Cuentos"
+        ],
+        "imagen_principal": "imagenes/Cuentos/El gato con botas.jpg",
+        "stock_general": "1",
+        "colores": [],
+        "precio_regular": 5.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CUEN-03",
+        "nombre": "Cuento Los 3 cerditos",
+        "marca": "Coquito",
+        "subcategorias": [
+            "Cuentos"
+        ],
+        "imagen_principal": "imagenes/Cuentos/Los 3 cerditos.jpg",
+        "stock_general": "1",
+        "colores": [],
+        "precio_regular": 5.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CUEN-04",
+        "nombre": "Cuento Pinocho",
+        "marca": "Coquito",
+        "subcategorias": [
+            "Cuentos"
+        ],
+        "imagen_principal": "imagenes/Cuentos/Pinocho.jpg",
+        "stock_general": "1",
+        "colores": [],
+        "precio_regular": 5.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CUEN-05",
+        "nombre": "Cuento La casita de chocolate",
+        "marca": "Coquito",
+        "subcategorias": [
+            "Cuentos"
+        ],
+        "imagen_principal": "imagenes/Cuentos/La casita de chocolate.jpg",
+        "stock_general": "1",
+        "colores": [],
+        "precio_regular": 5.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CUEN-06",
+        "nombre": "Cuento Pulgarcito",
+        "marca": "Coquito",
+        "subcategorias": [
+            "Cuentos"
+        ],
+        "imagen_principal": "imagenes/Cuentos/Pulgarcito.jpg",
+        "stock_general": "1",
+        "colores": [],
+        "precio_regular": 5.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CUEN-07",
+        "nombre": "Cuento El lobo y los siete cabritos",
+        "marca": "Coquito",
+        "subcategorias": [
+            "Cuentos"
+        ],
+        "imagen_principal": "imagenes/Cuentos/El lobo y los siete cabritos.jpg",
+        "stock_general": "1",
+        "colores": [],
+        "precio_regular": 5.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CUEN-08",
+        "nombre": "Cuento El mago de Oz",
+        "marca": "Coquito",
+        "subcategorias": [
+            "Cuentos"
+        ],
+        "imagen_principal": "imagenes/Cuentos/El mago de Oz.jpg",
+        "stock_general": "0",
+        "colores": [],
+        "precio_regular": 5.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CUEN-09",
+        "nombre": "Cuento Los músicos ambulantes",
+        "marca": "Coquito",
+        "subcategorias": [
+            "Cuentos"
+        ],
+        "imagen_principal": "imagenes/Cuentos/Los musicos ambulantes.jpg",
+        "stock_general": "1",
+        "colores": [],
+        "precio_regular": 5.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CUEN-10",
+        "nombre": "Cuento Rapunzel",
+        "marca": "Coquito",
+        "subcategorias": [
+            "Cuentos"
+        ],
+        "imagen_principal": "imagenes/Cuentos/rapunzel.jpg",
+        "stock_general": "0",
+        "colores": [],
+        "precio_regular": 5.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CUEN-11",
+        "nombre": "Cuento Caperucita roja",
+        "marca": "Coquito",
+        "subcategorias": [
+            "Cuentos"
+        ],
+        "imagen_principal": "imagenes/Cuentos/Caperucita roja.jpg",
+        "stock_general": "1",
+        "colores": [],
+        "precio_regular": 5.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CUEN-12",
+        "nombre": "Cuento El pastor mentiroso",
+        "marca": "Coquito",
+        "subcategorias": [
+            "Cuentos"
+        ],
+        "imagen_principal": "imagenes/Cuentos/El pastor mentiroso.jpg",
+        "stock_general": "1",
+        "colores": [],
+        "precio_regular": 5.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CUEN-13",
+        "nombre": "Cuento El patito feo",
+        "marca": "Coquito",
+        "subcategorias": [
+            "Cuentos"
+        ],
+        "imagen_principal": "imagenes/Cuentos/El patito feo.jpg",
+        "stock_general": "1",
+        "colores": [],
+        "precio_regular": 5.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CUEN-14",
+        "nombre": "Cuento Julián y las habichuelas mágicas",
+        "marca": "Coquito",
+        "subcategorias": [
+            "Cuentos"
+        ],
+        "imagen_principal": "imagenes/Cuentos/Julian y las habichuelas magicas.jpg",
+        "stock_general": "1",
+        "colores": [],
+        "precio_regular": 5.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CUEN-15",
+        "nombre": "Cuento El flautista encantador",
+        "marca": "Coquito",
+        "subcategorias": [
+            "Cuentos"
+        ],
+        "imagen_principal": "imagenes/Cuentos/El flautista encantador.jpg",
+        "stock_general": "1",
+        "colores": [],
+        "precio_regular": 5.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CUEN-16",
+        "nombre": "Cuento Anita y los tres ositos",
+        "marca": "Coquito",
+        "subcategorias": [
+            "Cuentos"
+        ],
+        "imagen_principal": "imagenes/Cuentos/Anita y los 3 ositos.jpg",
+        "stock_general": "1",
+        "colores": [],
+        "precio_regular": 5.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CUEN-17",
+        "nombre": "Cuento Aladino y la lámpara maravillosa",
+        "marca": "Coquito",
+        "subcategorias": [
+            "Cuentos"
+        ],
+        "imagen_principal": "imagenes/Cuentos/Aladino.jpg",
+        "stock_general": "1",
+        "colores": [],
+        "precio_regular": 5.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CUEN-18",
+        "nombre": "Cuento La vendedora de fósforos",
+        "marca": "Coquito",
+        "subcategorias": [
+            "Cuentos"
+        ],
+        "imagen_principal": "imagenes/Cuentos/La vendedora de fosforos.jpg",
+        "stock_general": "1",
+        "colores": [],
+        "precio_regular": 5.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
     }
 ]
