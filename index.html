@@ -327,7 +327,9 @@
                 const precioRegular = Number(prod.precio_regular || 0);
                 const precioOferta = (prod.precio_oferta !== null && prod.precio_oferta !== "" && prod.precio_oferta !== undefined) ? Number(prod.precio_oferta) : null;
                 const etiquetaTexto = prod.etiqueta ? prod.etiqueta.trim() : "";
-                const imagen = (prod.imagen_principal && prod.imagen_principal.trim() !== "") ? prod.imagen_principal : 'https://via.placeholder.com/150?text=Sin+Imagen';
+                const imagen = (prod.imagen_principal && prod.imagen_principal.trim() !== "" && prod.imagen_principal !== "nan") 
+                    ? prod.imagen_principal 
+                    : 'https://via.placeholder.com/150?text=Sin+Imagen';
                 const descripcion = prod.descripcion_corta || prod.descripcion || ""; 
                 const stockGeneral = prod.stock_general;
                 const estaDisponibleGeneral = (stockGeneral === "" || stockGeneral === null || stockGeneral === undefined || Number(stockGeneral) > 0);
