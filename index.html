@@ -734,28 +734,29 @@
 
         // Función para filtrar productos según el texto ingresado en el buscador
         function filtrarProductos(terminoBusqueda) {
-            const texto = terminoBusqueda.toLowerCase().trim();
+            const texto = (terminoBusqueda || "").toLowerCase().trim();
             
-            // Si el buscador está vacío, puedes mostrar todos los productos o la categoría actual
+            // Validamos que exista la variable global de productos
+            if (typeof productosOriginales === "undefined") return;
+        
+            // Si el buscador está vacío, mostramos el catálogo completo
             if (!texto) {
-                // Llama aquí a tu función que renderiza los productos por defecto
-                renderizarProductos(productosOriginales); 
+                if (typeof renderizarProductos === "function") {
+                    renderizarProductos(productosOriginales); 
+                }
                 return;
             }
         
             const resultados = productosOriginales.filter(producto => {
-                // Unimos los campos permitidos en un solo texto de búsqueda en minúsculas
                 const nombre = (producto.nombre || "").toLowerCase();
                 const marca = (producto.marca || "").toLowerCase();
                 const descripcion = (producto.descripcion_corta || "").toLowerCase();
                 const etiqueta = (producto.etiqueta || "").toLowerCase();
                 
-                // Convertimos el array de palabras clave en un texto plano
                 const palabrasClave = Array.isArray(producto.palabras_clave) 
                     ? producto.palabras_clave.join(" ").toLowerCase() 
                     : "";
         
-                // Verificamos si el término está presente en cualquiera de estos campos
                 return nombre.includes(texto) ||
                        marca.includes(texto) ||
                        descripcion.includes(texto) ||
@@ -763,18 +764,19 @@
                        palabrasClave.includes(texto);
             });
         
-            // Renderizamos los productos que coincidieron con la búsqueda
-            renderizarProductos(resultados);
+            if (typeof renderizarProductos === "function") {
+                renderizarProductos(resultados);
+            }
         }
         
-        // Event listener para conectar el input de búsqueda de tu HTML (asegúrate de darle un ID, ej: id="input-buscador")
+        // Conectar el input de escritorio
         const inputBuscador = document.getElementById("input-buscador");
         if (inputBuscador) {
             inputBuscador.addEventListener("input", (e) => {
                 filtrarProductos(e.target.value);
             });
         }
-            
+                    
         cargarCatalogo();
     </script>
 </body>
