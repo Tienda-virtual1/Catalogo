@@ -833,7 +833,16 @@
             function enfocarResultados() {
                 const seccionResultados = document.getElementById("grid-productos"); 
                 if (seccionResultados) {
-                    seccionResultados.scrollIntoView({ behavior: "smooth", block: "nearest" });
+                    // Calculamos la posición exacta del elemento en la página
+                    const posicionElemento = seccionResultados.getBoundingClientRect().top + window.pageYOffset;
+                    
+                    // Restamos un offset (por ejemplo, 80 píxeles) para que quede un espacio cómodo arriba y no se pase
+                    const offset = 80; 
+                    
+                    window.scrollTo({
+                        top: posicionElemento - offset,
+                        behavior: "smooth"
+                    });
                 }
             }
         });                    
