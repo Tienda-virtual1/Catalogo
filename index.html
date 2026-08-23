@@ -15,12 +15,23 @@
     <header class="bg-white shadow-sm sticky top-0 z-50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
             
-            <!-- Logo / Título -->
-            <div class="flex items-center space-x-2">
+            <!-- ZONA IZQUIERDA: Logo (Se oculta en móvil cuando se abre el buscador) -->
+            <div id="header-logo" class="flex items-center space-x-2">
                 <span class="text-2xl font-bold text-emerald-700 tracking-wide">Crea Tu Lista</span>
             </div>
 
-            <!-- Menú de Navegación (Escritorio) -->
+            <!-- ZONA IZQUIERDA ALTERNATIVA: Buscador Expandido en Móvil (Oculto por defecto) -->
+            <div id="header-buscador-expandido" class="hidden flex-1 mr-4">
+                <div class="relative w-full">
+                    <input id="input-buscador-movil" type="text" placeholder="Buscar productos..." class="bg-gray-100 text-sm rounded-full pl-4 pr-10 py-2 w-full focus:outline-none focus:ring-2 focus:ring-emerald-500">
+                    <!-- Botón para cerrar/cancelar la búsqueda y volver al logo -->
+                    <button id="btn-cerrar-buscador-movil" class="absolute right-3 top-2.5 text-gray-400 hover:text-gray-600 focus:outline-none">
+                        <i class="fa-solid fa-xmark text-lg"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Menú de Navegación (Escritorio - sin cambios) -->
             <nav id="menu-escritorio" class="hidden md:flex items-center space-x-6 text-sm font-medium text-gray-600">
                 <a href="index.html" class="text-emerald-700 font-semibold nav-item" data-categoria="Inicio">Inicio</a>
                 <a href="#" class="hover:text-emerald-600 transition nav-item" data-categoria="Útiles">Útiles</a>
@@ -31,15 +42,15 @@
                 <a href="#" class="hover:text-emerald-600 transition nav-item" data-categoria="Aseo">Aseo</a>
             </nav>
 
-            <!-- Buscador de Escritorio e Ícono de Carrito -->
+            <!-- ZONA DERECHA: Íconos -->
             <div class="flex items-center space-x-3">
-                <!-- Buscador de Escritorio (Oculto en pantallas chicas, visible desde lg en adelante) -->
+                <!-- Buscador de Escritorio clásico (Oculto en móvil, visible en lg) -->
                 <div class="relative hidden lg:block">
                     <input id="input-buscador" type="text" placeholder="Buscar productos..." class="bg-gray-100 text-sm rounded-full pl-4 pr-10 py-2 focus:outline-none focus:ring-2 focus:ring-emerald-500 w-48">
                     <i class="fa-solid fa-magnifying-glass absolute right-3 top-3 text-gray-400 text-sm"></i>
                 </div>
 
-                <!-- NUEVO: Botón Lupa para Móviles (Visible solo en pantallas pequeñas, oculto en lg) -->
+                <!-- Botón Lupa para Móviles (Oculta el logo y despliega la barra) -->
                 <button id="btn-toggle-buscador-movil" class="lg:hidden text-gray-700 p-2 rounded-full hover:bg-gray-100 transition focus:outline-none">
                     <i class="fa-solid fa-magnifying-glass text-lg"></i>
                 </button>
@@ -57,16 +68,7 @@
             </div>
         </div>
 
-        <!-- NUEVO: Barra de Búsqueda Desplegable para Móviles (Oculta por defecto) -->
-        <div id="contenedor-buscador-movil" class="hidden lg:hidden bg-white border-t px-4 py-3">
-            <div class="relative max-w-7xl mx-auto">
-                <input id="input-buscador-movil" type="text" placeholder="Buscar productos, marcas..." class="bg-gray-100 text-sm rounded-full pl-4 pr-10 py-2.5 w-full focus:outline-none focus:ring-2 focus:ring-emerald-500">
-                <i class="fa-solid fa-magnifying-glass absolute right-4 top-3 text-gray-400 text-sm"></i>
-            </div>
-        </div>
-        </div>
-
-        <!-- Menú desplegable para Celular -->
+        <!-- Menú desplegable para Celular (sin cambios) -->
         <div id="menu-movil" class="hidden md:hidden bg-white border-t px-4 pt-2 pb-4 space-y-2">
             <a href="index.html" class="block py-2 text-emerald-700 font-semibold nav-item-movil" data-categoria="Inicio">Inicio</a>
             <a href="#" class="block py-2 text-gray-600 nav-item-movil" data-categoria="Útiles">Útiles</a>
@@ -880,6 +882,42 @@
                 }
             }
         });
+
+        const headerLogo = document.getElementById("header-logo");
+        const headerBuscadorExpandido = document.getElementById("header-buscador-expandido");
+        const btnToggleBuscadorMovil = document.getElementById("btn-toggle-buscador-movil");
+        const btnCerrarBuscadorMovil = document.getElementById("btn-cerrar-buscador-movil");
+        const inputBuscadorMovil = document.getElementById("input-buscador-movil");
+        const inputBuscadorEscritorio = document.getElementById("input-buscador");
+    
+        let yaSeDesplazo = false;
+    
+        // Abrir buscador en móvil (oculta logo, muestra input expandido)
+        if (btnToggleBuscadorMovil) {
+            btnToggleBuscadorMovil.addEventListener("click", () => {
+                headerLogo.classList.add("hidden");
+                headerBuscadorExpandido.classList.remove("hidden");
+                headerBuscadorExpandido.classList.add("flex");
+                if (inputBuscadorMovil) {
+                    inputBuscadorMovil.focus();
+                }
+            });
+        }
+    
+        // Cerrar buscador en móvil (restaura el logo y limpia la búsqueda)
+        function cerrarBuscadorMovil() {
+            headerBuscadorExpandido.classList.remove("flex");
+            headerBuscadorExpandido.classList.add("hidden");
+            headerLogo.classList.remove("hidden");
+            if (inputBuscadorMovil) {
+                inputBuscadorMovil.value = "";
+            }
+            ejecutarBusqueda(""); // Restablece el catálogo completo
+        }
+    
+        if (btnCerrarBuscadorMovil) {
+            btnCerrarBuscadorMovil.addEventListener("click", cerrarBuscadorMovil);
+        }
         
         // Carga inicial del catálogo
         cargarCatalogo();
