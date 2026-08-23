@@ -1207,7 +1207,7 @@
             "Cuadernos"
         ],
         "imagen_principal": "nan",
-        "stock_general": "0",
+        "stock_general": "0.0",
         "colores": [],
         "precio_regular": 0.0,
         "precio_oferta": null,
@@ -1223,7 +1223,7 @@
             "Cuadernos"
         ],
         "imagen_principal": "nan",
-        "stock_general": "5",
+        "stock_general": "0.0",
         "colores": [],
         "precio_regular": 0.0,
         "precio_oferta": null,
@@ -1255,7 +1255,7 @@
             "Blocks"
         ],
         "imagen_principal": "imagenes/Block/Block Justus cuadric.jpg",
-        "stock_general": "No",
+        "stock_general": "0.0",
         "colores": [],
         "precio_regular": 5.0,
         "precio_oferta": null,
@@ -2199,7 +2199,7 @@
             "Cartulinas"
         ],
         "imagen_principal": "imagenes/Cartulina/cartul-colorline-38-negro-canson-150g-15907030-default-1.jpg",
-        "stock_general": null,
+        "stock_general": "0.0",
         "colores": [],
         "precio_regular": 1.0,
         "precio_oferta": null,
