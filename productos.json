@@ -1207,7 +1207,7 @@
             "Cuadernos"
         ],
         "imagen_principal": "nan",
-        "stock_general": "No",
+        "stock_general": "0",
         "colores": [],
         "precio_regular": 0.0,
         "precio_oferta": null,
