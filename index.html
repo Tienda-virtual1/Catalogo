@@ -406,7 +406,8 @@
                     <div>
                         <div class="w-full h-44 mb-3 flex items-center justify-center bg-gray-50 rounded-lg relative overflow-hidden">
                             ${htmlEtiqueta}
-                            <img src="${imagen}" alt="${nombre}" class="h-full object-contain p-2" loading="lazy">
+                            const imgId = `img-${sku}-${index}`;
+                            <img id="${imgId}" src="${imagen}" alt="${nombre}" class="h-full object-contain p-2" loading="lazy">
                             
                             ${descripcion ? `
                                 <div class="absolute top-2 right-2 z-30">
@@ -474,24 +475,31 @@
                         btnColor.title = `${nombreColor} (Stock: ${stockColor})`;
 
                         btnColor.onclick = () => {
-                            containerColores.querySelectorAll('button').forEach(b => b.classList.remove('ring-2', 'ring-emerald-600'));
-                            btnColor.classList.add('ring-2', 'ring-emerald-600');
-                            labelColorSeleccionado.innerText = nombreColor;
-                            
-                            const avisoStockActivo = document.getElementById(stockAvisoId);
-                            if (avisoStockActivo && estaDisponibleGeneral) {
-                                avisoStockActivo.innerText = `Stock: ${stockColor}`;
-                                if (stockColor <= 0) {
-                                    btnAgregar.disabled = true;
-                                    btnAgregar.innerText = "Agotado";
-                                    btnAgregar.className = "flex-1 bg-gray-400 text-white h-10 rounded-lg cursor-not-allowed transition text-sm font-medium";
-                                } else {
-                                    btnAgregar.disabled = false;
-                                    btnAgregar.innerText = "Agregar";
-                                    btnAgregar.className = "flex-1 bg-emerald-700 text-white h-10 rounded-lg hover:bg-emerald-800 transition text-sm font-medium shadow-sm";
-                                }
+                        containerColores.querySelectorAll('button').forEach(b => b.classList.remove('ring-2', 'ring-emerald-600'));
+                        btnColor.classList.add('ring-2', 'ring-emerald-600');
+                        labelColorSeleccionado.innerText = nombreColor;
+                        
+                        // --- CAMBIAR LA IMAGEN SEGÚN EL COLOR ---
+                        const imgElement = document.getElementById(imgId);
+                        if (itemColor.imagen && imgElement) {
+                            imgElement.src = itemColor.imagen;
+                        }
+                        // ---------------------------------------
+                    
+                        const avisoStockActivo = document.getElementById(stockAvisoId);
+                        if (avisoStockActivo && estaDisponibleGeneral) {
+                            avisoStockActivo.innerText = `Stock: ${stockColor}`;
+                            if (stockColor <= 0) {
+                                btnAgregar.disabled = true;
+                                btnAgregar.innerText = "Agotado";
+                                btnAgregar.className = "flex-1 bg-gray-400 text-white h-10 rounded-lg cursor-not-allowed transition text-sm font-medium";
+                            } else {
+                                btnAgregar.disabled = false;
+                                btnAgregar.innerText = "Agregar";
+                                btnAgregar.className = "flex-1 bg-emerald-700 text-white h-10 rounded-lg hover:bg-emerald-800 transition text-sm font-medium shadow-sm";
                             }
-                        };
+                        }
+                    };
 
                         containerColores.appendChild(btnColor);
                     });
