@@ -3901,5 +3901,197 @@
         "palabras_clave": [],
         "descripcion_corta": "",
         "etiqueta": null
+    },
+    {
+        "sku": "COLO-01",
+        "nombre": "Colores largos x12 + 2 lápices",
+        "marca": "Faber-Castell",
+        "subcategorias": [
+            "Colores"
+        ],
+        "imagen_principal": "imagenes/Colores/colores Faber x12.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 5.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "COLO-02",
+        "nombre": "Colores jumbo x 12 +  2 lápices",
+        "marca": "Faber-Castell",
+        "subcategorias": [
+            "Colores"
+        ],
+        "imagen_principal": "imagenes/Colores/colores Faber jumbo x12.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 18.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "COLO-03",
+        "nombre": "Colores largos x12 + 6 neón",
+        "marca": "Faber-Castell",
+        "subcategorias": [
+            "Colores"
+        ],
+        "imagen_principal": "imagenes/Colores/colores faber x12 + 6 neon.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 15.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "COLO-04",
+        "nombre": "Colores largos x24 estuche rígido",
+        "marca": "Faber-Castell",
+        "subcategorias": [
+            "Colores"
+        ],
+        "imagen_principal": "imagenes/Colores/colores Faber x24 estuche.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 20.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "COLO-11",
+        "nombre": "Colores largos x12 + 2 colores duo",
+        "marca": "Artesco",
+        "subcategorias": [
+            "Colores"
+        ],
+        "imagen_principal": "imagenes/Colores/colores Artesco x12 + 2 duo.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 5.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "COLO-12",
+        "nombre": "Colores jumbo x12",
+        "marca": "Artesco",
+        "subcategorias": [
+            "Colores"
+        ],
+        "imagen_principal": "imagenes/Colores/colores Artesco jumbo x12.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 14.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "COLO-21",
+        "nombre": "Colores largos x12",
+        "marca": "Artesco Smartz",
+        "subcategorias": [
+            "Colores"
+        ],
+        "imagen_principal": "imagenes/Colores/colores Artesco Smartz x12.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 4.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "COLO-22",
+        "nombre": "Colores jumbo x12",
+        "marca": "Artesco Smartz",
+        "subcategorias": [
+            "Colores"
+        ],
+        "imagen_principal": "imagenes/Colores/colores Artesco Smartz jumbo x12.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 8.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "COLO-31",
+        "nombre": "Colores largos x12",
+        "marca": "Alpha",
+        "subcategorias": [
+            "Colores"
+        ],
+        "imagen_principal": "imagenes/Colores/colores Alpha x12.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 5.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "COLO-32",
+        "nombre": "Colores pastel x10",
+        "marca": "Alpha",
+        "subcategorias": [
+            "Colores"
+        ],
+        "imagen_principal": "imagenes/Colores/colores Alpha pastel x10.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 5.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "COLO-33",
+        "nombre": "Colores bicolor x12",
+        "marca": "Alpha",
+        "subcategorias": [
+            "Colores"
+        ],
+        "imagen_principal": "imagenes/Colores/colores Alpha bicolor x12.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 5.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "COLO-41",
+        "nombre": "Colores cortos x12",
+        "marca": "Vinifan",
+        "subcategorias": [
+            "Colores"
+        ],
+        "imagen_principal": "imagenes/Colores/colores cortos Vinifan.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 3.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
     }
 ]
