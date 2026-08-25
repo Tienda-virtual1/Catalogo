@@ -4093,5 +4093,687 @@
         "palabras_clave": [],
         "descripcion_corta": "",
         "etiqueta": null
+    },
+    {
+        "sku": "PLUM-01",
+        "nombre": "Plumones marcadores delgados x12",
+        "marca": "Faber-Castell",
+        "subcategorias": [
+            "Plumones"
+        ],
+        "imagen_principal": "imagenes/Plumones/plumones Faber x12.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 5.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "PLUM-02",
+        "nombre": "Plumones marcadores delgados x36 estuche rígido",
+        "marca": "Faber-Castell",
+        "subcategorias": [
+            "Plumones"
+        ],
+        "imagen_principal": "imagenes/Plumones/plumones Faber x36 estuche.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 32.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "PLUM-03",
+        "nombre": "Plumones delgados pastel x6",
+        "marca": "Faber-Castell",
+        "subcategorias": [
+            "Plumones"
+        ],
+        "imagen_principal": "imagenes/Plumones/plumones pastel Faber x6.webp",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 5.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "PLUM-06",
+        "nombre": "Plumones jumbo Winner 47 x12",
+        "marca": "Faber-Castell",
+        "subcategorias": [
+            "Plumones"
+        ],
+        "imagen_principal": "imagenes/Plumones/plumones jumbo Faber x12.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 15.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "PLUM-11",
+        "nombre": "Plumón delgado fiesta 45 negro",
+        "marca": "Faber-Castell",
+        "subcategorias": [
+            "Plumones"
+        ],
+        "imagen_principal": "imagenes/Plumones/plumón delgado Faber negro.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "PLUM-12",
+        "nombre": "Plumón delgado fiesta 45 azul",
+        "marca": "Faber-Castell",
+        "subcategorias": [
+            "Plumones"
+        ],
+        "imagen_principal": "imagenes/Plumones/plumón delgado Faber azul.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "PLUM-13",
+        "nombre": "Plumón delgado fiesta 45 rojo",
+        "marca": "Faber-Castell",
+        "subcategorias": [
+            "Plumones"
+        ],
+        "imagen_principal": "imagenes/Plumones/plumón delgado Faber rojo.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "PLUM-21",
+        "nombre": "Plumón grueso negro",
+        "marca": "Faber-Castell",
+        "subcategorias": [
+            "Plumones"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "PLUM-22",
+        "nombre": "Plumón grueso azul jumbo 47",
+        "marca": "Faber-Castell",
+        "subcategorias": [
+            "Plumones"
+        ],
+        "imagen_principal": "imagenes/Plumones/plumon grueso Faber azul.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "PLUM-23",
+        "nombre": "Plumón grueso rojo jumbo 47",
+        "marca": "Faber-Castell",
+        "subcategorias": [
+            "Plumones"
+        ],
+        "imagen_principal": "imagenes/Plumones/plumon grueso Faber rojo.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "PLUM-24",
+        "nombre": "Plumón grueso verde",
+        "marca": "Faber-Castell",
+        "subcategorias": [
+            "Plumones"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "PLUM-26",
+        "nombre": "Plumón de pizarra Winner 152 negro",
+        "marca": "Faber-Castell",
+        "subcategorias": [
+            "Plumones"
+        ],
+        "imagen_principal": "imagenes/Plumones/plumón de pizarra Faber negro.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "PLUM-27",
+        "nombre": "Plumón de pizarra Winner 152 azul",
+        "marca": "Faber-Castell",
+        "subcategorias": [
+            "Plumones"
+        ],
+        "imagen_principal": "imagenes/Plumones/plumon de pizarra Faber azul.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "PLUM-28",
+        "nombre": "Plumón de pizarra Winner 152 rojo",
+        "marca": "Faber-Castell",
+        "subcategorias": [
+            "Plumones"
+        ],
+        "imagen_principal": "imagenes/Plumones/plumón de pizarra Faber rojo.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "PLUM-29",
+        "nombre": "Plumón de pizarra Winner 152 verde",
+        "marca": "Faber-Castell",
+        "subcategorias": [
+            "Plumones"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": "0",
+        "colores": [],
+        "precio_regular": 1.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "PLUM-31",
+        "nombre": "Plumones marcadores delgados Max 45 x12",
+        "marca": "Artesco",
+        "subcategorias": [
+            "Plumones"
+        ],
+        "imagen_principal": "imagenes/Plumones/plumones Artesco x12.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 5.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "PLUM-41",
+        "nombre": "Plumones extra jumbo 47 x12",
+        "marca": "Artesco Smartz",
+        "subcategorias": [
+            "Plumones"
+        ],
+        "imagen_principal": "imagenes/Plumones/plumones jumbo Artesco Smartz x12.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 12.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "PLUM-42",
+        "nombre": "Plumones extra jumbo 47 x6",
+        "marca": "Artesco Smartz",
+        "subcategorias": [
+            "Plumones"
+        ],
+        "imagen_principal": "imagenes/Plumones/plumones jumbo Artesco Smartz x6.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 6.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "PLUM-51",
+        "nombre": "Plumón grueso jumbo Maxicolor 47 rojo",
+        "marca": "Twins",
+        "subcategorias": [
+            "Plumones"
+        ],
+        "imagen_principal": "imagenes/Plumones/plumon grueso negro.png",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "PLUM-52",
+        "nombre": "Plumón grueso jumbo Maxicolor 47 azul",
+        "marca": "Twins",
+        "subcategorias": [
+            "Plumones"
+        ],
+        "imagen_principal": "imagenes/Plumones/plumon grueso azul.png",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "PLUM-53",
+        "nombre": "Plumón grueso jumbo Maxicolor 47 rojo",
+        "marca": "Twins",
+        "subcategorias": [
+            "Plumones"
+        ],
+        "imagen_principal": "imagenes/Plumones/plumón grueso rojo.png",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "PLUM-54",
+        "nombre": "Plumón grueso verde jumbo Maxicolor 47",
+        "marca": "Twins",
+        "subcategorias": [
+            "Plumones"
+        ],
+        "imagen_principal": "imagenes/Plumones/plumon grueso verde.png",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "PLUM-55",
+        "nombre": "Plumón de pizarra recargable negro",
+        "marca": "Twins",
+        "subcategorias": [
+            "Plumones"
+        ],
+        "imagen_principal": "imagenes/Plumones/plumon pizarra Twins negro.png",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "PLUM-56",
+        "nombre": "Plumón de pizarra recargable azul",
+        "marca": "Twins",
+        "subcategorias": [
+            "Plumones"
+        ],
+        "imagen_principal": "imagenes/Plumones/plumon pizarra Twins azul.png",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "PLUM-57",
+        "nombre": "Plumón de pizarra recargable rojo",
+        "marca": "Twins",
+        "subcategorias": [
+            "Plumones"
+        ],
+        "imagen_principal": "imagenes/Plumones/plumon pizarra Twins rojo.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "PLUM-58",
+        "nombre": "Plumón de pizarra recargable verde",
+        "marca": "Twins",
+        "subcategorias": [
+            "Plumones"
+        ],
+        "imagen_principal": "imagenes/Plumones/plumon pizarra Twins verde.png",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "PLUM-61",
+        "nombre": "Plumones de pizarra jumbo 123 x4 estuche",
+        "marca": "Twins",
+        "subcategorias": [
+            "Plumones"
+        ],
+        "imagen_principal": "imagenes/Plumones/plumones de pizarra Twins x4.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 4.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "PLUM-62",
+        "nombre": "Plumones de pizarra 123 x4 + mota",
+        "marca": "Twins",
+        "subcategorias": [
+            "Plumones"
+        ],
+        "imagen_principal": "imagenes/Plumones/plumones de pizarra x4 con mota Twins.png",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 5.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "PLUM-63",
+        "nombre": "Plumones de pizarra x6 colores neón",
+        "marca": "Twins",
+        "subcategorias": [
+            "Plumones"
+        ],
+        "imagen_principal": "imagenes/Plumones/plumon de pizarra Twins x6.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 5.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "PLUM-71",
+        "nombre": "Plumón indeleble Multimax 421-F negro",
+        "marca": "Artesco",
+        "subcategorias": [
+            "Plumones"
+        ],
+        "imagen_principal": "imagenes/Plumones/plumon indeleble F Artesco.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 2.0,
+        "precio_oferta": null,
+        "palabras_clave": [
+            "permanente"
+        ],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "PLUM-72",
+        "nombre": "Plumón indeleble grueso blanco",
+        "marca": "Twins",
+        "subcategorias": [
+            "Plumones"
+        ],
+        "imagen_principal": "imagenes/Plumones/plumon indeleble grueso blanco Twins.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 2.5,
+        "precio_oferta": null,
+        "palabras_clave": [
+            "permanente"
+        ],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "PLUM-73",
+        "nombre": "Plumón indeleble delgado blanco",
+        "marca": "Twins",
+        "subcategorias": [
+            "Plumones"
+        ],
+        "imagen_principal": "imagenes/Plumones/plumon indeleble blanco delgado Twins.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 2.0,
+        "precio_oferta": null,
+        "palabras_clave": [
+            "permanente"
+        ],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "PLUM-74",
+        "nombre": "Plumón indeleble grueso jumbo 23 negro",
+        "marca": "Twins",
+        "subcategorias": [
+            "Plumones"
+        ],
+        "imagen_principal": "imagenes/Plumones/plumón indeleble grueso Twins.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 2.0,
+        "precio_oferta": null,
+        "palabras_clave": [
+            "permanente"
+        ],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "PLUM-75",
+        "nombre": "Plumón indeleble delgado negro doble punta",
+        "marca": "Twins",
+        "subcategorias": [
+            "Plumones"
+        ],
+        "imagen_principal": "imagenes/Plumones/plumon indeleble delgado Twins.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.0,
+        "precio_oferta": null,
+        "palabras_clave": [
+            "permanente"
+        ],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "PLUM-81",
+        "nombre": "Resaltador E-48 amarillo",
+        "marca": "Artesco",
+        "subcategorias": [
+            "Plumones"
+        ],
+        "imagen_principal": "imagenes/Plumones/resaltador Artesco amarillo.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "PLUM-82",
+        "nombre": "Resaltador pastel",
+        "marca": "Artesco",
+        "subcategorias": [
+            "Plumones"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 2.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "PLUM-86",
+        "nombre": "Resaltadores pastel x6 estuche",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Plumones"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 3.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "PLUM-87",
+        "nombre": "Resaltadores neón x6 estuche",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Plumones"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 3.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "PLUM-88",
+        "nombre": "Mini resaltadores osito",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Plumones"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 5.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "PLUM-89",
+        "nombre": "Resaltadores pastel x6 estuche",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Plumones"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 6.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "PLUM-91",
+        "nombre": "plumones gruesos x6",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Plumones"
+        ],
+        "imagen_principal": "imagenes/Plumones/plumones gruesos x6.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 6.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "PLUM-92",
+        "nombre": "Plumones acrílicos de pizarra x12",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Plumones"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 6.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
     }
 ]
