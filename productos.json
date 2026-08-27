@@ -5495,5 +5495,293 @@
         "palabras_clave": [],
         "descripcion_corta": "",
         "etiqueta": null
+    },
+    {
+        "sku": "PEGA-01",
+        "nombre": "Goma líquida 23 cc",
+        "marca": "David",
+        "subcategorias": [
+            "Pegamentos"
+        ],
+        "imagen_principal": "imagenes/Pegamentos/Goma David 23cc.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.6,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "PEGA-02",
+        "nombre": "Goma líquida 60 cc",
+        "marca": "David",
+        "subcategorias": [
+            "Pegamentos"
+        ],
+        "imagen_principal": "imagenes/Pegamentos/Goma David 60cc.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.2,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "PEGA-03",
+        "nombre": "Goma Pegabien con aplicador 225 gr",
+        "marca": "Faber Castell",
+        "subcategorias": [
+            "Pegamentos"
+        ],
+        "imagen_principal": "imagenes/Pegamentos/cola-faber-castell-pegabien-225-gr.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 2.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "PEGA-04",
+        "nombre": "Goma Pegabien con aplicador 250 gr",
+        "marca": "Faber Castell",
+        "subcategorias": [
+            "Pegamentos"
+        ],
+        "imagen_principal": "imagenes/Pegamentos/cola-faber-castell-x-250gr.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 3.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "PEGA-11",
+        "nombre": "Goma en barra 21 gr",
+        "marca": "Twins",
+        "subcategorias": [
+            "Pegamentos"
+        ],
+        "imagen_principal": "imagenes/Pegamentos/Goma-en-Barra-TWINS-21-GR.webp",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "PEGA-12",
+        "nombre": "Goma en barra 40 gr",
+        "marca": "Twins",
+        "subcategorias": [
+            "Pegamentos"
+        ],
+        "imagen_principal": "imagenes/Pegamentos/Goma barra Twins 40 gr.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 2.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "PEGA-13",
+        "nombre": "Goma en barra 40 gr",
+        "marca": "Faber Castell",
+        "subcategorias": [
+            "Pegamentos"
+        ],
+        "imagen_principal": "imagenes/Pegamentos/pegamento-barra-x-40gr-faber.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 3.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "PEGA-14",
+        "nombre": "Goma en barra 40 gr",
+        "marca": "Artesco",
+        "subcategorias": [
+            "Pegamentos"
+        ],
+        "imagen_principal": "imagenes/Pegamentos/Goma-en-barra-artesco-40-gr.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 3.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "PEGA-21",
+        "nombre": "Limpiatipo",
+        "marca": "Artesco",
+        "subcategorias": [
+            "Pegamentos"
+        ],
+        "imagen_principal": "imagenes/Pegamentos/Limpiatipo Artesco.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 2.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "PEGA-31",
+        "nombre": "Silicona líquida 30 ml",
+        "marca": "Artesco",
+        "subcategorias": [
+            "Pegamentos"
+        ],
+        "imagen_principal": "imagenes/Pegamentos/SILICONA-LIQUIDA-ARTESCO-X-30ML.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "PEGA-32",
+        "nombre": "Silicona líquida 100 ml",
+        "marca": "Artesco",
+        "subcategorias": [
+            "Pegamentos"
+        ],
+        "imagen_principal": "imagenes/Pegamentos/silicona-artesco-liquida-x-100-ml.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 3.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "PEGA-33",
+        "nombre": "Silicona líquida 250 ml",
+        "marca": "Artesco",
+        "subcategorias": [
+            "Pegamentos"
+        ],
+        "imagen_principal": "imagenes/Pegamentos/silicona-artesco-liquida-x-250-ml.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 5.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "PEGA-34",
+        "nombre": "Silicona líquida 30 ml",
+        "marca": "Twins",
+        "subcategorias": [
+            "Pegamentos"
+        ],
+        "imagen_principal": "imagenes/Pegamentos/Silicona Twins 30 ml.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "PEGA-35",
+        "nombre": "Silicona líquida 250 ml",
+        "marca": "Twins",
+        "subcategorias": [
+            "Pegamentos"
+        ],
+        "imagen_principal": "imagenes/Pegamentos/Silicona Twins 250ml.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 4.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "PEGA-36",
+        "nombre": "Silicona líquida 100 ml",
+        "marca": "Articreativo",
+        "subcategorias": [
+            "Pegamentos"
+        ],
+        "imagen_principal": "imagenes/Pegamentos/Silicona articreativo 100ml.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 3.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "PEGA-37",
+        "nombre": "Silicona líquida 250 ml",
+        "marca": "Faber Castell",
+        "subcategorias": [
+            "Pegamentos"
+        ],
+        "imagen_principal": "imagenes/Pegamentos/Silicona Faber 250ml.webp",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 5.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "PEGA-41",
+        "nombre": "Silicona en barra delgada",
+        "marca": "Genérica",
+        "subcategorias": [
+            "Pegamentos"
+        ],
+        "imagen_principal": "imagenes/Pegamentos/BarradeSiliconaDelgada.webp",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "PEGA-42",
+        "nombre": "Silicona en barra gruesa",
+        "marca": "Genérica",
+        "subcategorias": [
+            "Pegamentos"
+        ],
+        "imagen_principal": "imagenes/Pegamentos/BarradeSiliconaGruesa.webp",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
     }
 ]
