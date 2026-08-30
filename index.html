@@ -292,11 +292,20 @@
             subcategoriasAsociadas.forEach(subcat => {
                 const tarjetaSub = document.createElement('div');
                 tarjetaSub.className = "bg-white rounded-xl shadow-sm border p-6 flex flex-col items-center justify-center cursor-pointer hover:shadow-md hover:border-emerald-600 transition group";
-                const iconoClase = mapaIconosSubcategorias[subcat] || "fa-folder-open";
+                
+                const valorIcono = mapaIconosSubcategorias[subcat] || "fa-folder-open";
+                
+                // Verificamos si el valor es una ruta de imagen local o una clase de FontAwesome
+                let contenidoVisual = "";
+                if (valorIcono.startsWith("imagenes/")) {
+                    contenidoVisual = `<img src="${valorIcono}" alt="${subcat}" class="w-10 h-10 object-contain">`;
+                } else {
+                    contenidoVisual = `<i class="fa-solid ${valorIcono} text-2xl text-emerald-700"></i>`;
+                }
     
                 tarjetaSub.innerHTML = `
                     <div class="w-16 h-16 rounded-full bg-emerald-50 flex items-center justify-center mb-4 group-hover:bg-emerald-100 transition">
-                        <i class="fa-solid ${iconoClase} text-2xl text-emerald-700"></i>
+                        ${contenidoVisual}
                     </div>
                     <h3 class="font-bold text-gray-800 text-center text-base group-hover:text-emerald-700 transition">${subcat}</h3>
                     <span class="text-xs text-gray-400 mt-1">Ver productos</span>
