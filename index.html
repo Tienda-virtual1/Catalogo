@@ -295,16 +295,18 @@
                 
                 const valorIcono = mapaIconosSubcategorias[subcat] || "fa-folder-open";
                 
-                // Verificamos si el valor es una ruta de imagen local o una clase de FontAwesome
+                // Verificamos si es imagen o icono de FontAwesome y ajustamos tamaños
                 let contenidoVisual = "";
                 if (valorIcono.startsWith("imagenes/")) {
-                    contenidoVisual = `<img src="${valorIcono}" alt="${subcat}" class="w-10 h-10 object-contain">`;
+                    // Cambia w-10 h-10 por w-12 h-12 o w-14 h-14 para hacer la imagen más grande
+                    contenidoVisual = `<img src="${valorIcono}" alt="${subcat}" class="w-14 h-14 object-contain">`;
                 } else {
-                    contenidoVisual = `<i class="fa-solid ${valorIcono} text-2xl text-emerald-700"></i>`;
+                    // Cambia text-2xl por text-3xl o text-4xl para hacer el icono de FontAwesome más grande
+                    contenidoVisual = `<i class="fa-solid ${valorIcono} text-3xl text-emerald-700"></i>`;
                 }
     
                 tarjetaSub.innerHTML = `
-                    <div class="w-16 h-16 rounded-full bg-emerald-50 flex items-center justify-center mb-4 group-hover:bg-emerald-100 transition">
+                    <div class="w-20 h-20 rounded-full bg-emerald-50 flex items-center justify-center mb-4 group-hover:bg-emerald-100 transition">
                         ${contenidoVisual}
                     </div>
                     <h3 class="font-bold text-gray-800 text-center text-base group-hover:text-emerald-700 transition">${subcat}</h3>
