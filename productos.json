@@ -5783,5 +5783,597 @@
         "palabras_clave": [],
         "descripcion_corta": "",
         "etiqueta": null
+    },
+    {
+        "sku": "BOLI-01",
+        "nombre": "Lapicero Lux 034 M azul",
+        "marca": "Faber-Castell",
+        "subcategorias": [
+            "Lapiceros"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.7,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "BOLI-02",
+        "nombre": "Lapicero Lux 034 M rojo",
+        "marca": "Faber-Castell",
+        "subcategorias": [
+            "Lapiceros"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.7,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "BOLI-03",
+        "nombre": "Lapicero Lux 034 M negro",
+        "marca": "Faber-Castell",
+        "subcategorias": [
+            "Lapiceros"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.7,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "BOLI-11",
+        "nombre": "Lapicero Trilux 031-F azul",
+        "marca": "Faber-Castell",
+        "subcategorias": [
+            "Lapiceros"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "BOLI-12",
+        "nombre": "Lapicero Trilux 031-F rojo",
+        "marca": "Faber-Castell",
+        "subcategorias": [
+            "Lapiceros"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "BOLI-13",
+        "nombre": "Lapicero Trilux 031-F negro",
+        "marca": "Faber-Castell",
+        "subcategorias": [
+            "Lapiceros"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "BOLI-14",
+        "nombre": "Lapicero Trilux 032-M azul",
+        "marca": "Faber-Castell",
+        "subcategorias": [
+            "Lapiceros"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "BOLI-15",
+        "nombre": "Lapicero Trilux 032-M rojo",
+        "marca": "Faber-Castell",
+        "subcategorias": [
+            "Lapiceros"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "BOLI-16",
+        "nombre": "Lapicero Trilux 032-M negro",
+        "marca": "Faber-Castell",
+        "subcategorias": [
+            "Lapiceros"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "BOLI-21",
+        "nombre": "Lapicero trimax GL-32M azul",
+        "marca": "Artesco",
+        "subcategorias": [
+            "Lapiceros"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "BOLI-22",
+        "nombre": "Lapicero trimax GL-32M rojo",
+        "marca": "Artesco",
+        "subcategorias": [
+            "Lapiceros"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "BOLI-23",
+        "nombre": "Lapicero trimax GL-32M negro",
+        "marca": "Artesco",
+        "subcategorias": [
+            "Lapiceros"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "BOLI-24",
+        "nombre": "Lapicero trimax GL-32M amarillo",
+        "marca": "Artesco",
+        "subcategorias": [
+            "Lapiceros"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "BOLI-25",
+        "nombre": "Lapicero trimax GL-32M verde",
+        "marca": "Artesco",
+        "subcategorias": [
+            "Lapiceros"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "BOLI-26",
+        "nombre": "Lapicero trimax GL-32M fucsia",
+        "marca": "Artesco",
+        "subcategorias": [
+            "Lapiceros"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "BOLI-27",
+        "nombre": "Lapicero trimax GL-32M rosado",
+        "marca": "Artesco",
+        "subcategorias": [
+            "Lapiceros"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "BOLI-28",
+        "nombre": "Lapicero trimax GL-32M celeste",
+        "marca": "Artesco",
+        "subcategorias": [
+            "Lapiceros"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "BOLI-29",
+        "nombre": "Lapicero trimax GL-32M marrón",
+        "marca": "Artesco",
+        "subcategorias": [
+            "Lapiceros"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "BOLI-30",
+        "nombre": "Lapicero trimax GL-32M morado",
+        "marca": "Artesco",
+        "subcategorias": [
+            "Lapiceros"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "BOLI-31",
+        "nombre": "Lapicero trimax GL-32M naranja",
+        "marca": "Artesco",
+        "subcategorias": [
+            "Lapiceros"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "BOLI-32",
+        "nombre": "Lapicero trimax GL-32M dorado",
+        "marca": "Artesco",
+        "subcategorias": [
+            "Lapiceros"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "BOLI-41",
+        "nombre": "Lapicero borrable azul",
+        "marca": "Artesco",
+        "subcategorias": [
+            "Lapiceros"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 3.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "BOLI-42",
+        "nombre": "Lapicero borrable rojo",
+        "marca": "Artesco",
+        "subcategorias": [
+            "Lapiceros"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 3.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "BOLI-43",
+        "nombre": "Lapicero borrable negro",
+        "marca": "Artesco",
+        "subcategorias": [
+            "Lapiceros"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 3.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "BOLI-51",
+        "nombre": "lapicero azul",
+        "marca": "Pilot",
+        "subcategorias": [
+            "Lapiceros"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 2.8,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "BOLI-52",
+        "nombre": "lapicero rojo",
+        "marca": "Pilot",
+        "subcategorias": [
+            "Lapiceros"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 2.8,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "BOLI-53",
+        "nombre": "lapicero negro",
+        "marca": "Pilot",
+        "subcategorias": [
+            "Lapiceros"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 2.8,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "BOLI-60",
+        "nombre": "Lapiceros tinta gel x6",
+        "marca": "Twins",
+        "subcategorias": [
+            "Lapiceros"
+        ],
+        "imagen_principal": "imagenes/Lapiceros/lapicero twins x 6.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 4.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "BOLI-61",
+        "nombre": "Lapicero tinta gel azul",
+        "marca": "Twins",
+        "subcategorias": [
+            "Lapiceros"
+        ],
+        "imagen_principal": "imagenes/Lapiceros/lapicero twins azul.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "BOLI-62",
+        "nombre": "Lapicero tinta gel rojo",
+        "marca": "Twins",
+        "subcategorias": [
+            "Lapiceros"
+        ],
+        "imagen_principal": "imagenes/Lapiceros/lapicero twins rojo.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "BOLI-63",
+        "nombre": "Lapicero tinta gel negro",
+        "marca": "Twins",
+        "subcategorias": [
+            "Lapiceros"
+        ],
+        "imagen_principal": "imagenes/Lapiceros/lapicero twins negro.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "BOLI-65",
+        "nombre": "Lapicero borrable azul",
+        "marca": "Twins",
+        "subcategorias": [
+            "Lapiceros"
+        ],
+        "imagen_principal": "imagenes/Lapiceros/lapicero borrable Twins azul.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 2.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "BOLI-66",
+        "nombre": "Lapicero borrable rojo",
+        "marca": "Twins",
+        "subcategorias": [
+            "Lapiceros"
+        ],
+        "imagen_principal": "imagenes/Lapiceros/lapicero borrable Twins rojo.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 2.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "BOLI-71",
+        "nombre": "lapicero escarchado x12",
+        "marca": "Yimi",
+        "subcategorias": [
+            "Lapiceros"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 5.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "BOLI-81",
+        "nombre": "lapicero capibara",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Lapiceros"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 2.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "BOLI-82",
+        "nombre": "lapicero unicornio",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Lapiceros"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "BOLI-83",
+        "nombre": "lapicero borrable",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Lapiceros"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
     }
 ]
