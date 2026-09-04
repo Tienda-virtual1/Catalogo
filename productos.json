@@ -6218,7 +6218,7 @@
     },
     {
         "sku": "BOLI-51",
-        "nombre": "lapicero azul",
+        "nombre": "Lapicero azul",
         "marca": "Pilot",
         "subcategorias": [
             "Lapiceros"
@@ -6236,7 +6236,7 @@
     },
     {
         "sku": "BOLI-52",
-        "nombre": "lapicero rojo",
+        "nombre": "Lapicero rojo",
         "marca": "Pilot",
         "subcategorias": [
             "Lapiceros"
@@ -6254,7 +6254,7 @@
     },
     {
         "sku": "BOLI-53",
-        "nombre": "lapicero negro",
+        "nombre": "Lapicero negro",
         "marca": "Pilot",
         "subcategorias": [
             "Lapiceros"
@@ -6380,7 +6380,7 @@
     },
     {
         "sku": "BOLI-71",
-        "nombre": "lapicero escarchado x12",
+        "nombre": "Lapicero escarchado x12",
         "marca": "Yimi",
         "subcategorias": [
             "Lapiceros"
@@ -6396,7 +6396,7 @@
     },
     {
         "sku": "BOLI-81",
-        "nombre": "lapicero capibara",
+        "nombre": "Lapicero capibara",
         "marca": "Genérico",
         "subcategorias": [
             "Lapiceros"
@@ -6414,7 +6414,7 @@
     },
     {
         "sku": "BOLI-82",
-        "nombre": "lapicero unicornio",
+        "nombre": "Lapicero unicornio",
         "marca": "Genérico",
         "subcategorias": [
             "Lapiceros"
@@ -6432,7 +6432,7 @@
     },
     {
         "sku": "BOLI-83",
-        "nombre": "lapicero borrable",
+        "nombre": "Lapicero borrable",
         "marca": "Genérico",
         "subcategorias": [
             "Lapiceros"
@@ -6445,6 +6445,198 @@
         "palabras_clave": [
             "bolígrafo"
         ],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "HOJA-01",
+        "nombre": "Papel bond A4 75 gr paquete x 500 hojas",
+        "marca": "Atlas",
+        "subcategorias": [
+            "Hojas bond"
+        ],
+        "imagen_principal": "imagenes/Hojas Bond/hoja bond Atlas x500.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 12.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "HOJA-02",
+        "nombre": "Papel bond A4 75 gr paquete x 500 hojas",
+        "marca": "Justus",
+        "subcategorias": [
+            "Hojas bond"
+        ],
+        "imagen_principal": "imagenes/Hojas Bond/hoja bond Justus x500.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 12.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "HOJA-05",
+        "nombre": "Papel bond A4 75 gr x 100 hojas",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Hojas bond"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "HOJA-06",
+        "nombre": "Papel bond A4 75 gr x 50 hojas",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Hojas bond"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "HOJA-11",
+        "nombre": "Papel bond A4 80 gr paquete x 500 hojas",
+        "marca": "Atlas",
+        "subcategorias": [
+            "Hojas bond"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "HOJA-16",
+        "nombre": "Papel bond A3 75 gr paquete x 500 hojas",
+        "marca": "Chamex",
+        "subcategorias": [
+            "Hojas bond"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "HOJA-17",
+        "nombre": "Papel bond A3 75 gr x 100 hojas",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Hojas bond"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "HOJA-18",
+        "nombre": "Papel bond A3 75 gr x 50 hojas",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Hojas bond"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "PAPE-01",
+        "nombre": "Papelógrafo blanco",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papelógrafos"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "PAPE-02",
+        "nombre": "Papelógrafo cuadriculado",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papelógrafos"
+        ],
+        "imagen_principal": "imagenes/Papelógrafos/papelografo-cuadriculado.png",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "PAPE-03",
+        "nombre": "Papelógrafo rayado",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papelógrafos"
+        ],
+        "imagen_principal": "imagenes/Papelógrafos/papelografo-rayado.png",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "PAPE-04",
+        "nombre": "Papelógrafo triple renglón",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papelógrafos"
+        ],
+        "imagen_principal": "imagenes/Papelógrafos/papelografo-triple-renglon.png",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
         "descripcion_corta": "",
         "etiqueta": null
     }
