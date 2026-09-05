@@ -6586,7 +6586,7 @@
         "imagen_principal": "nan",
         "stock_general": null,
         "colores": [],
-        "precio_regular": 0.0,
+        "precio_regular": 0.5,
         "precio_oferta": null,
         "palabras_clave": [],
         "descripcion_corta": "",
@@ -6602,7 +6602,7 @@
         "imagen_principal": "imagenes/Papelógrafos/papelografo-cuadriculado.png",
         "stock_general": null,
         "colores": [],
-        "precio_regular": 0.0,
+        "precio_regular": 0.5,
         "precio_oferta": null,
         "palabras_clave": [],
         "descripcion_corta": "",
@@ -6618,7 +6618,7 @@
         "imagen_principal": "imagenes/Papelógrafos/papelografo-rayado.png",
         "stock_general": null,
         "colores": [],
-        "precio_regular": 0.0,
+        "precio_regular": 0.5,
         "precio_oferta": null,
         "palabras_clave": [],
         "descripcion_corta": "",
@@ -6634,7 +6634,871 @@
         "imagen_principal": "imagenes/Papelógrafos/papelografo-triple-renglon.png",
         "stock_general": null,
         "colores": [],
-        "precio_regular": 0.0,
+        "precio_regular": 0.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CREP-01",
+        "nombre": "Papel crepé blanco",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Crepé"
+        ],
+        "imagen_principal": "imagenes/crepe/crepe blanco.webp",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.8,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CREP-02",
+        "nombre": "Papel crepé gris",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Crepé"
+        ],
+        "imagen_principal": "imagenes/crepe/crepe gris.webp",
+        "stock_general": "0",
+        "colores": [],
+        "precio_regular": 0.8,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CREP-03",
+        "nombre": "Papel crepé plomo",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Crepé"
+        ],
+        "imagen_principal": "imagenes/crepe/crepe plomo.webp",
+        "stock_general": "0",
+        "colores": [],
+        "precio_regular": 0.8,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CREP-04",
+        "nombre": "Papel crepé crema",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Crepé"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.8,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CREP-05",
+        "nombre": "Papel crepé morado",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Crepé"
+        ],
+        "imagen_principal": "imagenes/crepe/crepe morado.webp",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.8,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CREP-06",
+        "nombre": "Papel crepé rosado",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Crepé"
+        ],
+        "imagen_principal": "imagenes/crepe/crepe rosado.webp",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.8,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CREP-07",
+        "nombre": "Papel crepé rosado chicle",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Crepé"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.8,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CREP-08",
+        "nombre": "Papel crepé fucsia",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Crepé"
+        ],
+        "imagen_principal": "imagenes/crepe/crepe fucsia.webp",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.8,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CREP-09",
+        "nombre": "Papel crepé fucsia intenso",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Crepé"
+        ],
+        "imagen_principal": "imagenes/crepe/crepe fucsia intenso.webp",
+        "stock_general": "0",
+        "colores": [],
+        "precio_regular": 0.8,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CREP-10",
+        "nombre": "Papel crepé fucsia oscuro",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Crepé"
+        ],
+        "imagen_principal": "imagenes/crepe/crepe fucsia oscuro.webp",
+        "stock_general": "0",
+        "colores": [],
+        "precio_regular": 0.8,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CREP-11",
+        "nombre": "Papel crepé lila",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Crepé"
+        ],
+        "imagen_principal": "imagenes/crepe/crepe lila.webp",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.8,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CREP-12",
+        "nombre": "Papel crepé turquesa",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Crepé"
+        ],
+        "imagen_principal": "imagenes/crepe/crepe turquesa.webp",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.8,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CREP-13",
+        "nombre": "Papel crepé celeste",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Crepé"
+        ],
+        "imagen_principal": "imagenes/crepe/crepe celeste.webp",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.8,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CREP-14",
+        "nombre": "Papel crepé rojo",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Crepé"
+        ],
+        "imagen_principal": "imagenes/crepe/crepe rojo.webp",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.8,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CREP-15",
+        "nombre": "Papel crepé amarillo",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Crepé"
+        ],
+        "imagen_principal": "imagenes/crepe/crepe amarillo.webp",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.8,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CREP-16",
+        "nombre": "Papel crepé amarillo claro",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Crepé"
+        ],
+        "imagen_principal": "imagenes/crepe/crepe amarillo claro.webp",
+        "stock_general": "0",
+        "colores": [],
+        "precio_regular": 0.8,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CREP-17",
+        "nombre": "Papel crepé amarillo oro",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Crepé"
+        ],
+        "imagen_principal": "imagenes/crepe/crepe amarillo oro.webp",
+        "stock_general": "0",
+        "colores": [],
+        "precio_regular": 0.8,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CREP-18",
+        "nombre": "Papel crepé verde",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Crepé"
+        ],
+        "imagen_principal": "imagenes/crepe/crepe verde.webp",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.8,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CREP-19",
+        "nombre": "Papel crepé verde claro",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Crepé"
+        ],
+        "imagen_principal": "imagenes/crepe/crepe verde claro.webp",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.8,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CREP-20",
+        "nombre": "Papel crepé verde limón",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Crepé"
+        ],
+        "imagen_principal": "imagenes/crepe/crepe verde limon.webp",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.8,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CREP-21",
+        "nombre": "Papel crepé verde hoja",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Crepé"
+        ],
+        "imagen_principal": "imagenes/crepe/crepe verde hoja.webp",
+        "stock_general": "0",
+        "colores": [],
+        "precio_regular": 0.8,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CREP-22",
+        "nombre": "Papel crepé verde menta",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Crepé"
+        ],
+        "imagen_principal": "imagenes/crepe/crepe verde menta.webp",
+        "stock_general": "0",
+        "colores": [],
+        "precio_regular": 0.8,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CREP-23",
+        "nombre": "Papel crepé verde navidad",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Crepé"
+        ],
+        "imagen_principal": "imagenes/crepe/crepe verde navidad.webp",
+        "stock_general": "0",
+        "colores": [],
+        "precio_regular": 0.8,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CREP-24",
+        "nombre": "Papel crepé rosado claro",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Crepé"
+        ],
+        "imagen_principal": "imagenes/crepe/crepe rosado claro.webp",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.8,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CREP-25",
+        "nombre": "Papel crepé naranja",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Crepé"
+        ],
+        "imagen_principal": "imagenes/crepe/crepe naranja.webp",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.8,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CREP-26",
+        "nombre": "Papel crepé negro",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Crepé"
+        ],
+        "imagen_principal": "imagenes/crepe/crepe negro.webp",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.8,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CREP-27",
+        "nombre": "Papel crepé marrón",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Crepé"
+        ],
+        "imagen_principal": "imagenes/crepe/crepe marron.webp",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.8,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CREP-28",
+        "nombre": "Papel crepé marrón claro",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Crepé"
+        ],
+        "imagen_principal": "imagenes/crepe/crepe marron claro.webp",
+        "stock_general": "0",
+        "colores": [],
+        "precio_regular": 0.8,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CREP-29",
+        "nombre": "Papel crepé azulino",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Crepé"
+        ],
+        "imagen_principal": "imagenes/crepe/crepe azulino.webp",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.8,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CREP-30",
+        "nombre": "Papel crepé azul",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Crepé"
+        ],
+        "imagen_principal": "imagenes/crepe/crepe azul.webp",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.8,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CREP-31",
+        "nombre": "Papel crepé azul intenso",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Crepé"
+        ],
+        "imagen_principal": "imagenes/crepe/crepe azul intenso.webp",
+        "stock_general": "0",
+        "colores": [],
+        "precio_regular": 0.8,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CREP-32",
+        "nombre": "Papel crepé guinda",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Crepé"
+        ],
+        "imagen_principal": "imagenes/crepe/crepe guinda.webp",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.8,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CREP-33",
+        "nombre": "Papel crepé coral",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Crepé"
+        ],
+        "imagen_principal": "imagenes/crepe/crepe coral.webp",
+        "stock_general": "0",
+        "colores": [],
+        "precio_regular": 0.8,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CREP-34",
+        "nombre": "Papel crepé fresa",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Crepé"
+        ],
+        "imagen_principal": "imagenes/crepe/crepe fresa.webp",
+        "stock_general": "0",
+        "colores": [],
+        "precio_regular": 0.8,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CREP-35",
+        "nombre": "Papel crepé melón",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Crepé"
+        ],
+        "imagen_principal": "imagenes/crepe/crepe melon.webp",
+        "stock_general": "0",
+        "colores": [],
+        "precio_regular": 0.8,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CREP-41",
+        "nombre": "Papel crepé naranja fosforescente",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Crepé"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 2.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CREP-42",
+        "nombre": "Papel crepé verde fosforescente",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Crepé"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 2.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CREP-43",
+        "nombre": "Papel crepé amarillo fosforescente",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Crepé"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 2.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CREP-51",
+        "nombre": "Papel crepé metálico plateado",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Crepé"
+        ],
+        "imagen_principal": "imagenes/crepe/crepe plateado metalico.webp",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 3.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CREP-52",
+        "nombre": "Papel crepé metálico dorado",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Crepé"
+        ],
+        "imagen_principal": "imagenes/crepe/crepe dorado metalico.webp",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 3.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CREP-53",
+        "nombre": "Papel crepé metálico azul",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Crepé"
+        ],
+        "imagen_principal": "imagenes/crepe/crepe azul metalico.webp",
+        "stock_general": "0",
+        "colores": [],
+        "precio_regular": 3.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CREP-54",
+        "nombre": "Papel crepé metálico fucsia",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Crepé"
+        ],
+        "imagen_principal": "imagenes/crepe/crepe fucsia metalico.webp",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 3.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CREP-55",
+        "nombre": "Papel crepé metálico rojo",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Crepé"
+        ],
+        "imagen_principal": "imagenes/crepe/crepe rojo metalico.webp",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 3.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CREP-61",
+        "nombre": "Papel crepé con diseño círculos blancos fondo azul",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Crepé"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 2.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CREP-62",
+        "nombre": "Papel crepé con diseño círculos blancos fondo rojo",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Crepé"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 2.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CREP-63",
+        "nombre": "Papel crepé con diseño círculos blancos fondo celeste",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Crepé"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 2.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CREP-64",
+        "nombre": "Papel crepé con diseño líneas rojas",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Crepé"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 2.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CREP-65",
+        "nombre": "Papel crepé con diseño líneas celestes",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Crepé"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 2.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CREP-66",
+        "nombre": "Papel crepé con diseño pelotas rojas",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Crepé"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 2.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CREP-67",
+        "nombre": "Papel crepé con diseño pelotas azules",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Crepé"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 2.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CREP-68",
+        "nombre": "Papel crepé con diseño flores",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Crepé"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 2.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CREP-69",
+        "nombre": "Papel crepé con diseño manta",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Crepé"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 2.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CREP-70",
+        "nombre": "Papel crepé con diseño lunares",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Crepé"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 2.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CREP-71",
+        "nombre": "Papel crepé con diseño animal print",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Crepé"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 2.0,
         "precio_oferta": null,
         "palabras_clave": [],
         "descripcion_corta": "",
