@@ -7197,12 +7197,12 @@
             {
                 "nombre": "Azul",
                 "stock": 1,
-                "imagen": "imagenes/crepe/papel-crepe-decorado-futbol-azul.jpg\nRojo: imagenes/crepe/papel-crepe-decorado-futbol-rojo.jpg"
+                "imagen": "imagenes/crepe/papel-crepe-decorado-futbol-azul.jpg"
             },
             {
                 "nombre": "Rojo",
                 "stock": 1,
-                "imagen": ""
+                "imagen": "imagenes/crepe/papel-crepe-decorado-futbol-rojo.jpg"
             }
         ],
         "precio_regular": 2.0,
