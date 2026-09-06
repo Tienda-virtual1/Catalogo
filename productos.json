@@ -7186,14 +7186,25 @@
     },
     {
         "sku": "CREP-66",
-        "nombre": "Papel crepé con diseño pelotas rojas",
+        "nombre": "Papel crepé con diseño pelotas",
         "marca": "Genérico",
         "subcategorias": [
             "Papel Crepé"
         ],
-        "imagen_principal": "nan",
+        "imagen_principal": "imagenes/crepe/papel-crepe-decorado-futbol-azul.jpg",
         "stock_general": null,
-        "colores": [],
+        "colores": [
+            {
+                "nombre": "Azul",
+                "stock": 1,
+                "imagen": "imagenes/crepe/papel-crepe-decorado-futbol-azul.jpg\nRojo: imagenes/crepe/papel-crepe-decorado-futbol-rojo.jpg"
+            },
+            {
+                "nombre": "Rojo",
+                "stock": 1,
+                "imagen": ""
+            }
+        ],
         "precio_regular": 2.0,
         "precio_oferta": null,
         "palabras_clave": [],
@@ -7223,7 +7234,7 @@
         "subcategorias": [
             "Papel Crepé"
         ],
-        "imagen_principal": "nan",
+        "imagen_principal": "imagenes/crepe/papel-crepe-decorado-flores-lilas.jpg",
         "stock_general": null,
         "colores": [],
         "precio_regular": 2.0,
@@ -7250,7 +7261,7 @@
     },
     {
         "sku": "CREP-70",
-        "nombre": "Papel crepé con diseño lunares rojos",
+        "nombre": "Papel crepé con diseño amarillo puntos rojos",
         "marca": "Genérico",
         "subcategorias": [
             "Papel Crepé"
@@ -7266,12 +7277,60 @@
     },
     {
         "sku": "CREP-71",
-        "nombre": "Papel crepé con diseño animal print",
+        "nombre": "Papel crepé con diseño animal print zebra",
         "marca": "Genérico",
         "subcategorias": [
             "Papel Crepé"
         ],
-        "imagen_principal": "nan",
+        "imagen_principal": "imagenes/crepe/crepe animal print zebra.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 2.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CREP-72",
+        "nombre": "Papel crepé con diseño azul con estrellas blancas",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Crepé"
+        ],
+        "imagen_principal": "imagenes/crepe/crepe azul estrella blanca.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 2.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CREP-73",
+        "nombre": "Papel crepé con diseño rojo con puntos blancos",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Crepé"
+        ],
+        "imagen_principal": "imagenes/crepe/crepe rojo lunares blancos.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 2.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "CREP-74",
+        "nombre": "Papel crepé con diseño serpentinas",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Crepé"
+        ],
+        "imagen_principal": "imagenes/crepe/crepe serpentina.jpg",
         "stock_general": null,
         "colores": [],
         "precio_regular": 2.0,
