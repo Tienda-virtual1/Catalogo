@@ -7338,5 +7338,357 @@
         "palabras_clave": [],
         "descripcion_corta": "",
         "etiqueta": null
+    },
+    {
+        "sku": "LUST-01",
+        "nombre": "Papel lustre rosado",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Lustre"
+        ],
+        "imagen_principal": "imagenes/Lustre/lustre rosado.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "LUST-02",
+        "nombre": "Papel lustre azulino",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Lustre"
+        ],
+        "imagen_principal": "imagenes/Lustre/papel-lustre-azulino.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "LUST-03",
+        "nombre": "Papel lustre marrón",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Lustre"
+        ],
+        "imagen_principal": "imagenes/Lustre/lustre marron.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "LUST-04",
+        "nombre": "Papel lustre plateado",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Lustre"
+        ],
+        "imagen_principal": "imagenes/Lustre/lustre plateado.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "LUST-05",
+        "nombre": "Papel lustre naranja",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Lustre"
+        ],
+        "imagen_principal": "imagenes/Lustre/lustre naranja.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "LUST-06",
+        "nombre": "Papel lustre negro",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Lustre"
+        ],
+        "imagen_principal": "imagenes/Lustre/lustre negro.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "LUST-07",
+        "nombre": "Papel lustre morado",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Lustre"
+        ],
+        "imagen_principal": "imagenes/Lustre/lustre morado.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "LUST-08",
+        "nombre": "Papel lustre verde oscuro",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Lustre"
+        ],
+        "imagen_principal": "imagenes/Lustre/lustre verde oscuro.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "LUST-09",
+        "nombre": "Papel lustre verde claro",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Lustre"
+        ],
+        "imagen_principal": "imagenes/Lustre/lustre verde c.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "LUST-10",
+        "nombre": "Papel lustre vere limón",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Lustre"
+        ],
+        "imagen_principal": "imagenes/Lustre/lustre verde l.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "LUST-11",
+        "nombre": "Papel lustre celeste",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Lustre"
+        ],
+        "imagen_principal": "imagenes/Lustre/lustre celeste.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "LUST-12",
+        "nombre": "Papel lustre rojo",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Lustre"
+        ],
+        "imagen_principal": "imagenes/Lustre/lustre rojo.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "LUST-13",
+        "nombre": "Papel lustre fucsia",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Lustre"
+        ],
+        "imagen_principal": "imagenes/Lustre/lustre fucsia.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "LUST-14",
+        "nombre": "Papel lustre dorado",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Lustre"
+        ],
+        "imagen_principal": "imagenes/Lustre/papel-lustre-dorado.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "LUST-15",
+        "nombre": "Papel lustre amarillo",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Lustre"
+        ],
+        "imagen_principal": "imagenes/Lustre/lustre amarillo.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "LUST-16",
+        "nombre": "Papel lustre blanco",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Lustre"
+        ],
+        "imagen_principal": "imagenes/Lustre/lustre blanco.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "LUST-17",
+        "nombre": "Papel lustre turquesa",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Lustre"
+        ],
+        "imagen_principal": "imagenes/Lustre/lustre turquesa.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "LUST-18",
+        "nombre": "Papel lustre azul",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Lustre"
+        ],
+        "imagen_principal": "imagenes/Lustre/lustre azul.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "LUST-19",
+        "nombre": "Papel lustre crema",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Lustre"
+        ],
+        "imagen_principal": "imagenes/Lustre/lustre crema.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "LUST-20",
+        "nombre": "Papel lustre guinda",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Lustre"
+        ],
+        "imagen_principal": "imagenes/Lustre/lustre guinda.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "LUST-21",
+        "nombre": "Papel lustre lila",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Lustre"
+        ],
+        "imagen_principal": "imagenes/Lustre/lustre lila.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "LUST-22",
+        "nombre": "Papel lustre melón",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Lustre"
+        ],
+        "imagen_principal": "imagenes/Lustre/lustre melon.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
     }
 ]
