@@ -7362,7 +7362,7 @@
         "subcategorias": [
             "Papel Lustre"
         ],
-        "imagen_principal": "imagenes/Lustre/papel-lustre-azulino.jpg",
+        "imagen_principal": "imagenes/Lustre/lustre azulino.jpg",
         "stock_general": null,
         "colores": [],
         "precio_regular": 0.5,
@@ -7618,7 +7618,7 @@
         "subcategorias": [
             "Papel Lustre"
         ],
-        "imagen_principal": "imagenes/Lustre/lustre azul.jpg",
+        "imagen_principal": "imagenes/Lustre/papel-lustre-azul.jpg",
         "stock_general": null,
         "colores": [],
         "precio_regular": 0.5,
@@ -7677,7 +7677,7 @@
     },
     {
         "sku": "LUST-22",
-        "nombre": "Papel lustre melón",
+        "nombre": "Papel lustre piel",
         "marca": "Genérico",
         "subcategorias": [
             "Papel Lustre"
