@@ -7341,262 +7341,6 @@
     },
     {
         "sku": "LUST-01",
-        "nombre": "Papel lustre rosado",
-        "marca": "Genérico",
-        "subcategorias": [
-            "Papel Lustre"
-        ],
-        "imagen_principal": "imagenes/Lustre/lustre rosado.jpg",
-        "stock_general": null,
-        "colores": [],
-        "precio_regular": 0.5,
-        "precio_oferta": null,
-        "palabras_clave": [],
-        "descripcion_corta": "",
-        "etiqueta": null
-    },
-    {
-        "sku": "LUST-02",
-        "nombre": "Papel lustre azulino",
-        "marca": "Genérico",
-        "subcategorias": [
-            "Papel Lustre"
-        ],
-        "imagen_principal": "imagenes/Lustre/lustre azulino.jpg",
-        "stock_general": null,
-        "colores": [],
-        "precio_regular": 0.5,
-        "precio_oferta": null,
-        "palabras_clave": [],
-        "descripcion_corta": "",
-        "etiqueta": null
-    },
-    {
-        "sku": "LUST-03",
-        "nombre": "Papel lustre marrón",
-        "marca": "Genérico",
-        "subcategorias": [
-            "Papel Lustre"
-        ],
-        "imagen_principal": "imagenes/Lustre/lustre marron.jpg",
-        "stock_general": null,
-        "colores": [],
-        "precio_regular": 0.5,
-        "precio_oferta": null,
-        "palabras_clave": [],
-        "descripcion_corta": "",
-        "etiqueta": null
-    },
-    {
-        "sku": "LUST-04",
-        "nombre": "Papel lustre plateado",
-        "marca": "Genérico",
-        "subcategorias": [
-            "Papel Lustre"
-        ],
-        "imagen_principal": "imagenes/Lustre/lustre plateado.jpg",
-        "stock_general": null,
-        "colores": [],
-        "precio_regular": 0.5,
-        "precio_oferta": null,
-        "palabras_clave": [],
-        "descripcion_corta": "",
-        "etiqueta": null
-    },
-    {
-        "sku": "LUST-05",
-        "nombre": "Papel lustre naranja",
-        "marca": "Genérico",
-        "subcategorias": [
-            "Papel Lustre"
-        ],
-        "imagen_principal": "imagenes/Lustre/lustre naranja.jpg",
-        "stock_general": null,
-        "colores": [],
-        "precio_regular": 0.5,
-        "precio_oferta": null,
-        "palabras_clave": [],
-        "descripcion_corta": "",
-        "etiqueta": null
-    },
-    {
-        "sku": "LUST-06",
-        "nombre": "Papel lustre negro",
-        "marca": "Genérico",
-        "subcategorias": [
-            "Papel Lustre"
-        ],
-        "imagen_principal": "imagenes/Lustre/lustre negro.jpg",
-        "stock_general": null,
-        "colores": [],
-        "precio_regular": 0.5,
-        "precio_oferta": null,
-        "palabras_clave": [],
-        "descripcion_corta": "",
-        "etiqueta": null
-    },
-    {
-        "sku": "LUST-07",
-        "nombre": "Papel lustre morado",
-        "marca": "Genérico",
-        "subcategorias": [
-            "Papel Lustre"
-        ],
-        "imagen_principal": "imagenes/Lustre/lustre morado.jpg",
-        "stock_general": null,
-        "colores": [],
-        "precio_regular": 0.5,
-        "precio_oferta": null,
-        "palabras_clave": [],
-        "descripcion_corta": "",
-        "etiqueta": null
-    },
-    {
-        "sku": "LUST-08",
-        "nombre": "Papel lustre verde oscuro",
-        "marca": "Genérico",
-        "subcategorias": [
-            "Papel Lustre"
-        ],
-        "imagen_principal": "imagenes/Lustre/lustre verde oscuro.jpg",
-        "stock_general": null,
-        "colores": [],
-        "precio_regular": 0.5,
-        "precio_oferta": null,
-        "palabras_clave": [],
-        "descripcion_corta": "",
-        "etiqueta": null
-    },
-    {
-        "sku": "LUST-09",
-        "nombre": "Papel lustre verde claro",
-        "marca": "Genérico",
-        "subcategorias": [
-            "Papel Lustre"
-        ],
-        "imagen_principal": "imagenes/Lustre/lustre verde c.jpg",
-        "stock_general": null,
-        "colores": [],
-        "precio_regular": 0.5,
-        "precio_oferta": null,
-        "palabras_clave": [],
-        "descripcion_corta": "",
-        "etiqueta": null
-    },
-    {
-        "sku": "LUST-10",
-        "nombre": "Papel lustre vere limón",
-        "marca": "Genérico",
-        "subcategorias": [
-            "Papel Lustre"
-        ],
-        "imagen_principal": "imagenes/Lustre/lustre verde l.jpg",
-        "stock_general": null,
-        "colores": [],
-        "precio_regular": 0.5,
-        "precio_oferta": null,
-        "palabras_clave": [],
-        "descripcion_corta": "",
-        "etiqueta": null
-    },
-    {
-        "sku": "LUST-11",
-        "nombre": "Papel lustre celeste",
-        "marca": "Genérico",
-        "subcategorias": [
-            "Papel Lustre"
-        ],
-        "imagen_principal": "imagenes/Lustre/lustre celeste.jpg",
-        "stock_general": null,
-        "colores": [],
-        "precio_regular": 0.5,
-        "precio_oferta": null,
-        "palabras_clave": [],
-        "descripcion_corta": "",
-        "etiqueta": null
-    },
-    {
-        "sku": "LUST-12",
-        "nombre": "Papel lustre rojo",
-        "marca": "Genérico",
-        "subcategorias": [
-            "Papel Lustre"
-        ],
-        "imagen_principal": "imagenes/Lustre/lustre rojo.jpg",
-        "stock_general": null,
-        "colores": [],
-        "precio_regular": 0.5,
-        "precio_oferta": null,
-        "palabras_clave": [],
-        "descripcion_corta": "",
-        "etiqueta": null
-    },
-    {
-        "sku": "LUST-13",
-        "nombre": "Papel lustre fucsia",
-        "marca": "Genérico",
-        "subcategorias": [
-            "Papel Lustre"
-        ],
-        "imagen_principal": "imagenes/Lustre/lustre fucsia.jpg",
-        "stock_general": null,
-        "colores": [],
-        "precio_regular": 0.5,
-        "precio_oferta": null,
-        "palabras_clave": [],
-        "descripcion_corta": "",
-        "etiqueta": null
-    },
-    {
-        "sku": "LUST-14",
-        "nombre": "Papel lustre dorado",
-        "marca": "Genérico",
-        "subcategorias": [
-            "Papel Lustre"
-        ],
-        "imagen_principal": "imagenes/Lustre/papel-lustre-dorado.jpg",
-        "stock_general": null,
-        "colores": [],
-        "precio_regular": 0.5,
-        "precio_oferta": null,
-        "palabras_clave": [],
-        "descripcion_corta": "",
-        "etiqueta": null
-    },
-    {
-        "sku": "LUST-15",
-        "nombre": "Papel lustre amarillo",
-        "marca": "Genérico",
-        "subcategorias": [
-            "Papel Lustre"
-        ],
-        "imagen_principal": "imagenes/Lustre/lustre amarillo.jpg",
-        "stock_general": null,
-        "colores": [],
-        "precio_regular": 0.5,
-        "precio_oferta": null,
-        "palabras_clave": [],
-        "descripcion_corta": "",
-        "etiqueta": null
-    },
-    {
-        "sku": "LUST-16",
-        "nombre": "Papel lustre blanco",
-        "marca": "Genérico",
-        "subcategorias": [
-            "Papel Lustre"
-        ],
-        "imagen_principal": "imagenes/Lustre/lustre blanco.jpg",
-        "stock_general": null,
-        "colores": [],
-        "precio_regular": 0.5,
-        "precio_oferta": null,
-        "palabras_clave": [],
-        "descripcion_corta": "",
-        "etiqueta": null
-    },
-    {
-        "sku": "LUST-17",
         "nombre": "Papel lustre turquesa",
         "marca": "Genérico",
         "subcategorias": [
@@ -7612,13 +7356,269 @@
         "etiqueta": null
     },
     {
-        "sku": "LUST-18",
+        "sku": "LUST-02",
         "nombre": "Papel lustre azul",
         "marca": "Genérico",
         "subcategorias": [
             "Papel Lustre"
         ],
         "imagen_principal": "imagenes/Lustre/papel-lustre-azul.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "LUST-03",
+        "nombre": "Papel lustre azulino",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Lustre"
+        ],
+        "imagen_principal": "imagenes/Lustre/lustre azulino.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "LUST-04",
+        "nombre": "Papel lustre marrón",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Lustre"
+        ],
+        "imagen_principal": "imagenes/Lustre/lustre marron.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "LUST-05",
+        "nombre": "Papel lustre plateado",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Lustre"
+        ],
+        "imagen_principal": "imagenes/Lustre/lustre plateado.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "LUST-06",
+        "nombre": "Papel lustre naranja",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Lustre"
+        ],
+        "imagen_principal": "imagenes/Lustre/lustre naranja.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "LUST-07",
+        "nombre": "Papel lustre negro",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Lustre"
+        ],
+        "imagen_principal": "imagenes/Lustre/lustre negro.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "LUST-08",
+        "nombre": "Papel lustre morado",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Lustre"
+        ],
+        "imagen_principal": "imagenes/Lustre/lustre morado.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "LUST-09",
+        "nombre": "Papel lustre verde oscuro",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Lustre"
+        ],
+        "imagen_principal": "imagenes/Lustre/lustre verde oscuro.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "LUST-10",
+        "nombre": "Papel lustre verde claro",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Lustre"
+        ],
+        "imagen_principal": "imagenes/Lustre/lustre verde c.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "LUST-11",
+        "nombre": "Papel lustre vere limón",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Lustre"
+        ],
+        "imagen_principal": "imagenes/Lustre/lustre verde l.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "LUST-12",
+        "nombre": "Papel lustre celeste",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Lustre"
+        ],
+        "imagen_principal": "imagenes/Lustre/lustre celeste.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "LUST-13",
+        "nombre": "Papel lustre rojo",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Lustre"
+        ],
+        "imagen_principal": "imagenes/Lustre/lustre rojo.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "LUST-14",
+        "nombre": "Papel lustre fucsia",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Lustre"
+        ],
+        "imagen_principal": "imagenes/Lustre/lustre fucsia.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "LUST-15",
+        "nombre": "Papel lustre dorado",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Lustre"
+        ],
+        "imagen_principal": "imagenes/Lustre/papel-lustre-dorado.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "LUST-16",
+        "nombre": "Papel lustre amarillo",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Lustre"
+        ],
+        "imagen_principal": "imagenes/Lustre/lustre amarillo.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "LUST-17",
+        "nombre": "Papel lustre blanco",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Lustre"
+        ],
+        "imagen_principal": "imagenes/Lustre/lustre blanco.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "LUST-18",
+        "nombre": "Papel lustre rosado",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Lustre"
+        ],
+        "imagen_principal": "imagenes/Lustre/lustre rosado.jpg",
         "stock_general": null,
         "colores": [],
         "precio_regular": 0.5,
@@ -7684,6 +7684,326 @@
         ],
         "imagen_principal": "imagenes/Lustre/lustre melon.jpg",
         "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "SEDA-01",
+        "nombre": "Papel sedita blanco",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Sedita"
+        ],
+        "imagen_principal": "imagenes/sedita/papel-seda-blanco.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "SEDA-02",
+        "nombre": "Papel sedita verde oscuro",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Sedita"
+        ],
+        "imagen_principal": "imagenes/sedita/papel-seda-verde oscuro.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "SEDA-03",
+        "nombre": "Papel sedita verde claro",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Sedita"
+        ],
+        "imagen_principal": "imagenes/sedita/papel-seda-verde claro.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "SEDA-04",
+        "nombre": "Papel sedita verde limón",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Sedita"
+        ],
+        "imagen_principal": "imagenes/sedita/papel-seda-verde limon.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "SEDA-05",
+        "nombre": "Papel sedita azul",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Sedita"
+        ],
+        "imagen_principal": "imagenes/sedita/papel-seda-azul.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "SEDA-06",
+        "nombre": "Papel sedita azulino",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Sedita"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "SEDA-07",
+        "nombre": "Papel sedita rojo",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Sedita"
+        ],
+        "imagen_principal": "imagenes/sedita/papel-seda-rojo.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "SEDA-08",
+        "nombre": "Papel sedita rosado",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Sedita"
+        ],
+        "imagen_principal": "imagenes/sedita/papel-seda-rosado.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "SEDA-09",
+        "nombre": "Papel sedita morado",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Sedita"
+        ],
+        "imagen_principal": "imagenes/sedita/papel-seda-morado.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "SEDA-10",
+        "nombre": "Papel sedita negro",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Sedita"
+        ],
+        "imagen_principal": "imagenes/sedita/papel-seda-negro.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "SEDA-11",
+        "nombre": "Papel sedita celeste",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Sedita"
+        ],
+        "imagen_principal": "imagenes/sedita/papel-seda-celeste.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "SEDA-12",
+        "nombre": "Papel sedita fucsia",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Sedita"
+        ],
+        "imagen_principal": "imagenes/sedita/papel-seda-fucsia.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "SEDA-13",
+        "nombre": "Papel sedita violeta",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Sedita"
+        ],
+        "imagen_principal": "imagenes/sedita/papel-seda-violeta.jpg",
+        "stock_general": "0",
+        "colores": [],
+        "precio_regular": 0.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "SEDA-14",
+        "nombre": "Papel sedita marrón",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Sedita"
+        ],
+        "imagen_principal": "imagenes/sedita/papel-seda-marron.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "SEDA-15",
+        "nombre": "Papel sedita naranja",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Sedita"
+        ],
+        "imagen_principal": "imagenes/sedita/papel-seda-naranja.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "SEDA-16",
+        "nombre": "Papel sedita amarillo",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Sedita"
+        ],
+        "imagen_principal": "imagenes/sedita/papel-seda-amarillo.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "SEDA-17",
+        "nombre": "Papel sedita lila",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Sedita"
+        ],
+        "imagen_principal": "imagenes/sedita/papel-seda-lila.jpg",
+        "stock_general": "0",
+        "colores": [],
+        "precio_regular": 0.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "SEDA-18",
+        "nombre": "Papel sedita turquesa",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Sedita"
+        ],
+        "imagen_principal": "imagenes/sedita/papel-seda-turquesa.jpg",
+        "stock_general": "0",
+        "colores": [],
+        "precio_regular": 0.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "SEDA-19",
+        "nombre": "Papel sedita plateado",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Sedita"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "SEDA-20",
+        "nombre": "Papel sedita dorado",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Papel Sedita"
+        ],
+        "imagen_principal": "imagenes/sedita/papel-seda-dorado.jpg",
+        "stock_general": "0",
         "colores": [],
         "precio_regular": 0.5,
         "precio_oferta": null,
