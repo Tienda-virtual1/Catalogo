@@ -8010,5 +8010,21 @@
         "palabras_clave": [],
         "descripcion_corta": "",
         "etiqueta": null
+    },
+    {
+        "sku": "MICR-01",
+        "nombre": "Microporoso pliego 50cm x 60 cm",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Microporoso"
+        ],
+        "imagen_principal": "imagenes/microporoso/microporoso pliego.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
     }
 ]
