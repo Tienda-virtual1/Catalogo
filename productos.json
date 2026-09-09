@@ -8020,7 +8020,28 @@
         ],
         "imagen_principal": "imagenes/microporoso/microporoso pliego.jpg",
         "stock_general": null,
-        "colores": [],
+        "colores": [
+            {
+                "nombre": "Surtido",
+                "stock": 50,
+                "imagen": "imagenes/microporoso/microporoso pliego.jpg"
+            },
+            {
+                "nombre": "Amarillo",
+                "stock": 5,
+                "imagen": "imagenes/microporoso/micropor-50-x-60-amarillo.jpg"
+            },
+            {
+                "nombre": "Azul",
+                "stock": 5,
+                "imagen": "imagenes/microporoso/micropor-50-x-60-azul.jpg"
+            },
+            {
+                "nombre": "Blanco",
+                "stock": 5,
+                "imagen": "imagenes/microporoso/micropor-50-x-60-blanco.jpg"
+            }
+        ],
         "precio_regular": 0.0,
         "precio_oferta": null,
         "palabras_clave": [],
