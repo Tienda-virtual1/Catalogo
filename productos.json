@@ -8099,7 +8099,7 @@
             {
                 "nombre": "Verde",
                 "stock": 5,
-                "imagen": ""
+                "imagen": "imagenes/microporoso/micropor-50-x-60-verde.jpg"
             }
         ],
         "precio_regular": 0.0,
@@ -8169,9 +8169,9 @@
                 "imagen": "imagenes/microporoso/MICROPOROSO A4 ESCARCHADO ADHESIVO PLATEADO.jpg"
             },
             {
-                "nombre": "}\nRojo",
+                "nombre": "Rojo",
                 "stock": 10,
-                "imagen": ""
+                "imagen": "imagenes/microporoso/MICROPOROSO A4 ESCARCHADO ADHESIVO ROJO.jpg"
             },
             {
                 "nombre": "Rosado",
@@ -8184,7 +8184,7 @@
                 "imagen": "imagenes/microporoso/MICROPOROSO A4 ESCARCHADO ADHESIVO TURQUEZA.jpg"
             },
             {
-                "nombre": "Verde Claro",
+                "nombre": "Verde",
                 "stock": 10,
                 "imagen": "imagenes/microporoso/MICROPOROSO A4 ESCARCHADO ADHESIVO VERDE HOJA.jpg"
             },
@@ -8261,7 +8261,7 @@
                 "imagen": "imagenes/microporoso/MICROPOROSO A4 SIMPLE ROJO.jpg"
             },
             {
-                "nombre": "Verde Claro",
+                "nombre": "Verde",
                 "stock": 5,
                 "imagen": "imagenes/microporoso/MICROPOROSO A4 SIMPLE VERDE HOJA.jpg"
             }
