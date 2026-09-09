@@ -796,13 +796,22 @@
                 return "background: linear-gradient(to right, #ef4444, #eab308, #3b82f6); border: 1px solid #d1d5db;";
             }
         
+            // Efectos metálicos con degradado realista
+            if (normalizado.includes('dorado') || normalizado.includes('oro')) {
+                return "background: linear-gradient(135deg, #BF953F 0%, #FCF6BA 25%, #B38728 50%, #FBF5B7 75%, #AA771C 100%); border: 1px solid #d1d5db;";
+            }
+        
+            if (normalizado.includes('plateado') || normalizado.includes('plata')) {
+                return "background: linear-gradient(135deg, #E0E4E8 0%, #F7F9FA 40%, #B8C2CC 70%, #8795A1 100%); border: 1px solid #d1d5db;";
+            }
+        
             const mapaColores = {
                 "rojo": "#dc2626", "azul": "#2563eb", "amarillo": "#facc15",
                 "verde": "#16a34a", "verde oscuro": "#065f46", "verde limón": "#84cc16",
                 "celeste": "#38bdf8", "anaranjado": "#f97316", "naranja": "#f97316",
                 "lila": "#c084fc", "rosado": "#f472b6", "rosa": "#f472b6",
                 "blanco": "#ffffff", "negro": "#111827", "marrón": "#92400e",
-                "morado": "#7e22ce", "turquesa": "#0d9488"
+                "morado": "#7e22ce", "turquesa": "#0d9488", "fucsia": "#e00b97"
             };
         
             return mapaColores[normalizado] ? `background-color: ${mapaColores[normalizado]}; border: 1px solid #d1d5db;` : "background-color: #9ca3af; border: 1px solid #d1d5db;";
