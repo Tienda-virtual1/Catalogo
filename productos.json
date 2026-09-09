@@ -8099,9 +8099,221 @@
             {
                 "nombre": "Verde",
                 "stock": 5,
-                "imagen": "imagenes/microporoso/micropor-50-x-60-verde.jpg"
+                "imagen": ""
             }
         ],
+        "precio_regular": 0.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "MICR-11",
+        "nombre": "Microporoso escarchado adhesivo A4",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Microporosos"
+        ],
+        "imagen_principal": "imagenes/microporoso/microporoso escarchado a4.webp",
+        "stock_general": null,
+        "colores": [
+            {
+                "nombre": "Surtido",
+                "stock": 100,
+                "imagen": "imagenes/microporoso/microporoso escarchado a4.webp"
+            },
+            {
+                "nombre": "Amarillo",
+                "stock": 10,
+                "imagen": "imagenes/microporoso/MICROPOROSO A4 ESCARCHADO ADHESIVO AMARILLO.jpg"
+            },
+            {
+                "nombre": "Azul",
+                "stock": 10,
+                "imagen": "imagenes/microporoso/MICROPOROSO A4 ESCARCHADO ADHESIVO AZUL.jpg"
+            },
+            {
+                "nombre": "Blanco",
+                "stock": 10,
+                "imagen": "imagenes/microporoso/MICROPOROSO A4 ESCARCHADO ADHESIVO BLANCO.jpg"
+            },
+            {
+                "nombre": "Celeste",
+                "stock": 10,
+                "imagen": "imagenes/microporoso/MICROPOROSO A4 ESCARCHADO ADHESIVO CELESTE.jpg"
+            },
+            {
+                "nombre": "Dorado",
+                "stock": 10,
+                "imagen": "imagenes/microporoso/MICROPOROSO A4 ESCARCHADO ADHESIVO DORADO.jpg"
+            },
+            {
+                "nombre": "Morado",
+                "stock": 10,
+                "imagen": "imagenes/microporoso/MICROPOROSO A4 ESCARCHADO ADHESIVO MORADO.jpg"
+            },
+            {
+                "nombre": "Naranja",
+                "stock": 10,
+                "imagen": "imagenes/microporoso/MICROPOROSO A4 ESCARCHADO ADHESIVO NARANJA.jpg"
+            },
+            {
+                "nombre": "Negro",
+                "stock": 10,
+                "imagen": "imagenes/microporoso/MICROPOROSO A4 ESCARCHADO ADHESIVO NEGRO.jpg"
+            },
+            {
+                "nombre": "Plateado",
+                "stock": 10,
+                "imagen": "imagenes/microporoso/MICROPOROSO A4 ESCARCHADO ADHESIVO PLATEADO.jpg"
+            },
+            {
+                "nombre": "}\nRojo",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rosado",
+                "stock": 10,
+                "imagen": "imagenes/microporoso/MICROPOROSO A4 ESCARCHADO ADHESIVO ROSADO.jpg"
+            },
+            {
+                "nombre": "Turquesa",
+                "stock": 10,
+                "imagen": "imagenes/microporoso/MICROPOROSO A4 ESCARCHADO ADHESIVO TURQUEZA.jpg"
+            },
+            {
+                "nombre": "Verde Claro",
+                "stock": 10,
+                "imagen": "imagenes/microporoso/MICROPOROSO A4 ESCARCHADO ADHESIVO VERDE HOJA.jpg"
+            },
+            {
+                "nombre": "Verde Limón",
+                "stock": 10,
+                "imagen": "imagenes/microporoso/MICROPOROSO A4 ESCARCHADO ADHESIVO VERDE LIMON.jpg"
+            }
+        ],
+        "precio_regular": 0.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "MICR-21",
+        "nombre": "Microporos liso A4",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Microporosos"
+        ],
+        "imagen_principal": "imagenes/microporoso/microporoso-colores-varios-a4.jpg",
+        "stock_general": null,
+        "colores": [
+            {
+                "nombre": "Surtido",
+                "stock": 50,
+                "imagen": "imagenes/microporoso/microporoso-colores-varios-a4.jpg"
+            },
+            {
+                "nombre": "Amarillo",
+                "stock": 5,
+                "imagen": "imagenes/microporoso/MICROPOROSO A4 SIMPLE AMARILLO.png"
+            },
+            {
+                "nombre": "Azul",
+                "stock": 5,
+                "imagen": "imagenes/microporoso/MICROPOROSO A4 SIMPLE AZUL.jpg"
+            },
+            {
+                "nombre": "Blanco",
+                "stock": 5,
+                "imagen": "imagenes/microporoso/MICROPOROSO A4 SIMPLE BLANCO.jpg"
+            },
+            {
+                "nombre": "Celeste",
+                "stock": 5,
+                "imagen": "imagenes/microporoso/MICROPOROSO A4 SIMPLE CELESTE.jpg"
+            },
+            {
+                "nombre": "Marrón",
+                "stock": 5,
+                "imagen": "imagenes/microporoso/MICROPOROSO A4 SIMPLE MARRÓN.jpg"
+            },
+            {
+                "nombre": "Morado",
+                "stock": 5,
+                "imagen": "imagenes/microporoso/MICROPOROSO A4 SIMPLE MORADO.jpg"
+            },
+            {
+                "nombre": "Naranja",
+                "stock": 5,
+                "imagen": "imagenes/microporoso/MICROPOROSO A4 SIMPLE NARANJA.jpg"
+            },
+            {
+                "nombre": "Negro",
+                "stock": 5,
+                "imagen": "imagenes/microporoso/MICROPOROSO A4 SIMPLE NEGRO.jpg"
+            },
+            {
+                "nombre": "Rojo",
+                "stock": 5,
+                "imagen": "imagenes/microporoso/MICROPOROSO A4 SIMPLE ROJO.jpg"
+            },
+            {
+                "nombre": "Verde Claro",
+                "stock": 5,
+                "imagen": "imagenes/microporoso/MICROPOROSO A4 SIMPLE VERDE HOJA.jpg"
+            }
+        ],
+        "precio_regular": 0.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "MICR-61",
+        "nombre": "Microporoso escarchado adhesivo con diseños A4",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Microporosos"
+        ],
+        "imagen_principal": "imagenes/microporoso/MICROPOROSO A4 ESCARCHADO ADHESIVO DISEÑOS VARIADOS.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "MICR-62",
+        "nombre": "Microporoso escarchado adhesivo números A4",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Microporosos"
+        ],
+        "imagen_principal": "imagenes/microporoso/MICROPOROSO A4 ESCARCHADO ADHESIVO NUMEROS.png",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "MICR-71",
+        "nombre": "Microporos para punzar A4",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Microporosos"
+        ],
+        "imagen_principal": "imagenes/microporoso/MICROPOROSO GRUESO PARA PUNZAR TAMAÑO A4.jpg",
+        "stock_general": null,
+        "colores": [],
         "precio_regular": 0.0,
         "precio_oferta": null,
         "palabras_clave": [],
