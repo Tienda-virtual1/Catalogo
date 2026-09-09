@@ -8040,6 +8040,66 @@
                 "nombre": "Blanco",
                 "stock": 5,
                 "imagen": "imagenes/microporoso/micropor-50-x-60-blanco.jpg"
+            },
+            {
+                "nombre": "Celeste",
+                "stock": 5,
+                "imagen": "imagenes/microporoso/micropor-50-x-60-celeste.jpg"
+            },
+            {
+                "nombre": "Fucsia",
+                "stock": 5,
+                "imagen": "imagenes/microporoso/micropor-50-x-60-celeste.jpg"
+            },
+            {
+                "nombre": "Lila",
+                "stock": 5,
+                "imagen": "imagenes/microporoso/micropor-50-x-60-lila.jpg"
+            },
+            {
+                "nombre": "Marrón",
+                "stock": 5,
+                "imagen": "imagenes/microporoso/micropor-50-x-60-marron.jpg"
+            },
+            {
+                "nombre": "Morado",
+                "stock": 5,
+                "imagen": "imagenes/microporoso/micropor-50-x-60-morado-bebe.jpg"
+            },
+            {
+                "nombre": "Naranja",
+                "stock": 5,
+                "imagen": "imagenes/microporoso/micropor-50-x-60-naranja.jpg"
+            },
+            {
+                "nombre": "Negro",
+                "stock": 5,
+                "imagen": "imagenes/microporoso/micropor-50-x-60-negro.jpg"
+            },
+            {
+                "nombre": "Rojo",
+                "stock": 5,
+                "imagen": "imagenes/microporoso/micropor-50-x-60-rojo.jpg"
+            },
+            {
+                "nombre": "Rosado",
+                "stock": 5,
+                "imagen": "imagenes/microporoso/micropor-50-x-60-rosado.jpg"
+            },
+            {
+                "nombre": "Turquesa",
+                "stock": 5,
+                "imagen": "imagenes/microporoso/micropor-50-x-60-turquesa.jpg"
+            },
+            {
+                "nombre": "Melón",
+                "stock": 5,
+                "imagen": "imagenes/microporoso/micropor-50-x-60-turquesa.jpg"
+            },
+            {
+                "nombre": "Verde",
+                "stock": 5,
+                "imagen": "imagenes/microporoso/micropor-50-x-60-turquesa.jpg"
             }
         ],
         "precio_regular": 0.0,
