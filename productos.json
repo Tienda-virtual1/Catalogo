@@ -8094,12 +8094,12 @@
             {
                 "nombre": "Melón",
                 "stock": 5,
-                "imagen": "imagenes/microporoso/micropor-50-x-60-turquesa.jpg"
+                "imagen": "imagenes/microporoso/micropor-50-x-60-vainilla.jpg"
             },
             {
                 "nombre": "Verde",
                 "stock": 5,
-                "imagen": "imagenes/microporoso/micropor-50-x-60-turquesa.jpg"
+                "imagen": "imagenes/microporoso/micropor-50-x-60-verde.jpg"
             }
         ],
         "precio_regular": 0.0,
