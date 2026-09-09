@@ -8087,6 +8087,16 @@
                 "imagen": "imagenes/microporoso/micropor-50-x-60-rosado.jpg"
             },
             {
+                "nombre": "Rosado Chicle",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Palo Rosa",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
                 "nombre": "Turquesa",
                 "stock": 5,
                 "imagen": "imagenes/microporoso/micropor-50-x-60-turquesa.jpg"
