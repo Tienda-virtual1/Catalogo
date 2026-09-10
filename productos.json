@@ -8013,7 +8013,139 @@
     },
     {
         "sku": "MICR-01",
-        "nombre": "Microporoso pliego 50cm x 60 cm",
+        "nombre": "Microporoso escarchado adhesivo pliego 50 cm x 70 cm",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Microporosos"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [
+            {
+                "nombre": "Surtido",
+                "stock": 100,
+                "imagen": ""
+            },
+            {
+                "nombre": "Amarillo",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Blanco",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Dorado",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Morado",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Lila",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Naranja",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Naranja Cobre",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Negro",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Marrón",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Plateado",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rojo",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Fucsia",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rosado",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rosado Chicle",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Palo Rosa",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Piel",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Azul",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Turquesa",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Celeste",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Celeste Bebé",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde Oscuro",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde Limón",
+                "stock": 10,
+                "imagen": ""
+            }
+        ],
+        "precio_regular": 0.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "MICR-05",
+        "nombre": "Microporoso pliego 50 cm x 70 cm",
         "marca": "Genérico",
         "subcategorias": [
             "Microporosos"
@@ -8037,6 +8169,11 @@
                 "imagen": "imagenes/microporoso/micropor-50-x-60-azul.jpg"
             },
             {
+                "nombre": "Turquesa",
+                "stock": 5,
+                "imagen": "imagenes/microporoso/micropor-50-x-60-turquesa.jpg"
+            },
+            {
                 "nombre": "Blanco",
                 "stock": 5,
                 "imagen": "imagenes/microporoso/micropor-50-x-60-blanco.jpg"
@@ -8047,19 +8184,14 @@
                 "imagen": "imagenes/microporoso/micropor-50-x-60-celeste.jpg"
             },
             {
-                "nombre": "Fucsia",
-                "stock": 5,
-                "imagen": "imagenes/microporoso/micropor-50-x-60-fucsia.jpg"
-            },
-            {
-                "nombre": "Lila",
-                "stock": 5,
-                "imagen": "imagenes/microporoso/micropor-50-x-60-lila.jpg"
-            },
-            {
                 "nombre": "Marrón",
                 "stock": 5,
                 "imagen": "imagenes/microporoso/micropor-50-x-60-marron.jpg"
+            },
+            {
+                "nombre": "Marrón Claro",
+                "stock": 5,
+                "imagen": ""
             },
             {
                 "nombre": "Morado",
@@ -8077,6 +8209,11 @@
                 "imagen": "imagenes/microporoso/micropor-50-x-60-negro.jpg"
             },
             {
+                "nombre": "Plomo",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
                 "nombre": "Rojo",
                 "stock": 5,
                 "imagen": "imagenes/microporoso/micropor-50-x-60-rojo.jpg"
@@ -8087,24 +8224,29 @@
                 "imagen": "imagenes/microporoso/micropor-50-x-60-rosado.jpg"
             },
             {
-                "nombre": "Rosado Chicle",
-                "stock": 10,
-                "imagen": ""
-            },
-            {
-                "nombre": "Palo Rosa",
-                "stock": 10,
-                "imagen": ""
-            },
-            {
-                "nombre": "Turquesa",
+                "nombre": "Fucsia",
                 "stock": 5,
-                "imagen": "imagenes/microporoso/micropor-50-x-60-turquesa.jpg"
+                "imagen": "imagenes/microporoso/micropor-50-x-60-fucsia.jpg"
+            },
+            {
+                "nombre": "Lila",
+                "stock": 5,
+                "imagen": "imagenes/microporoso/micropor-50-x-60-lila.jpg"
+            },
+            {
+                "nombre": "Piel",
+                "stock": 5,
+                "imagen": ""
             },
             {
                 "nombre": "Melón",
                 "stock": 5,
                 "imagen": "imagenes/microporoso/micropor-50-x-60-vainilla.jpg"
+            },
+            {
+                "nombre": "Verde Oscuro",
+                "stock": 5,
+                "imagen": ""
             },
             {
                 "nombre": "Verde",
@@ -8139,19 +8281,9 @@
                 "imagen": "imagenes/microporoso/MICROPOROSO A4 ESCARCHADO ADHESIVO AMARILLO.jpg"
             },
             {
-                "nombre": "Azul",
-                "stock": 10,
-                "imagen": "imagenes/microporoso/MICROPOROSO A4 ESCARCHADO ADHESIVO AZUL.jpg"
-            },
-            {
                 "nombre": "Blanco",
                 "stock": 10,
                 "imagen": "imagenes/microporoso/MICROPOROSO A4 ESCARCHADO ADHESIVO BLANCO.jpg"
-            },
-            {
-                "nombre": "Celeste",
-                "stock": 10,
-                "imagen": "imagenes/microporoso/MICROPOROSO A4 ESCARCHADO ADHESIVO CELESTE.jpg"
             },
             {
                 "nombre": "Dorado",
@@ -8164,14 +8296,29 @@
                 "imagen": "imagenes/microporoso/MICROPOROSO A4 ESCARCHADO ADHESIVO MORADO.jpg"
             },
             {
+                "nombre": "Lila",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
                 "nombre": "Naranja",
                 "stock": 10,
                 "imagen": "imagenes/microporoso/MICROPOROSO A4 ESCARCHADO ADHESIVO NARANJA.jpg"
             },
             {
+                "nombre": "Naranja Cobre",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
                 "nombre": "Negro",
                 "stock": 10,
                 "imagen": "imagenes/microporoso/MICROPOROSO A4 ESCARCHADO ADHESIVO NEGRO.jpg"
+            },
+            {
+                "nombre": "Marrón",
+                "stock": 10,
+                "imagen": ""
             },
             {
                 "nombre": "Plateado",
@@ -8184,9 +8331,34 @@
                 "imagen": "imagenes/microporoso/MICROPOROSO A4 ESCARCHADO ADHESIVO ROJO.jpg"
             },
             {
+                "nombre": "Fucsia",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
                 "nombre": "Rosado",
                 "stock": 10,
                 "imagen": "imagenes/microporoso/MICROPOROSO A4 ESCARCHADO ADHESIVO ROSADO.jpg"
+            },
+            {
+                "nombre": "Rosado Chicle",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Palo Rosa",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Piel",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Azul",
+                "stock": 10,
+                "imagen": "imagenes/microporoso/MICROPOROSO A4 ESCARCHADO ADHESIVO AZUL.jpg"
             },
             {
                 "nombre": "Turquesa",
@@ -8194,7 +8366,17 @@
                 "imagen": "imagenes/microporoso/MICROPOROSO A4 ESCARCHADO ADHESIVO TURQUEZA.jpg"
             },
             {
-                "nombre": "Verde",
+                "nombre": "Celeste",
+                "stock": 10,
+                "imagen": "imagenes/microporoso/MICROPOROSO A4 ESCARCHADO ADHESIVO CELESTE.jpg"
+            },
+            {
+                "nombre": "Celeste Bebé",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde Oscuro",
                 "stock": 10,
                 "imagen": "imagenes/microporoso/MICROPOROSO A4 ESCARCHADO ADHESIVO VERDE HOJA.jpg"
             },
@@ -8202,6 +8384,11 @@
                 "nombre": "Verde Limón",
                 "stock": 10,
                 "imagen": "imagenes/microporoso/MICROPOROSO A4 ESCARCHADO ADHESIVO VERDE LIMON.jpg"
+            },
+            {
+                "nombre": "Melón",
+                "stock": 10,
+                "imagen": ""
             }
         ],
         "precio_regular": 0.0,
@@ -8211,8 +8398,8 @@
         "etiqueta": null
     },
     {
-        "sku": "MICR-21",
-        "nombre": "Microporos liso A4",
+        "sku": "MICR-15",
+        "nombre": "Microporoso A4",
         "marca": "Genérico",
         "subcategorias": [
             "Microporosos"
@@ -8236,6 +8423,11 @@
                 "imagen": "imagenes/microporoso/MICROPOROSO A4 SIMPLE AZUL.jpg"
             },
             {
+                "nombre": "Turquesa",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
                 "nombre": "Blanco",
                 "stock": 5,
                 "imagen": "imagenes/microporoso/MICROPOROSO A4 SIMPLE BLANCO.jpg"
@@ -8249,6 +8441,11 @@
                 "nombre": "Marrón",
                 "stock": 5,
                 "imagen": "imagenes/microporoso/MICROPOROSO A4 SIMPLE MARRÓN.jpg"
+            },
+            {
+                "nombre": "Marrón Claro",
+                "stock": 5,
+                "imagen": ""
             },
             {
                 "nombre": "Morado",
@@ -8266,9 +8463,44 @@
                 "imagen": "imagenes/microporoso/MICROPOROSO A4 SIMPLE NEGRO.jpg"
             },
             {
+                "nombre": "Plomo",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
                 "nombre": "Rojo",
                 "stock": 5,
                 "imagen": "imagenes/microporoso/MICROPOROSO A4 SIMPLE ROJO.jpg"
+            },
+            {
+                "nombre": "Rosado",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Fucsia",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Lila",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Piel",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Melón",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde Oscuro",
+                "stock": 5,
+                "imagen": ""
             },
             {
                 "nombre": "Verde",
@@ -8283,15 +8515,131 @@
         "etiqueta": null
     },
     {
-        "sku": "MICR-61",
-        "nombre": "Microporoso escarchado adhesivo con diseños A4",
+        "sku": "MICR-21",
+        "nombre": "Microporoso escarchado 1m x 1m",
         "marca": "Genérico",
         "subcategorias": [
             "Microporosos"
         ],
-        "imagen_principal": "imagenes/microporoso/MICROPOROSO A4 ESCARCHADO ADHESIVO DISEÑOS VARIADOS.jpg",
+        "imagen_principal": "nan",
         "stock_general": null,
-        "colores": [],
+        "colores": [
+            {
+                "nombre": "Surtido",
+                "stock": 100,
+                "imagen": ""
+            },
+            {
+                "nombre": "Amarillo",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Blanco",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Dorado",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Morado",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Lila",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Naranja",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Naranja Cobre",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Negro",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Marrón",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Plateado",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rojo",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Fucsia",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rosado",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rosado Chicle",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Palo Rosa",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Piel",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Azul",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Turquesa",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Celeste",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Celeste Bebé",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde Oscuro",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde Limón",
+                "stock": 10,
+                "imagen": ""
+            }
+        ],
         "precio_regular": 0.0,
         "precio_oferta": null,
         "palabras_clave": [],
@@ -8299,15 +8647,250 @@
         "etiqueta": null
     },
     {
-        "sku": "MICR-62",
-        "nombre": "Microporoso escarchado adhesivo números A4",
+        "sku": "MICR-25",
+        "nombre": "Microporoso 1m x 1m",
         "marca": "Genérico",
         "subcategorias": [
             "Microporosos"
         ],
-        "imagen_principal": "imagenes/microporoso/MICROPOROSO A4 ESCARCHADO ADHESIVO NUMEROS.png",
+        "imagen_principal": "nan",
         "stock_general": null,
-        "colores": [],
+        "colores": [
+            {
+                "nombre": "Surtido",
+                "stock": 50,
+                "imagen": ""
+            },
+            {
+                "nombre": "Amarillo",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Azul",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Turquesa",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Blanco",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Celeste",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Marrón",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Marrón Claro",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Morado",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Naranja",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Negro",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Plomo",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rojo",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rosado",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Fucsia",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Lila",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Piel",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Melón",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde Oscuro",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde",
+                "stock": 5,
+                "imagen": ""
+            }
+        ],
+        "precio_regular": 0.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "MICR-61",
+        "nombre": "Microporoso escarchado adhesivo Letras x 3 A4",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Microporosos"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [
+            {
+                "nombre": "Surtido",
+                "stock": 50,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rojo",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Azul",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde Oscuro",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Negro",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Amarillo",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Palo Rosa",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Plateado",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Naranja",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Dorado",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Blanco",
+                "stock": 5,
+                "imagen": ""
+            }
+        ],
+        "precio_regular": 0.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "MICR-65",
+        "nombre": "Microporoso escarchado adhesivo Letras x 4 A4",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Microporosos"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [
+            {
+                "nombre": "Surtido",
+                "stock": 50,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde Oscuro",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Dorado",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rojo",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Azul",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Blanco",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rosado",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Fucsia",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Turquesa",
+                "stock": 5,
+                "imagen": ""
+            }
+        ],
         "precio_regular": 0.0,
         "precio_oferta": null,
         "palabras_clave": [],
@@ -8316,14 +8899,102 @@
     },
     {
         "sku": "MICR-71",
-        "nombre": "Microporos para punzar A4",
+        "nombre": "Microporoso para punzar grueso A4",
         "marca": "Genérico",
         "subcategorias": [
             "Microporosos"
         ],
         "imagen_principal": "imagenes/microporoso/MICROPOROSO GRUESO PARA PUNZAR TAMAÑO A4.jpg",
         "stock_general": null,
-        "colores": [],
+        "colores": [
+            {
+                "nombre": "Surtido",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Naranja",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Amarillo",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rojo",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Fucsia",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Azul",
+                "stock": 2,
+                "imagen": ""
+            }
+        ],
+        "precio_regular": 0.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "MICR-75",
+        "nombre": "Microporoso para punzar delgado A4",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Microporosos"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [
+            {
+                "nombre": "Surtido",
+                "stock": 10,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Naranja",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Amarillo",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rojo",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Lila",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Azul",
+                "stock": 2,
+                "imagen": ""
+            }
+        ],
         "precio_regular": 0.0,
         "precio_oferta": null,
         "palabras_clave": [],
