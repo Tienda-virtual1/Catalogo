@@ -8,6 +8,8 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- FontAwesome para iconos -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.28/jspdf.plugin.autotable.min.js"></script>
 </head>
 <body class="bg-gray-50 text-gray-800 font-sans">
 
@@ -182,6 +184,10 @@
                     <button onclick="enviarPedidoWhatsApp()" class="w-full bg-emerald-600 hover:bg-emerald-700 text-white font-medium py-3 px-4 rounded-xl shadow-md transition flex items-center justify-center space-x-2 cursor-pointer">
                         <i class="fa-brands fa-whatsapp text-xl"></i>
                         <span>Enviar pedido por WhatsApp</span>
+                    </button>
+                    <button onclick="generarPDFCotizacion('Cliente General')" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 px-4 rounded-xl shadow-md transition flex items-center justify-center space-x-2 cursor-pointer mt-2">
+                        <i class="fa-solid fa-file-pdf text-xl"></i>
+                        <span>Descargar Cotización (PDF)</span>
                     </button>
                 </div>
 
@@ -1013,6 +1019,96 @@
                 inputBuscadorMovil.value = "";
             }
             ejecutarBusqueda(""); // Restablece el catálogo completo
+        }
+
+        function generarPDFCotizacion(nombreCliente = "Cliente General") {
+            const { jsPDF } = window.jspdf;
+            const doc = new jsPDF();
+        
+            const ahora = new Date();
+            const fechaStr = ahora.toLocaleDateString();
+            const codigoUnico = ahora.getFullYear().toString().slice(-2) + 
+                                String(ahora.getMonth() + 1).padStart(2, '0') + 
+                                String(ahora.getDate()).padStart(2, '0') + '-' + 
+                                String(ahora.getHours()).padStart(2, '0') + 
+                                String(ahora.getMinutes()).padStart(2, '0');
+        
+            // Cabecera
+            doc.setFont("helvetica", "bold");
+            doc.setFontSize(22);
+            doc.setTextColor(30, 41, 59);
+            doc.text("COTIZACIÓN", 105, 20, { align: "center" });
+        
+            // Barra de referencia
+            doc.setFillColor(148, 163, 184);
+            doc.rect(14, 30, 182, 8, "F");
+            doc.setFont("helvetica", "bold");
+            doc.setFontSize(10);
+            doc.setTextColor(255, 255, 255);
+            doc.text("Referencia", 105, 35, { align: "center" });
+        
+            // Datos del cliente
+            doc.setFont("helvetica", "normal");
+            doc.setFontSize(9);
+            doc.setTextColor(51, 65, 85);
+            doc.text(`Cliente: ${nombreCliente}`, 14, 48);
+            doc.text(`Fecha: ${fechaStr}`, 140, 48);
+            doc.text(`Código: ${codigoUnico}`, 170, 48);
+        
+            let filasTabla = [];
+            let totalGeneral = 0;
+        
+            carrito.forEach(item => {
+                let subtotal = item.precio * item.cantidad;
+                totalGeneral += subtotal;
+        
+                filasTabla.push([
+                    item.cantidad,
+                    `${item.nombre} ${item.color ? '(' + item.color + ')' : ''}`,
+                    `S/ ${item.precio.toFixed(2)}`,
+                    `S/ ${subtotal.toFixed(2)}`
+                ]);
+            });
+        
+            // Tabla con AutoTable
+            doc.autoTable({
+                startY: 58,
+                head: [['CANT.', 'DESCRIPCIÓN', 'PRECIO', 'TOTAL']],
+                body: filasTabla,
+                theme: 'grid',
+                headStyles: {
+                    fillColor: [148, 163, 184],
+                    textColor: [255, 255, 255],
+                    fontStyle: 'bold',
+                    halign: 'center'
+                },
+                columnStyles: {
+                    0: { halign: 'center', cellWidth: 20 },
+                    1: { cellWidth: 102 },
+                    2: { halign: 'right', cellWidth: 30 },
+                    3: { halign: 'right', cellWidth: 30 }
+                },
+                styles: {
+                    fontSize: 9,
+                    textColor: [51, 65, 85],
+                    lineColor: [0, 0, 0],
+                    lineWidth: 0.25
+                }
+            });
+        
+            // Total general al pie
+            let finalY = doc.lastAutoTable.finalY;
+            doc.setDrawColor(0, 0, 0);
+            doc.setFillColor(255, 255, 255);
+            doc.rect(134, finalY, 30, 8, "FD");
+            doc.rect(164, finalY, 32, 8, "FD");
+        
+            doc.setFont("helvetica", "bold");
+            doc.setFontSize(9);
+            doc.text("TOTAL S/.", 149, finalY + 5.5, { align: "center" });
+            doc.text(`S/ ${totalGeneral.toFixed(2)}`, 194, finalY + 5.5, { align: "right" });
+        
+            doc.save(`Cotizacion_${codigoUnico}.pdf`);
         }
     
         if (btnCerrarBuscadorMovil) {
