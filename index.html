@@ -1047,7 +1047,7 @@
             doc.setTextColor(255, 255, 255);
             doc.text("Referencia", 105, 35, { align: "center" });
         
-            // Datos del cliente
+            // Datos del cliente y código perfectamente alineados
             doc.setFont("helvetica", "normal");
             doc.setFontSize(9);
             doc.setTextColor(51, 65, 85);
@@ -1065,18 +1065,18 @@
                 filasTabla.push([
                     item.cantidad,
                     `${item.nombre} ${item.color && item.color !== 'Único' ? '(' + item.color + ')' : ''}`,
-                    `S/ ${item.item.precio ? item.precio.toFixed(2) : item.precio.toFixed(2)}`, // asegurando formato
+                    `S/ ${item.precio.toFixed(2)}`,
                     `S/ ${subtotal.toFixed(2)}`
                 ]);
             });
         
-            // Añadimos la fila del total directamente dentro del cuerpo de la tabla para mantener alineación perfecta
+            // Fila del total integrada
             filasTabla.push([
                 { content: 'TOTAL S/.', colSpan: 3, styles: { halign: 'right', fontStyle: 'bold', fillColor: [241, 245, 249], textColor: [30, 41, 59] } },
                 { content: `S/ ${totalGeneral.toFixed(2)}`, styles: { halign: 'right', fontStyle: 'bold', fillColor: [241, 245, 249], textColor: [30, 41, 59] } }
             ]);
         
-            // Tabla con AutoTable
+            // Generación de tabla
             doc.autoTable({
                 startY: 58,
                 head: [['CANT.', 'DESCRIPCIÓN', 'PRECIO', 'TOTAL']],
