@@ -1053,7 +1053,7 @@
             doc.setTextColor(51, 65, 85);
             doc.text(`Cliente: ${nombreCliente}`, 14, 48);
             doc.text(`Fecha: ${fechaStr}`, 140, 48);
-            doc.text(`Código: ${codigoUnico}`, 170, 48);
+            doc.text(`Código: ${codigoUnico}`, 196, 48, { align: "right" });
         
             let filasTabla = [];
             let totalGeneral = 0;
@@ -1064,11 +1064,17 @@
         
                 filasTabla.push([
                     item.cantidad,
-                    `${item.nombre} ${item.color ? '(' + item.color + ')' : ''}`,
-                    `S/ ${item.precio.toFixed(2)}`,
+                    `${item.nombre} ${item.color && item.color !== 'Único' ? '(' + item.color + ')' : ''}`,
+                    `S/ ${item.item.precio ? item.precio.toFixed(2) : item.precio.toFixed(2)}`, // asegurando formato
                     `S/ ${subtotal.toFixed(2)}`
                 ]);
             });
+        
+            // Añadimos la fila del total directamente dentro del cuerpo de la tabla para mantener alineación perfecta
+            filasTabla.push([
+                { content: 'TOTAL S/.', colSpan: 3, styles: { halign: 'right', fontStyle: 'bold', fillColor: [241, 245, 249], textColor: [30, 41, 59] } },
+                { content: `S/ ${totalGeneral.toFixed(2)}`, styles: { halign: 'right', fontStyle: 'bold', fillColor: [241, 245, 249], textColor: [30, 41, 59] } }
+            ]);
         
             // Tabla con AutoTable
             doc.autoTable({
@@ -1095,18 +1101,6 @@
                     lineWidth: 0.25
                 }
             });
-        
-            // Total general al pie
-            let finalY = doc.lastAutoTable.finalY;
-            doc.setDrawColor(0, 0, 0);
-            doc.setFillColor(255, 255, 255);
-            doc.rect(134, finalY, 30, 8, "FD");
-            doc.rect(164, finalY, 32, 8, "FD");
-        
-            doc.setFont("helvetica", "bold");
-            doc.setFontSize(9);
-            doc.text("TOTAL S/.", 149, finalY + 5.5, { align: "center" });
-            doc.text(`S/ ${totalGeneral.toFixed(2)}`, 194, finalY + 5.5, { align: "right" });
         
             doc.save(`Cotizacion_${codigoUnico}.pdf`);
         }
