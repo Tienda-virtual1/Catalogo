@@ -195,10 +195,13 @@
         </div>
     </div>
 
-   <!-- SCRIPT DE FUNCIONALIDAD -->
+    <!-- SCRIPT DE FUNCIONALIDAD -->
     <script>
         let todosLosProductos = [];
-        let carrito = []; // Arreglo para almacenar los productos seleccionados
+        
+        // --- PERSISTENCIA DEL CARRITO ---
+        // Al iniciar, intentamos recuperar el carrito guardado en el navegador
+        let carrito = JSON.parse(localStorage.getItem('carrito_compras')) || [];
 
         const mapaCategorias = {
             "Útiles": ["Cuadernos", "Blocks", "Colores", "Plumones", "Pegamentos", "Fólderes", "Lapiceros", "Borradores","Oficina"],
@@ -249,6 +252,9 @@
                 todosLosProductos = await response.json();
                 renderizarProductos(todosLosProductos);
                 history.replaceState({ vista: 'inicio' }, '');
+                
+                // Actualizamos el contador visual apenas cargue la página con los datos guardados
+                actualizarContadorCarrito();
             } catch (error) {
                 console.error("Error al cargar productos:", error);
             }
@@ -305,13 +311,10 @@
                 
                 const valorIcono = mapaIconosSubcategorias[subcat] || "fa-folder-open";
                 
-                // Verificamos si es imagen o icono de FontAwesome y ajustamos tamaños
                 let contenidoVisual = "";
                 if (valorIcono.startsWith("imagenes/")) {
-                    // Cambia w-10 h-10 por w-12 h-12 o w-14 h-14 para hacer la imagen más grande
                     contenidoVisual = `<img src="${valorIcono}" alt="${subcat}" class="w-20 h-20 object-contain">`;
                 } else {
-                    // Cambia text-2xl por text-3xl o text-4xl para hacer el icono de FontAwesome más grande
                     contenidoVisual = `<i class="fa-solid ${valorIcono} text-4xl text-emerald-700"></i>`;
                 }
     
@@ -373,7 +376,6 @@
                 const descripcion = prod.descripcion_corta || prod.descripcion || ""; 
                 const stockGeneral = prod.stock_general;
             
-                // Definir texto dinámico para el stock general o por defecto "Stock: Disponible"
                 let textoStockInicial = "Stock: Disponible";
                 if (stockGeneral !== "" && stockGeneral !== null && stockGeneral !== undefined && !isNaN(stockGeneral)) {
                     textoStockInicial = `Stock: ${stockGeneral}`;
@@ -391,7 +393,6 @@
                 let claseBoton = "flex-1 bg-emerald-700 text-white h-10 rounded-lg hover:bg-emerald-800 transition text-sm font-medium shadow-sm";
                 let deshabilitarBoton = "";
         
-                // Solo se marca como agotado si el stock es un número válido y es exactamente 0
                 const esStockCero = (stockGeneral !== "" && stockGeneral !== null && stockGeneral !== undefined && !isNaN(stockGeneral) && Number(stockGeneral) === 0);
         
                 if (esStockCero) {
@@ -642,16 +643,13 @@
             
             const stockMax = (stockMaximo !== undefined && stockMaximo !== null && stockMaximo !== "" && !isNaN(stockMaximo)) ? parseInt(stockMaximo) : null;
         
-            // Si el stock es 0 o menor, la cantidad siempre debe ser 0 y no se mueve
             if (stockMax !== null && stockMaximo <= 0) {
                 input.value = 0;
                 return;
             }
         
-            // El mínimo es 1 si hay stock disponible
             if (nuevoValor < 1) nuevoValor = 1;
             
-            // El máximo no puede superar el stock
             if (stockMax !== null && nuevoValor > stockMax) {
                 nuevoValor = stockMax;
             }
@@ -663,6 +661,10 @@
             const totalItems = carrito.reduce((sum, item) => sum + item.cantidad, 0);
             const contadorEl = document.getElementById('cart-count');
             if(contadorEl) contadorEl.innerText = totalItems;
+            
+            // Cada vez que se actualiza el carrito, guardamos en el localStorage del navegador
+            localStorage.setItem('carrito_compras', JSON.stringify(carrito));
+            
             renderizarItemsCarrito();
         }
 
@@ -802,7 +804,6 @@
                 return "background: linear-gradient(to right, #ef4444, #eab308, #3b82f6); border: 1px solid #d1d5db;";
             }
         
-            // Efectos metálicos con degradado realista
             if (normalizado.includes('dorado') || normalizado.includes('oro')) {
                 return "background: linear-gradient(135deg, #BF953F 0%, #FCF6BA 25%, #B38728 50%, #FBF5B7 75%, #AA771C 100%); border: 1px solid #d1d5db;";
             }
@@ -824,16 +825,14 @@
             return mapaColores[normalizado] ? `background-color: ${mapaColores[normalizado]}; border: 1px solid #d1d5db;` : "background-color: #9ca3af; border: 1px solid #d1d5db;";
         }
 
-        // Función central de búsqueda para no repetir código
         document.addEventListener("DOMContentLoaded", () => {
             const inputBuscadorEscritorio = document.getElementById("input-buscador");
             const inputBuscadorMovil = document.getElementById("input-buscador-movil");
             const btnToggleBuscadorMovil = document.getElementById("btn-toggle-buscador-movil");
-            const contenedorBuscadorMovil = document.getElementById("contenedor-buscador-movil");
+            const contenedorBuscadorMovil = document.getElementById("header-buscador-expandido");
         
             let yaSeDesplazo = false;
         
-            // 1. Mostrar / Ocultar la barra de búsqueda en celular al presionar la lupa
             if (btnToggleBuscadorMovil && contenedorBuscadorMovil) {
                 btnToggleBuscadorMovil.addEventListener("click", () => {
                     contenedorBuscadorMovil.classList.toggle("hidden");
@@ -843,7 +842,6 @@
                 });
             }
         
-            // Conectar eventos para ambos inputs de manera independiente según el dispositivo
             [inputBuscadorEscritorio, inputBuscadorMovil].forEach(input => {
                 if (!input) return;
         
@@ -853,12 +851,10 @@
         
                     const esCelular = window.innerWidth < 768;
         
-                    // En PC: baja dinámicamente conforme escribes (si hay texto)
                     if (!esCelular && texto.trim().length > 0) {
                         enfocarResultados();
                     }
         
-                    // En móvil: si borran todo, reseteamos por si acaso
                     if (texto.trim().length === 0) {
                         yaSeDesplazo = false;
                     }
@@ -867,29 +863,26 @@
                 input.addEventListener("keydown", (e) => {
                     if (e.key === "Enter") {
                         ejecutarBusqueda(e.target.value);
-                        input.blur(); // Oculta el teclado virtual en móviles
-                        enfocarResultados(); // En móvil o PC, al presionar Enter baja directo
+                        input.blur(); 
+                        enfocarResultados(); 
                     }
                 });
             });
         
-            // Función auxiliar para quitar tildes y pasar a minúsculas
             function normalizarTexto(texto) {
                 if (!texto) return "";
                 return texto
                     .toLowerCase()
                     .normalize("NFD")
-                    .replace(/[\u0300-\u036f]/g, ""); // Remueve tildes y diacríticos
+                    .replace(/[\u0300-\u036f]/g, ""); 
             }
         
-            // Función central de búsqueda inteligente con sistema de puntuación
             function ejecutarBusqueda(termino) {
                 const textoCrudo = termino || "";
                 const textoBusqueda = normalizarTexto(textoCrudo).trim();
                 
                 if (!Array.isArray(todosLosProductos)) return;
         
-                // Si el buscador está vacío, mostramos el catálogo completo original
                 if (!textoBusqueda) {
                     if (typeof renderizarProductos === "function") {
                         renderizarProductos(todosLosProductos);
@@ -897,10 +890,8 @@
                     return;
                 }
         
-                // Dividimos el texto en palabras individuales por si buscan "lapiz azul"
                 const palabrasBusqueda = textoBusqueda.split(/\s+/);
         
-                // Evaluamos cada producto y le asignamos una puntuación de relevancia
                 const productosConPuntuacion = todosLosProductos.map(producto => {
                     const nombre = normalizarTexto(producto.nombre || "");
                     const marca = normalizarTexto(producto.marca || "");
@@ -913,29 +904,22 @@
                     let puntaje = 0;
                     let coincide = false;
         
-                    // Revisamos cada palabra que escribió el usuario
                     palabrasBusqueda.forEach(palabra => {
                         if (!palabra) return;
         
                         let palabraCoincideLocal = false;
         
-                        // 1. Coincidencia exacta en el nombre (La más alta prioridad)
                         if (nombre === palabra) {
                             puntaje += 100;
                             palabraCoincideLocal = true;
-                        }
-                        // 2. El nombre empieza con la palabra buscada
-                        else if (nombre.startsWith(palabra)) {
+                        } else if (nombre.startsWith(palabra)) {
                             puntaje += 50;
                             palabraCoincideLocal = true;
-                        }
-                        // 3. El nombre contiene la palabra
-                        else if (nombre.includes(palabra)) {
+                        } else if (nombre.includes(palabra)) {
                             puntaje += 25;
                             palabraCoincideLocal = true;
                         }
                         
-                        // Coincidencias secundarias (marca, etiquetas, claves)
                         if (marca.includes(palabra)) {
                             puntaje += 15;
                             palabraCoincideLocal = true;
@@ -949,7 +933,6 @@
                             palabraCoincideLocal = true;
                         }
         
-                        // Si al menos una palabra del término de búsqueda hizo match, el producto entra
                         if (palabraCoincideLocal) {
                             coincide = true;
                         }
@@ -958,26 +941,20 @@
                     return { producto, puntaje, coincide };
                 });
         
-                // Filtramos solo los que tuvieron coincidencias y los ORDENAMOS de mayor a menor puntuación
                 const resultadosOrdenados = productosConPuntuacion
                     .filter(item => item.coincide)
-                    .sort((a, b) => b.puntaje - a.puntaje) // El mayor puntaje (más relevante) va primero
+                    .sort((a, b) => b.puntaje - a.puntaje)
                     .map(item => item.producto);
         
-                // Renderizamos los resultados ya ordenados de forma inteligente
                 if (typeof renderizarProductos === "function") {
                     renderizarProductos(resultadosOrdenados);
                 }
             }
         
-            // Scroll controlado con offset ajustable
             function enfocarResultados() {
                 const seccionResultados = document.getElementById("grid-productos"); 
                 if (seccionResultados) {
                     const posicionElemento = seccionResultados.getBoundingClientRect().top + window.pageYOffset;
-                    
-                    // Detectamos si es celular (menor a 768px de ancho) o PC
-                    // En PC usamos 400 y en celular un valor más chico (por ejemplo, 80 o 100)
                     const esCelular = window.innerWidth < 768;
                     const offset = esCelular ? 90 : 400; 
                     
@@ -994,11 +971,7 @@
         const btnToggleBuscadorMovil = document.getElementById("btn-toggle-buscador-movil");
         const btnCerrarBuscadorMovil = document.getElementById("btn-cerrar-buscador-movil");
         const inputBuscadorMovil = document.getElementById("input-buscador-movil");
-        const inputBuscadorEscritorio = document.getElementById("input-buscador");
     
-        let yaSeDesplazo = false;
-    
-        // Abrir buscador en móvil (oculta logo, muestra input expandido)
         if (btnToggleBuscadorMovil) {
             btnToggleBuscadorMovil.addEventListener("click", () => {
                 headerLogo.classList.add("hidden");
@@ -1010,7 +983,6 @@
             });
         }
     
-        // Cerrar buscador en móvil (restaura el logo y limpia la búsqueda)
         function cerrarBuscadorMovil() {
             headerBuscadorExpandido.classList.remove("flex");
             headerBuscadorExpandido.classList.add("hidden");
@@ -1018,7 +990,7 @@
             if (inputBuscadorMovil) {
                 inputBuscadorMovil.value = "";
             }
-            ejecutarBusqueda(""); // Restablece el catálogo completo
+            ejecutarBusqueda(""); 
         }
 
         function generarPDFCotizacion(nombreCliente = "Cliente General") {
@@ -1033,13 +1005,11 @@
                                 String(ahora.getHours()).padStart(2, '0') + 
                                 String(ahora.getMinutes()).padStart(2, '0');
         
-            // Cabecera
             doc.setFont("helvetica", "bold");
             doc.setFontSize(22);
             doc.setTextColor(30, 41, 59);
             doc.text("COTIZACIÓN", 105, 20, { align: "center" });
         
-            // Barra de referencia
             doc.setFillColor(148, 163, 184);
             doc.rect(14, 30, 182, 8, "F");
             doc.setFont("helvetica", "bold");
@@ -1047,13 +1017,10 @@
             doc.setTextColor(255, 255, 255);
             doc.text("Referencia", 105, 35, { align: "center" });
 
-            // Datos del cliente a la izquierda y fecha/código limpios a la derecha
             doc.setFont("helvetica", "normal");
             doc.setFontSize(9);
             doc.setTextColor(51, 65, 85);
             doc.text(`Cliente: ${nombreCliente}`, 14, 48);
-            
-            // Fecha y código juntos pero separados por espacios amplios, alineados a la derecha
             doc.text(`Fecha: ${fechaStr}    |    Código: ${codigoUnico}`, 196, 48, { align: "right" });
         
             let filasTabla = [];
@@ -1071,13 +1038,11 @@
                 ]);
             });
         
-            // Fila del total integrada
             filasTabla.push([
                 { content: 'TOTAL S/.', colSpan: 3, styles: { halign: 'right', fontStyle: 'bold', fillColor: [241, 245, 249], textColor: [30, 41, 59] } },
                 { content: `S/ ${totalGeneral.toFixed(2)}`, styles: { halign: 'right', fontStyle: 'bold', fillColor: [241, 245, 249], textColor: [30, 41, 59] } }
             ]);
         
-            // Generación de tabla
             doc.autoTable({
                 startY: 58,
                 head: [['CANT.', 'DESCRIPCIÓN', 'PRECIO', 'TOTAL']],
