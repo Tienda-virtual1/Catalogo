@@ -1046,14 +1046,15 @@
             doc.setFontSize(10);
             doc.setTextColor(255, 255, 255);
             doc.text("Referencia", 105, 35, { align: "center" });
-        
-            // Datos del cliente y código perfectamente alineados
+
+            // Datos del cliente a la izquierda y fecha/código limpios a la derecha
             doc.setFont("helvetica", "normal");
             doc.setFontSize(9);
             doc.setTextColor(51, 65, 85);
             doc.text(`Cliente: ${nombreCliente}`, 14, 48);
-            doc.text(`Fecha: ${fechaStr}`, 140, 48);
-            doc.text(`Código: ${codigoUnico}`, 196, 48, { align: "right" });
+            
+            // Fecha y código juntos pero separados por espacios amplios, alineados a la derecha
+            doc.text(`Fecha: ${fechaStr}    |    Código: ${codigoUnico}`, 196, 48, { align: "right" });
         
             let filasTabla = [];
             let totalGeneral = 0;
