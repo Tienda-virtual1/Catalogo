@@ -2900,7 +2900,7 @@
         "nombre": "Folder doble tapa A4 con faster gusanillo",
         "marca": "Layconsa",
         "subcategorias": [
-            "Fólderes"
+            "Fólders"
         ],
         "imagen_principal": "nan",
         "stock_general": null,
@@ -2948,12 +2948,12 @@
             {
                 "nombre": "Blanco",
                 "stock": 2,
-                "imagen": "imagenes/Folder/folder layconsa blanco.webp\nAzul: imagenes/Folder/folder layconsa azul.webp"
+                "imagen": "imagenes/Folder/folder layconsa blanco.webp"
             },
             {
                 "nombre": "Azul",
                 "stock": 2,
-                "imagen": ""
+                "imagen": "imagenes/Folder/folder layconsa azul.webp"
             },
             {
                 "nombre": "Negro",
@@ -3102,35 +3102,52 @@
     },
     {
         "sku": "FOLD-11",
-        "nombre": "Folder A4 Duramax Infantil Niño",
+        "nombre": "Folder A4 Duramax Infantil Niño 1",
         "marca": "Artesco",
         "subcategorias": [
             "Fólderes"
         ],
-        "imagen_principal": "nan",
+        "imagen_principal": "imagenes/Folder/folder Artesco A4 linea cool 1.jpg",
         "stock_general": null,
         "colores": [
             {
-                "nombre": "Surtido",
+                "nombre": "No Seleccionado",
                 "stock": 10,
                 "imagen": ""
-            },
-            {
-                "nombre": "Diseño 1",
-                "stock": 1,
-                "imagen": "imagenes/Folder/folder Artesco A4 linea cool 1.jpg"
-            },
-            {
-                "nombre": "Diseño 2",
-                "stock": 1,
-                "imagen": "imagenes/Folder/folder A4 Artesco linea cool 2.jpg"
-            },
-            {
-                "nombre": "Diseño 3",
-                "stock": 1,
-                "imagen": "imagenes/Folder/folder Artesco A4 linea cool 3.jpg"
             }
         ],
+        "precio_regular": 5.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "FOLD-12",
+        "nombre": "Folder A4 Duramax Infantil Niño 2",
+        "marca": "",
+        "subcategorias": [
+            "nan"
+        ],
+        "imagen_principal": "imagenes/Folder/folder A4 Artesco linea cool 2.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "FOLD-13",
+        "nombre": "Folder A4 Duramax Infantil Niño 3",
+        "marca": "",
+        "subcategorias": [
+            "nan"
+        ],
+        "imagen_principal": "imagenes/Folder/folder Artesco A4 linea cool 3.jpg",
+        "stock_general": null,
+        "colores": [],
         "precio_regular": 0.0,
         "precio_oferta": null,
         "palabras_clave": [],
