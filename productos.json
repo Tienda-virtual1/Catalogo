@@ -3116,16 +3116,6 @@
                 "imagen": ""
             },
             {
-                "nombre": "Fucsia",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
-                "nombre": "Verde oscuro",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
                 "nombre": "Verde",
                 "stock": 5,
                 "imagen": ""
@@ -3136,17 +3126,22 @@
                 "imagen": ""
             },
             {
+                "nombre": "Verde pastel",
+                "stock": 1,
+                "imagen": ""
+            },
+            {
                 "nombre": "Celeste",
                 "stock": 5,
                 "imagen": ""
             },
             {
-                "nombre": "Turquesa",
+                "nombre": "Azul marino",
                 "stock": 5,
                 "imagen": ""
             },
             {
-                "nombre": "Azul",
+                "nombre": "Azulino",
                 "stock": 5,
                 "imagen": ""
             },
@@ -3156,38 +3151,13 @@
                 "imagen": ""
             },
             {
-                "nombre": "Negro",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
-                "nombre": "Gris",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
-                "nombre": "Lila",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
-                "nombre": "Morado",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
-                "nombre": "Naranja",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
                 "nombre": "Rojo",
                 "stock": 5,
                 "imagen": ""
             },
             {
-                "nombre": "Blanco",
-                "stock": 5,
+                "nombre": "Rosado chicle",
+                "stock": 1,
                 "imagen": ""
             }
         ],
@@ -3213,16 +3183,6 @@
                 "imagen": ""
             },
             {
-                "nombre": "Fucsia",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
-                "nombre": "Verde oscuro",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
                 "nombre": "Verde",
                 "stock": 5,
                 "imagen": ""
@@ -3233,17 +3193,22 @@
                 "imagen": ""
             },
             {
+                "nombre": "Verde pastel",
+                "stock": 1,
+                "imagen": ""
+            },
+            {
                 "nombre": "Celeste",
                 "stock": 5,
                 "imagen": ""
             },
             {
-                "nombre": "Turquesa",
+                "nombre": "Azul marino",
                 "stock": 5,
                 "imagen": ""
             },
             {
-                "nombre": "Azul",
+                "nombre": "Azulino",
                 "stock": 5,
                 "imagen": ""
             },
@@ -3253,38 +3218,13 @@
                 "imagen": ""
             },
             {
-                "nombre": "Negro",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
-                "nombre": "Gris",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
-                "nombre": "Lila",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
-                "nombre": "Morado",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
-                "nombre": "Naranja",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
                 "nombre": "Rojo",
                 "stock": 5,
                 "imagen": ""
             },
             {
-                "nombre": "Blanco",
-                "stock": 5,
+                "nombre": "Rosado chicle",
+                "stock": 1,
                 "imagen": ""
             }
         ],
@@ -3310,16 +3250,6 @@
                 "imagen": ""
             },
             {
-                "nombre": "Fucsia",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
-                "nombre": "Verde oscuro",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
                 "nombre": "Verde",
                 "stock": 5,
                 "imagen": ""
@@ -3330,17 +3260,22 @@
                 "imagen": ""
             },
             {
+                "nombre": "Verde pastel",
+                "stock": 1,
+                "imagen": ""
+            },
+            {
                 "nombre": "Celeste",
                 "stock": 5,
                 "imagen": ""
             },
             {
-                "nombre": "Turquesa",
+                "nombre": "Azul marino",
                 "stock": 5,
                 "imagen": ""
             },
             {
-                "nombre": "Azul",
+                "nombre": "Azulino",
                 "stock": 5,
                 "imagen": ""
             },
@@ -3350,38 +3285,13 @@
                 "imagen": ""
             },
             {
-                "nombre": "Negro",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
-                "nombre": "Gris",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
-                "nombre": "Lila",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
-                "nombre": "Morado",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
-                "nombre": "Naranja",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
                 "nombre": "Rojo",
                 "stock": 5,
                 "imagen": ""
             },
             {
-                "nombre": "Blanco",
-                "stock": 5,
+                "nombre": "Rosado chicle",
+                "stock": 1,
                 "imagen": ""
             }
         ],
@@ -3407,13 +3317,70 @@
                 "imagen": ""
             },
             {
-                "nombre": "Fucsia",
+                "nombre": "Verde",
                 "stock": 5,
                 "imagen": ""
             },
             {
-                "nombre": "Verde oscuro",
+                "nombre": "Verde limón",
                 "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde pastel",
+                "stock": 1,
+                "imagen": ""
+            },
+            {
+                "nombre": "Celeste",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Azul marino",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Azulino",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Amarillo",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rojo",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rosado chicle",
+                "stock": 1,
+                "imagen": ""
+            }
+        ],
+        "precio_regular": 5.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "FOLD-22",
+        "nombre": "Folder plástico A4 Infantil Niña 2",
+        "marca": "Vinifán",
+        "subcategorias": [
+            "Fólders"
+        ],
+        "imagen_principal": "imagenes/Folder/folder vinifan Mujer 2.jpeg",
+        "stock_general": null,
+        "colores": [
+            {
+                "nombre": "No Seleccionado",
+                "stock": 50,
                 "imagen": ""
             },
             {
@@ -3427,17 +3394,22 @@
                 "imagen": ""
             },
             {
+                "nombre": "Verde pastel",
+                "stock": 1,
+                "imagen": ""
+            },
+            {
                 "nombre": "Celeste",
                 "stock": 5,
                 "imagen": ""
             },
             {
-                "nombre": "Turquesa",
+                "nombre": "Azul marino",
                 "stock": 5,
                 "imagen": ""
             },
             {
-                "nombre": "Azul",
+                "nombre": "Azulino",
                 "stock": 5,
                 "imagen": ""
             },
@@ -3447,38 +3419,13 @@
                 "imagen": ""
             },
             {
-                "nombre": "Negro",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
-                "nombre": "Gris",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
-                "nombre": "Lila",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
-                "nombre": "Morado",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
-                "nombre": "Naranja",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
                 "nombre": "Rojo",
                 "stock": 5,
                 "imagen": ""
             },
             {
-                "nombre": "Blanco",
-                "stock": 5,
+                "nombre": "Rosado chicle",
+                "stock": 1,
                 "imagen": ""
             }
         ],
@@ -3489,8 +3436,8 @@
         "etiqueta": null
     },
     {
-        "sku": "FOLD-22",
-        "nombre": "Folder Duramax A4 Infantil Niña 2",
+        "sku": "FOLD-23",
+        "nombre": "Folder Duramax A4 Infantil Niña 3",
         "marca": "Artesco",
         "subcategorias": [
             "Fólders"
@@ -3504,13 +3451,70 @@
                 "imagen": ""
             },
             {
-                "nombre": "Fucsia",
+                "nombre": "Verde",
                 "stock": 5,
                 "imagen": ""
             },
             {
-                "nombre": "Verde oscuro",
+                "nombre": "Verde limón",
                 "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde pastel",
+                "stock": 1,
+                "imagen": ""
+            },
+            {
+                "nombre": "Celeste",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Azul marino",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Azulino",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Amarillo",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rojo",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rosado chicle",
+                "stock": 1,
+                "imagen": ""
+            }
+        ],
+        "precio_regular": 5.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "FOLD-24",
+        "nombre": "Folde plástico A4 Infantil Niña 4",
+        "marca": "Artesco",
+        "subcategorias": [
+            "Fólders"
+        ],
+        "imagen_principal": "imagenes/Folder/folder vinifan Capibara 1.jpeg",
+        "stock_general": null,
+        "colores": [
+            {
+                "nombre": "No Seleccionado",
+                "stock": 50,
                 "imagen": ""
             },
             {
@@ -3524,17 +3528,22 @@
                 "imagen": ""
             },
             {
+                "nombre": "Verde pastel",
+                "stock": 1,
+                "imagen": ""
+            },
+            {
                 "nombre": "Celeste",
                 "stock": 5,
                 "imagen": ""
             },
             {
-                "nombre": "Turquesa",
+                "nombre": "Azul marino",
                 "stock": 5,
                 "imagen": ""
             },
             {
-                "nombre": "Azul",
+                "nombre": "Azulino",
                 "stock": 5,
                 "imagen": ""
             },
@@ -3544,38 +3553,13 @@
                 "imagen": ""
             },
             {
-                "nombre": "Negro",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
-                "nombre": "Gris",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
-                "nombre": "Lila",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
-                "nombre": "Morado",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
-                "nombre": "Naranja",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
                 "nombre": "Rojo",
                 "stock": 5,
                 "imagen": ""
             },
             {
-                "nombre": "Blanco",
-                "stock": 5,
+                "nombre": "Rosado chicle",
+                "stock": 1,
                 "imagen": ""
             }
         ],
@@ -3601,16 +3585,6 @@
                 "imagen": ""
             },
             {
-                "nombre": "Fucsia",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
-                "nombre": "Verde oscuro",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
                 "nombre": "Verde",
                 "stock": 5,
                 "imagen": ""
@@ -3621,17 +3595,22 @@
                 "imagen": ""
             },
             {
+                "nombre": "Verde pastel",
+                "stock": 1,
+                "imagen": ""
+            },
+            {
                 "nombre": "Celeste",
                 "stock": 5,
                 "imagen": ""
             },
             {
-                "nombre": "Turquesa",
+                "nombre": "Azul marino",
                 "stock": 5,
                 "imagen": ""
             },
             {
-                "nombre": "Azul",
+                "nombre": "Azulino",
                 "stock": 5,
                 "imagen": ""
             },
@@ -3641,38 +3620,13 @@
                 "imagen": ""
             },
             {
-                "nombre": "Negro",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
-                "nombre": "Gris",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
-                "nombre": "Lila",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
-                "nombre": "Morado",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
-                "nombre": "Naranja",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
                 "nombre": "Rojo",
                 "stock": 5,
                 "imagen": ""
             },
             {
-                "nombre": "Blanco",
-                "stock": 5,
+                "nombre": "Rosado chicle",
+                "stock": 1,
                 "imagen": ""
             }
         ],
@@ -3698,16 +3652,6 @@
                 "imagen": ""
             },
             {
-                "nombre": "Fucsia",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
-                "nombre": "Verde oscuro",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
                 "nombre": "Verde",
                 "stock": 5,
                 "imagen": ""
@@ -3718,17 +3662,22 @@
                 "imagen": ""
             },
             {
+                "nombre": "Verde pastel",
+                "stock": 1,
+                "imagen": ""
+            },
+            {
                 "nombre": "Celeste",
                 "stock": 5,
                 "imagen": ""
             },
             {
-                "nombre": "Turquesa",
+                "nombre": "Azul marino",
                 "stock": 5,
                 "imagen": ""
             },
             {
-                "nombre": "Azul",
+                "nombre": "Azulino",
                 "stock": 5,
                 "imagen": ""
             },
@@ -3738,38 +3687,13 @@
                 "imagen": ""
             },
             {
-                "nombre": "Negro",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
-                "nombre": "Gris",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
-                "nombre": "Lila",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
-                "nombre": "Morado",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
-                "nombre": "Naranja",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
                 "nombre": "Rojo",
                 "stock": 5,
                 "imagen": ""
             },
             {
-                "nombre": "Blanco",
-                "stock": 5,
+                "nombre": "Rosado chicle",
+                "stock": 1,
                 "imagen": ""
             }
         ],
@@ -3795,16 +3719,6 @@
                 "imagen": ""
             },
             {
-                "nombre": "Fucsia",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
-                "nombre": "Verde oscuro",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
                 "nombre": "Verde",
                 "stock": 5,
                 "imagen": ""
@@ -3815,17 +3729,22 @@
                 "imagen": ""
             },
             {
+                "nombre": "Verde pastel",
+                "stock": 1,
+                "imagen": ""
+            },
+            {
                 "nombre": "Celeste",
                 "stock": 5,
                 "imagen": ""
             },
             {
-                "nombre": "Turquesa",
+                "nombre": "Azul marino",
                 "stock": 5,
                 "imagen": ""
             },
             {
-                "nombre": "Azul",
+                "nombre": "Azulino",
                 "stock": 5,
                 "imagen": ""
             },
@@ -3835,38 +3754,13 @@
                 "imagen": ""
             },
             {
-                "nombre": "Negro",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
-                "nombre": "Gris",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
-                "nombre": "Lila",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
-                "nombre": "Morado",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
-                "nombre": "Naranja",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
                 "nombre": "Rojo",
                 "stock": 5,
                 "imagen": ""
             },
             {
-                "nombre": "Blanco",
-                "stock": 5,
+                "nombre": "Rosado chicle",
+                "stock": 1,
                 "imagen": ""
             }
         ],
@@ -3897,42 +3791,22 @@
                 "imagen": ""
             },
             {
-                "nombre": "Morado",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
-                "nombre": "Rojo",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
                 "nombre": "Amarillo",
                 "stock": 5,
                 "imagen": ""
             },
             {
-                "nombre": "Verde",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
-                "nombre": "Naranja",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
-                "nombre": "Negro",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
-                "nombre": "Marrón",
+                "nombre": "Verde limón",
                 "stock": 5,
                 "imagen": ""
             },
             {
                 "nombre": "Celeste",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rosado",
                 "stock": 5,
                 "imagen": ""
             }
@@ -3946,73 +3820,6 @@
     {
         "sku": "FOLD-32",
         "nombre": "Folder plástico A4 juvenil Mujer 2",
-        "marca": "Vinifán",
-        "subcategorias": [
-            "Fólders"
-        ],
-        "imagen_principal": "imagenes/Folder/folder vinifan Mujer 2.jpeg",
-        "stock_general": null,
-        "colores": [
-            {
-                "nombre": "No Seleccionado",
-                "stock": 50,
-                "imagen": ""
-            },
-            {
-                "nombre": "Azul",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
-                "nombre": "Morado",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
-                "nombre": "Rojo",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
-                "nombre": "Amarillo",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
-                "nombre": "Verde",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
-                "nombre": "Naranja",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
-                "nombre": "Negro",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
-                "nombre": "Marrón",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
-                "nombre": "Celeste",
-                "stock": 5,
-                "imagen": ""
-            }
-        ],
-        "precio_regular": 5.0,
-        "precio_oferta": null,
-        "palabras_clave": [],
-        "descripcion_corta": "",
-        "etiqueta": null
-    },
-    {
-        "sku": "FOLD-33",
-        "nombre": "Folder plástico A4 juvenil Mujer 3",
         "marca": "Vinifán",
         "subcategorias": [
             "Fólders"
@@ -4031,42 +3838,22 @@
                 "imagen": ""
             },
             {
-                "nombre": "Morado",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
-                "nombre": "Rojo",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
                 "nombre": "Amarillo",
                 "stock": 5,
                 "imagen": ""
             },
             {
-                "nombre": "Verde",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
-                "nombre": "Naranja",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
-                "nombre": "Negro",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
-                "nombre": "Marrón",
+                "nombre": "Verde limón",
                 "stock": 5,
                 "imagen": ""
             },
             {
                 "nombre": "Celeste",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rosado",
                 "stock": 5,
                 "imagen": ""
             }
@@ -4078,8 +3865,8 @@
         "etiqueta": null
     },
     {
-        "sku": "FOLD-34",
-        "nombre": "Folder fantasía A4 juvenil Mujer 4",
+        "sku": "FOLD-33",
+        "nombre": "Folder fantasía A4 juvenil Mujer 3",
         "marca": "Vinifán",
         "subcategorias": [
             "Fólders"
@@ -4098,42 +3885,22 @@
                 "imagen": ""
             },
             {
-                "nombre": "Morado",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
-                "nombre": "Rojo",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
                 "nombre": "Amarillo",
                 "stock": 5,
                 "imagen": ""
             },
             {
-                "nombre": "Verde",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
-                "nombre": "Naranja",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
-                "nombre": "Negro",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
-                "nombre": "Marrón",
+                "nombre": "Verde limón",
                 "stock": 5,
                 "imagen": ""
             },
             {
                 "nombre": "Celeste",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rosado",
                 "stock": 5,
                 "imagen": ""
             }
@@ -4165,42 +3932,22 @@
                 "imagen": ""
             },
             {
-                "nombre": "Morado",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
-                "nombre": "Rojo",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
                 "nombre": "Amarillo",
                 "stock": 5,
                 "imagen": ""
             },
             {
-                "nombre": "Verde",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
-                "nombre": "Naranja",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
-                "nombre": "Negro",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
-                "nombre": "Marrón",
+                "nombre": "Verde limón",
                 "stock": 5,
                 "imagen": ""
             },
             {
                 "nombre": "Celeste",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rosado",
                 "stock": 5,
                 "imagen": ""
             }
@@ -4232,42 +3979,22 @@
                 "imagen": ""
             },
             {
-                "nombre": "Morado",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
-                "nombre": "Rojo",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
                 "nombre": "Amarillo",
                 "stock": 5,
                 "imagen": ""
             },
             {
-                "nombre": "Verde",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
-                "nombre": "Naranja",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
-                "nombre": "Negro",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
-                "nombre": "Marrón",
+                "nombre": "Verde limón",
                 "stock": 5,
                 "imagen": ""
             },
             {
                 "nombre": "Celeste",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rosado",
                 "stock": 5,
                 "imagen": ""
             }
@@ -4299,42 +4026,22 @@
                 "imagen": ""
             },
             {
-                "nombre": "Morado",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
-                "nombre": "Rojo",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
                 "nombre": "Amarillo",
                 "stock": 5,
                 "imagen": ""
             },
             {
-                "nombre": "Verde",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
-                "nombre": "Naranja",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
-                "nombre": "Negro",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
-                "nombre": "Marrón",
+                "nombre": "Verde limón",
                 "stock": 5,
                 "imagen": ""
             },
             {
                 "nombre": "Celeste",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rosado",
                 "stock": 5,
                 "imagen": ""
             }
@@ -4347,73 +4054,6 @@
     },
     {
         "sku": "FOLD-51",
-        "nombre": "Folde plástico A4 diseño Capibara",
-        "marca": "Vinifán",
-        "subcategorias": [
-            "Fólders"
-        ],
-        "imagen_principal": "imagenes/Folder/folder vinifan Capibara 1.jpeg",
-        "stock_general": null,
-        "colores": [
-            {
-                "nombre": "No Seleccionado",
-                "stock": 50,
-                "imagen": ""
-            },
-            {
-                "nombre": "Azul",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
-                "nombre": "Morado",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
-                "nombre": "Rojo",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
-                "nombre": "Amarillo",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
-                "nombre": "Verde",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
-                "nombre": "Naranja",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
-                "nombre": "Negro",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
-                "nombre": "Marrón",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
-                "nombre": "Celeste",
-                "stock": 5,
-                "imagen": ""
-            }
-        ],
-        "precio_regular": 5.0,
-        "precio_oferta": null,
-        "palabras_clave": [],
-        "descripcion_corta": "",
-        "etiqueta": null
-    },
-    {
-        "sku": "FOLD-52",
         "nombre": "Folder fantasía A4 Dragon Ball 1",
         "marca": "Vinifán",
         "subcategorias": [
@@ -4433,42 +4073,22 @@
                 "imagen": ""
             },
             {
-                "nombre": "Morado",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
-                "nombre": "Rojo",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
                 "nombre": "Amarillo",
                 "stock": 5,
                 "imagen": ""
             },
             {
-                "nombre": "Verde",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
-                "nombre": "Naranja",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
-                "nombre": "Negro",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
-                "nombre": "Marrón",
+                "nombre": "Verde limón",
                 "stock": 5,
                 "imagen": ""
             },
             {
                 "nombre": "Celeste",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rosado",
                 "stock": 5,
                 "imagen": ""
             }
@@ -4480,7 +4100,7 @@
         "etiqueta": null
     },
     {
-        "sku": "FOLD-53",
+        "sku": "FOLD-52",
         "nombre": "Folder fantasía A4 Dragon Ball 2",
         "marca": "Vinifán",
         "subcategorias": [
@@ -4500,42 +4120,22 @@
                 "imagen": ""
             },
             {
-                "nombre": "Morado",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
-                "nombre": "Rojo",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
                 "nombre": "Amarillo",
                 "stock": 5,
                 "imagen": ""
             },
             {
-                "nombre": "Verde",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
-                "nombre": "Naranja",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
-                "nombre": "Negro",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
-                "nombre": "Marrón",
+                "nombre": "Verde limón",
                 "stock": 5,
                 "imagen": ""
             },
             {
                 "nombre": "Celeste",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rosado",
                 "stock": 5,
                 "imagen": ""
             }
@@ -4555,7 +4155,53 @@
         ],
         "imagen_principal": "imagenes/Folder/folder A4 superheroes.jpg",
         "stock_general": null,
-        "colores": [],
+        "colores": [
+            {
+                "nombre": "No seleccionado",
+                "stock": 50,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde limón",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Amarillo",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rojo",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Azul",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rosado chicle",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Naranja",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Guinda",
+                "stock": 1,
+                "imagen": ""
+            }
+        ],
         "precio_regular": 4.0,
         "precio_oferta": null,
         "palabras_clave": [],
@@ -4571,7 +4217,53 @@
         ],
         "imagen_principal": "imagenes/Folder/folder A4 mario bros.jpg",
         "stock_general": null,
-        "colores": [],
+        "colores": [
+            {
+                "nombre": "No seleccionado",
+                "stock": 50,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde limón",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Amarillo",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rojo",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Azul",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rosado chicle",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Naranja",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Guinda",
+                "stock": 1,
+                "imagen": ""
+            }
+        ],
         "precio_regular": 4.0,
         "precio_oferta": null,
         "palabras_clave": [],
@@ -4587,7 +4279,53 @@
         ],
         "imagen_principal": "imagenes/Folder/folder A4 niñas.jpg",
         "stock_general": null,
-        "colores": [],
+        "colores": [
+            {
+                "nombre": "No seleccionado",
+                "stock": 50,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde limón",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Amarillo",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rojo",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Azul",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rosado chicle",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Naranja",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Guinda",
+                "stock": 1,
+                "imagen": ""
+            }
+        ],
         "precio_regular": 4.0,
         "precio_oferta": null,
         "palabras_clave": [],
@@ -4603,7 +4341,53 @@
         ],
         "imagen_principal": "imagenes/Folder/folder A4 mujeres.jpg",
         "stock_general": null,
-        "colores": [],
+        "colores": [
+            {
+                "nombre": "No seleccionado",
+                "stock": 50,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde limón",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Amarillo",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rojo",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Azul",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rosado chicle",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Naranja",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Guinda",
+                "stock": 1,
+                "imagen": ""
+            }
+        ],
         "precio_regular": 4.0,
         "precio_oferta": null,
         "palabras_clave": [],
@@ -4619,7 +4403,53 @@
         ],
         "imagen_principal": "imagenes/Folder/folder A4 hombres.jpg",
         "stock_general": null,
-        "colores": [],
+        "colores": [
+            {
+                "nombre": "No seleccionado",
+                "stock": 50,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde limón",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Amarillo",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rojo",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Azul",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rosado chicle",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Naranja",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Guinda",
+                "stock": 1,
+                "imagen": ""
+            }
+        ],
         "precio_regular": 4.0,
         "precio_oferta": null,
         "palabras_clave": [],
@@ -4635,7 +4465,53 @@
         ],
         "imagen_principal": "imagenes/Folder/folder A4 capibaras.jpg",
         "stock_general": null,
-        "colores": [],
+        "colores": [
+            {
+                "nombre": "No seleccionado",
+                "stock": 50,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde limón",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Amarillo",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rojo",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Azul",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rosado chicle",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Naranja",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Guinda",
+                "stock": 1,
+                "imagen": ""
+            }
+        ],
         "precio_regular": 4.0,
         "precio_oferta": null,
         "palabras_clave": [],
@@ -4653,53 +4529,18 @@
         "stock_general": null,
         "colores": [
             {
-                "nombre": "No Seleccionado",
-                "stock": 50,
-                "imagen": ""
-            },
-            {
-                "nombre": "Azul",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
-                "nombre": "Morado",
-                "stock": 5,
+                "nombre": "No seleccionado",
+                "stock": 2,
                 "imagen": ""
             },
             {
                 "nombre": "Rojo",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
-                "nombre": "Amarillo",
-                "stock": 5,
+                "stock": 1,
                 "imagen": ""
             },
             {
                 "nombre": "Verde",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
-                "nombre": "Naranja",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
-                "nombre": "Negro",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
-                "nombre": "Marrón",
-                "stock": 5,
-                "imagen": ""
-            },
-            {
-                "nombre": "Celeste",
-                "stock": 5,
+                "stock": 1,
                 "imagen": ""
             }
         ],
@@ -4718,7 +4559,23 @@
         ],
         "imagen_principal": "imagenes/Folder/folder oficio Vinifan DB 1.jpg",
         "stock_general": null,
-        "colores": [],
+        "colores": [
+            {
+                "nombre": "No seleccionado",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rojo",
+                "stock": 1,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde",
+                "stock": 1,
+                "imagen": ""
+            }
+        ],
         "precio_regular": 5.5,
         "precio_oferta": null,
         "palabras_clave": [],
@@ -4734,7 +4591,23 @@
         ],
         "imagen_principal": "imagenes/Folder/folder oficio Vinifan DB 2.jpg",
         "stock_general": null,
-        "colores": [],
+        "colores": [
+            {
+                "nombre": "No seleccionado",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rojo",
+                "stock": 1,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde",
+                "stock": 1,
+                "imagen": ""
+            }
+        ],
         "precio_regular": 5.5,
         "precio_oferta": null,
         "palabras_clave": [],
@@ -4750,7 +4623,78 @@
         ],
         "imagen_principal": "imagenes/Folder/folder oficio Barbie.jpg",
         "stock_general": null,
-        "colores": [],
+        "colores": [
+            {
+                "nombre": "No seleccionado",
+                "stock": 25,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde limón",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Azul marino",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Azulino",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Amarillo",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Naranja",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Blanco",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Negro",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rojo",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rosado chicle",
+                "stock": 1,
+                "imagen": ""
+            },
+            {
+                "nombre": "Lila",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Morado",
+                "stock": 1,
+                "imagen": ""
+            },
+            {
+                "nombre": "Turquesa",
+                "stock": 1,
+                "imagen": ""
+            }
+        ],
         "precio_regular": 5.0,
         "precio_oferta": null,
         "palabras_clave": [],
@@ -4766,7 +4710,78 @@
         ],
         "imagen_principal": "imagenes/Folder/folder oficio Capibaras.jpg",
         "stock_general": null,
-        "colores": [],
+        "colores": [
+            {
+                "nombre": "No seleccionado",
+                "stock": 25,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde limón",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Azul marino",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Azulino",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Amarillo",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Naranja",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Blanco",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Negro",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rojo",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rosado chicle",
+                "stock": 1,
+                "imagen": ""
+            },
+            {
+                "nombre": "Lila",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Morado",
+                "stock": 1,
+                "imagen": ""
+            },
+            {
+                "nombre": "Turquesa",
+                "stock": 1,
+                "imagen": ""
+            }
+        ],
         "precio_regular": 5.0,
         "precio_oferta": null,
         "palabras_clave": [],
@@ -4782,7 +4797,78 @@
         ],
         "imagen_principal": "imagenes/Folder/folder oficio Dinosaurio.jpg",
         "stock_general": null,
-        "colores": [],
+        "colores": [
+            {
+                "nombre": "No seleccionado",
+                "stock": 25,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde limón",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Azul marino",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Azulino",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Amarillo",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Naranja",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Blanco",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Negro",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rojo",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rosado chicle",
+                "stock": 1,
+                "imagen": ""
+            },
+            {
+                "nombre": "Lila",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Morado",
+                "stock": 1,
+                "imagen": ""
+            },
+            {
+                "nombre": "Turquesa",
+                "stock": 1,
+                "imagen": ""
+            }
+        ],
         "precio_regular": 5.0,
         "precio_oferta": null,
         "palabras_clave": [],
@@ -4798,7 +4884,78 @@
         ],
         "imagen_principal": "imagenes/Folder/folder oficio Hombres.jpg",
         "stock_general": null,
-        "colores": [],
+        "colores": [
+            {
+                "nombre": "No seleccionado",
+                "stock": 25,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde limón",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Azul marino",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Azulino",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Amarillo",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Naranja",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Blanco",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Negro",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rojo",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rosado chicle",
+                "stock": 1,
+                "imagen": ""
+            },
+            {
+                "nombre": "Lila",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Morado",
+                "stock": 1,
+                "imagen": ""
+            },
+            {
+                "nombre": "Turquesa",
+                "stock": 1,
+                "imagen": ""
+            }
+        ],
         "precio_regular": 5.0,
         "precio_oferta": null,
         "palabras_clave": [],
@@ -4814,7 +4971,78 @@
         ],
         "imagen_principal": "imagenes/Folder/folder oficio Mario Bros.jpg",
         "stock_general": null,
-        "colores": [],
+        "colores": [
+            {
+                "nombre": "No seleccionado",
+                "stock": 25,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde limón",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Azul marino",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Azulino",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Amarillo",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Naranja",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Blanco",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Negro",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rojo",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rosado chicle",
+                "stock": 1,
+                "imagen": ""
+            },
+            {
+                "nombre": "Lila",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Morado",
+                "stock": 1,
+                "imagen": ""
+            },
+            {
+                "nombre": "Turquesa",
+                "stock": 1,
+                "imagen": ""
+            }
+        ],
         "precio_regular": 5.0,
         "precio_oferta": null,
         "palabras_clave": [],
@@ -4830,7 +5058,78 @@
         ],
         "imagen_principal": "imagenes/Folder/folder oficio Mujeres.jpg",
         "stock_general": null,
-        "colores": [],
+        "colores": [
+            {
+                "nombre": "No seleccionado",
+                "stock": 25,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde limón",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Azul marino",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Azulino",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Amarillo",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Naranja",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Blanco",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Negro",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rojo",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rosado chicle",
+                "stock": 1,
+                "imagen": ""
+            },
+            {
+                "nombre": "Lila",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Morado",
+                "stock": 1,
+                "imagen": ""
+            },
+            {
+                "nombre": "Turquesa",
+                "stock": 1,
+                "imagen": ""
+            }
+        ],
         "precio_regular": 5.0,
         "precio_oferta": null,
         "palabras_clave": [],
@@ -4846,7 +5145,78 @@
         ],
         "imagen_principal": "imagenes/Folder/folder oficio Niña 1.jpg",
         "stock_general": null,
-        "colores": [],
+        "colores": [
+            {
+                "nombre": "No seleccionado",
+                "stock": 25,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde limón",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Azul marino",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Azulino",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Amarillo",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Naranja",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Blanco",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Negro",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rojo",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rosado chicle",
+                "stock": 1,
+                "imagen": ""
+            },
+            {
+                "nombre": "Lila",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Morado",
+                "stock": 1,
+                "imagen": ""
+            },
+            {
+                "nombre": "Turquesa",
+                "stock": 1,
+                "imagen": ""
+            }
+        ],
         "precio_regular": 5.0,
         "precio_oferta": null,
         "palabras_clave": [],
@@ -4862,7 +5232,78 @@
         ],
         "imagen_principal": "imagenes/Folder/folder oficio Niñas.jpg",
         "stock_general": null,
-        "colores": [],
+        "colores": [
+            {
+                "nombre": "No seleccionado",
+                "stock": 25,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde limón",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Azul marino",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Azulino",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Amarillo",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Naranja",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Blanco",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Negro",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rojo",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rosado chicle",
+                "stock": 1,
+                "imagen": ""
+            },
+            {
+                "nombre": "Lila",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Morado",
+                "stock": 1,
+                "imagen": ""
+            },
+            {
+                "nombre": "Turquesa",
+                "stock": 1,
+                "imagen": ""
+            }
+        ],
         "precio_regular": 5.0,
         "precio_oferta": null,
         "palabras_clave": [],
@@ -4878,7 +5319,78 @@
         ],
         "imagen_principal": "imagenes/Folder/folder oficio infantil Niñas.jpg",
         "stock_general": null,
-        "colores": [],
+        "colores": [
+            {
+                "nombre": "No seleccionado",
+                "stock": 25,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde limón",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Azul marino",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Azulino",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Amarillo",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Naranja",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Blanco",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Negro",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rojo",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rosado chicle",
+                "stock": 1,
+                "imagen": ""
+            },
+            {
+                "nombre": "Lila",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Morado",
+                "stock": 1,
+                "imagen": ""
+            },
+            {
+                "nombre": "Turquesa",
+                "stock": 1,
+                "imagen": ""
+            }
+        ],
         "precio_regular": 5.0,
         "precio_oferta": null,
         "palabras_clave": [],
