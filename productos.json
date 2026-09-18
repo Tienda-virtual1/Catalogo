@@ -3102,7 +3102,7 @@
     },
     {
         "sku": "FOLD-11",
-        "nombre": "Folder A4 Duramax Infantil Niño 1",
+        "nombre": "Folder Duramax A4 Infantil Niño 1",
         "marca": "Artesco",
         "subcategorias": [
             "Fólders"
@@ -3112,7 +3112,82 @@
         "colores": [
             {
                 "nombre": "No Seleccionado",
-                "stock": 10,
+                "stock": 50,
+                "imagen": ""
+            },
+            {
+                "nombre": "Fucsia",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde oscuro",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde limón",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Celeste",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Turquesa",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Azul",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Amarillo",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Negro",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Gris",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Lila",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Morado",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Naranja",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rojo",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Blanco",
+                "stock": 5,
                 "imagen": ""
             }
         ],
@@ -3124,15 +3199,96 @@
     },
     {
         "sku": "FOLD-12",
-        "nombre": "Folder A4 Duramax Infantil Niño 2",
-        "marca": "",
+        "nombre": "Folder Duramax A4 Infantil Niño 2",
+        "marca": "Artesco",
         "subcategorias": [
             "Fólders"
         ],
         "imagen_principal": "imagenes/Folder/folder A4 Artesco linea cool 2.jpg",
         "stock_general": null,
-        "colores": [],
-        "precio_regular": 0.0,
+        "colores": [
+            {
+                "nombre": "No Seleccionado",
+                "stock": 50,
+                "imagen": ""
+            },
+            {
+                "nombre": "Fucsia",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde oscuro",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde limón",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Celeste",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Turquesa",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Azul",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Amarillo",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Negro",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Gris",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Lila",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Morado",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Naranja",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rojo",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Blanco",
+                "stock": 5,
+                "imagen": ""
+            }
+        ],
+        "precio_regular": 5.0,
         "precio_oferta": null,
         "palabras_clave": [],
         "descripcion_corta": "",
@@ -3141,14 +3297,95 @@
     {
         "sku": "FOLD-13",
         "nombre": "Folder A4 Duramax Infantil Niño 3",
-        "marca": "",
+        "marca": "Artesco",
         "subcategorias": [
             "Fólders"
         ],
         "imagen_principal": "imagenes/Folder/folder Artesco A4 linea cool 3.jpg",
         "stock_general": null,
-        "colores": [],
-        "precio_regular": 0.0,
+        "colores": [
+            {
+                "nombre": "No Seleccionado",
+                "stock": 50,
+                "imagen": ""
+            },
+            {
+                "nombre": "Fucsia",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde oscuro",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde limón",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Celeste",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Turquesa",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Azul",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Amarillo",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Negro",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Gris",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Lila",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Morado",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Naranja",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rojo",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Blanco",
+                "stock": 5,
+                "imagen": ""
+            }
+        ],
+        "precio_regular": 5.0,
         "precio_oferta": null,
         "palabras_clave": [],
         "descripcion_corta": "",
@@ -3156,15 +3393,387 @@
     },
     {
         "sku": "FOLD-21",
-        "nombre": "Folder A4 Duramax Infantil Niña",
+        "nombre": "Folder Duramax A4 Infantil Niña 1",
         "marca": "Artesco",
         "subcategorias": [
             "Fólders"
         ],
-        "imagen_principal": "nan",
+        "imagen_principal": "imagenes/Folder/folder A4 Artesco girl 1.jpg",
         "stock_general": null,
-        "colores": [],
-        "precio_regular": 0.0,
+        "colores": [
+            {
+                "nombre": "No Seleccionado",
+                "stock": 50,
+                "imagen": ""
+            },
+            {
+                "nombre": "Fucsia",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde oscuro",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde limón",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Celeste",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Turquesa",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Azul",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Amarillo",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Negro",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Gris",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Lila",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Morado",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Naranja",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rojo",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Blanco",
+                "stock": 5,
+                "imagen": ""
+            }
+        ],
+        "precio_regular": 5.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "FOLD-22",
+        "nombre": "Folder Duramax A4 Infantil Niña 2",
+        "marca": "Artesco",
+        "subcategorias": [
+            "Fólders"
+        ],
+        "imagen_principal": "imagenes/Folder/folder Artesco A4 infantil 1.jpg",
+        "stock_general": null,
+        "colores": [
+            {
+                "nombre": "No Seleccionado",
+                "stock": 50,
+                "imagen": ""
+            },
+            {
+                "nombre": "Fucsia",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde oscuro",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde limón",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Celeste",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Turquesa",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Azul",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Amarillo",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Negro",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Gris",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Lila",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Morado",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Naranja",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rojo",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Blanco",
+                "stock": 5,
+                "imagen": ""
+            }
+        ],
+        "precio_regular": 5.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "FOLD-25",
+        "nombre": "Folder Duramax A4 juvenil Mujer 1",
+        "marca": "Artesco",
+        "subcategorias": [
+            "Fólders"
+        ],
+        "imagen_principal": "imagenes/Folder/folder A4 Artesco fantasia 1.jpg",
+        "stock_general": null,
+        "colores": [
+            {
+                "nombre": "No Seleccionado",
+                "stock": 50,
+                "imagen": ""
+            },
+            {
+                "nombre": "Fucsia",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde oscuro",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde limón",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Celeste",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Turquesa",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Azul",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Amarillo",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Negro",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Gris",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Lila",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Morado",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Naranja",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rojo",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Blanco",
+                "stock": 5,
+                "imagen": ""
+            }
+        ],
+        "precio_regular": 5.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "FOLD-26",
+        "nombre": "Folder Duramax A4 Juvenil Mujer 2",
+        "marca": "Artesco",
+        "subcategorias": [
+            "Fólders"
+        ],
+        "imagen_principal": "imagenes/Folder/folder Artesco A4 linea fashion.jpg",
+        "stock_general": null,
+        "colores": [
+            {
+                "nombre": "No Seleccionado",
+                "stock": 50,
+                "imagen": ""
+            },
+            {
+                "nombre": "Fucsia",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde oscuro",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde limón",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Celeste",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Turquesa",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Azul",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Amarillo",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Negro",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Gris",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Lila",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Morado",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Naranja",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rojo",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Blanco",
+                "stock": 5,
+                "imagen": ""
+            }
+        ],
+        "precio_regular": 5.0,
         "precio_oferta": null,
         "palabras_clave": [],
         "descripcion_corta": "",
@@ -3172,15 +3781,364 @@
     },
     {
         "sku": "FOLD-31",
-        "nombre": "Folder A4 Duramax Juvenil Mujer",
+        "nombre": "Folder plástico A4 Minie Mouse",
         "marca": "Artesco",
         "subcategorias": [
             "Fólders"
         ],
-        "imagen_principal": "imagenes/Folder/folder Artesco A4 linea fashion.jpg",
+        "imagen_principal": "imagenes/Folder/folder Artesco A4 minnie.jpg",
         "stock_general": null,
-        "colores": [],
-        "precio_regular": 0.0,
+        "colores": [
+            {
+                "nombre": "No Seleccionado",
+                "stock": 50,
+                "imagen": ""
+            },
+            {
+                "nombre": "Fucsia",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde oscuro",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde limón",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Celeste",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Turquesa",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Azul",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Amarillo",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Negro",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Gris",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Lila",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Morado",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Naranja",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rojo",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Blanco",
+                "stock": 5,
+                "imagen": ""
+            }
+        ],
+        "precio_regular": 5.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "FOLD-41",
+        "nombre": "Folder plástico A4 juvenil Mujer 1",
+        "marca": "Vinifán",
+        "subcategorias": [
+            "Fólders"
+        ],
+        "imagen_principal": "imagenes/Folder/folder vinifan Mujer 1.jpeg",
+        "stock_general": null,
+        "colores": [
+            {
+                "nombre": "No Seleccionado",
+                "stock": 50,
+                "imagen": ""
+            },
+            {
+                "nombre": "Azul",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Morado",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rojo",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Amarillo",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Naranja",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Negro",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Marrón",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Celeste",
+                "stock": 5,
+                "imagen": ""
+            }
+        ],
+        "precio_regular": 5.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "FOLD-42",
+        "nombre": "Folder plástico A4 juvenil Mujer 2",
+        "marca": "Vinifán",
+        "subcategorias": [
+            "Fólders"
+        ],
+        "imagen_principal": "imagenes/Folder/folder vinifan Mujer 2.jpeg",
+        "stock_general": null,
+        "colores": [
+            {
+                "nombre": "No Seleccionado",
+                "stock": 50,
+                "imagen": ""
+            },
+            {
+                "nombre": "Azul",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Morado",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rojo",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Amarillo",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Naranja",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Negro",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Marrón",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Celeste",
+                "stock": 5,
+                "imagen": ""
+            }
+        ],
+        "precio_regular": 5.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "FOLD-43",
+        "nombre": "Folder plástico A4 juvenil Mujer 3",
+        "marca": "Vinifán",
+        "subcategorias": [
+            "Fólders"
+        ],
+        "imagen_principal": "imagenes/Folder/folder A4 Vinifán girl 1.jpg",
+        "stock_general": null,
+        "colores": [
+            {
+                "nombre": "No Seleccionado",
+                "stock": 50,
+                "imagen": ""
+            },
+            {
+                "nombre": "Azul",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Morado",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rojo",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Amarillo",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Naranja",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Negro",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Marrón",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Celeste",
+                "stock": 5,
+                "imagen": ""
+            }
+        ],
+        "precio_regular": 5.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "FOLD-44",
+        "nombre": "Folder fantasía A4 juvenil Mujer 4",
+        "marca": "Vinifán",
+        "subcategorias": [
+            "Fólders"
+        ],
+        "imagen_principal": "imagenes/Folder/folder A4 Vinifan fantasia 1.jpg",
+        "stock_general": null,
+        "colores": [
+            {
+                "nombre": "No Seleccionado",
+                "stock": 50,
+                "imagen": ""
+            },
+            {
+                "nombre": "Azul",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Morado",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rojo",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Amarillo",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Naranja",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Negro",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Marrón",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Celeste",
+                "stock": 5,
+                "imagen": ""
+            }
+        ],
+        "precio_regular": 5.0,
         "precio_oferta": null,
         "palabras_clave": [],
         "descripcion_corta": "",
@@ -3188,14 +4146,65 @@
     },
     {
         "sku": "FOLD-51",
-        "nombre": "Folder plástico A4 diseño Mujer 1",
+        "nombre": "Folder plástico A4 juvenil Hombre 1",
         "marca": "Vinifán",
         "subcategorias": [
             "Fólders"
         ],
-        "imagen_principal": "imagenes/Folder/folder vinifan Mujer 1.jpeg",
+        "imagen_principal": "imagenes/Folder/folder vinifan Hombre 1.jpg",
         "stock_general": null,
-        "colores": [],
+        "colores": [
+            {
+                "nombre": "No Seleccionado",
+                "stock": 50,
+                "imagen": ""
+            },
+            {
+                "nombre": "Azul",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Morado",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rojo",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Amarillo",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Naranja",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Negro",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Marrón",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Celeste",
+                "stock": 5,
+                "imagen": ""
+            }
+        ],
         "precio_regular": 5.0,
         "precio_oferta": null,
         "palabras_clave": [],
@@ -3204,14 +4213,65 @@
     },
     {
         "sku": "FOLD-52",
-        "nombre": "Folder plástico A4 diseño Mujer 2",
+        "nombre": "Folder plástico A4 juvenil Hombre 2",
         "marca": "Vinifán",
         "subcategorias": [
             "Fólders"
         ],
-        "imagen_principal": "imagenes/Folder/folder vinifan Mujer 2.jpeg",
+        "imagen_principal": "imagenes/Folder/folder vinifan Hombre 2.jpg",
         "stock_general": null,
-        "colores": [],
+        "colores": [
+            {
+                "nombre": "No Seleccionado",
+                "stock": 50,
+                "imagen": ""
+            },
+            {
+                "nombre": "Azul",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Morado",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rojo",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Amarillo",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Naranja",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Negro",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Marrón",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Celeste",
+                "stock": 5,
+                "imagen": ""
+            }
+        ],
         "precio_regular": 5.0,
         "precio_oferta": null,
         "palabras_clave": [],
@@ -3220,78 +4280,65 @@
     },
     {
         "sku": "FOLD-53",
-        "nombre": "Folde plástico A4 diseño Capibara",
-        "marca": "Vinifán",
-        "subcategorias": [
-            "Fólders"
-        ],
-        "imagen_principal": "imagenes/Folder/folder vinifan Capibara 1.jpeg",
-        "stock_general": null,
-        "colores": [],
-        "precio_regular": 5.0,
-        "precio_oferta": null,
-        "palabras_clave": [],
-        "descripcion_corta": "",
-        "etiqueta": null
-    },
-    {
-        "sku": "FOLD-54",
-        "nombre": "Folder plástico A4 diseño Hombre 1",
-        "marca": "Vinifán",
-        "subcategorias": [
-            "Fólders"
-        ],
-        "imagen_principal": "imagenes/Folder/folder vinifan Hombre 1.jpg",
-        "stock_general": null,
-        "colores": [],
-        "precio_regular": 5.0,
-        "precio_oferta": null,
-        "palabras_clave": [],
-        "descripcion_corta": "",
-        "etiqueta": null
-    },
-    {
-        "sku": "FOLD-55",
-        "nombre": "Folder plástico A4 diseño Hombre 2",
-        "marca": "Vinifán",
-        "subcategorias": [
-            "Fólders"
-        ],
-        "imagen_principal": "imagenes/Folder/folder vinifan Hombre 2.jpg",
-        "stock_general": null,
-        "colores": [],
-        "precio_regular": 5.0,
-        "precio_oferta": null,
-        "palabras_clave": [],
-        "descripcion_corta": "",
-        "etiqueta": null
-    },
-    {
-        "sku": "FOLD-56",
-        "nombre": "Folder plástico A4 diseño Hombre 3",
+        "nombre": "Folder plástico A4 juvenil Hombre 3",
         "marca": "Vinifán",
         "subcategorias": [
             "Fólders"
         ],
         "imagen_principal": "imagenes/Folder/folder vinifan Hombre 3.jpg",
         "stock_general": null,
-        "colores": [],
-        "precio_regular": 5.0,
-        "precio_oferta": null,
-        "palabras_clave": [],
-        "descripcion_corta": "",
-        "etiqueta": null
-    },
-    {
-        "sku": "FOLD-57",
-        "nombre": "Folder plástico A4 Minie Mouse",
-        "marca": "Artesco",
-        "subcategorias": [
-            "Fólders"
+        "colores": [
+            {
+                "nombre": "No Seleccionado",
+                "stock": 50,
+                "imagen": ""
+            },
+            {
+                "nombre": "Azul",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Morado",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rojo",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Amarillo",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Naranja",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Negro",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Marrón",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Celeste",
+                "stock": 5,
+                "imagen": ""
+            }
         ],
-        "imagen_principal": "imagenes/Folder/folder Artesco A4 minnie.jpg",
-        "stock_general": null,
-        "colores": [],
         "precio_regular": 5.0,
         "precio_oferta": null,
         "palabras_clave": [],
@@ -3300,15 +4347,66 @@
     },
     {
         "sku": "FOLD-61",
-        "nombre": "Folder plástico A4 Deadpool",
-        "marca": "Genérico",
+        "nombre": "Folde plástico A4 diseño Capibara",
+        "marca": "Vinifán",
         "subcategorias": [
             "Fólders"
         ],
-        "imagen_principal": "nan",
+        "imagen_principal": "imagenes/Folder/folder vinifan Capibara 1.jpeg",
         "stock_general": null,
-        "colores": [],
-        "precio_regular": 4.0,
+        "colores": [
+            {
+                "nombre": "No Seleccionado",
+                "stock": 50,
+                "imagen": ""
+            },
+            {
+                "nombre": "Azul",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Morado",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rojo",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Amarillo",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Naranja",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Negro",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Marrón",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Celeste",
+                "stock": 5,
+                "imagen": ""
+            }
+        ],
+        "precio_regular": 5.0,
         "precio_oferta": null,
         "palabras_clave": [],
         "descripcion_corta": "",
@@ -3316,12 +4414,213 @@
     },
     {
         "sku": "FOLD-62",
-        "nombre": "Folder plástico A4 Princesas",
+        "nombre": "Folder plástico oficio Frozen",
+        "marca": "Vinifán",
+        "subcategorias": [
+            "Fólders"
+        ],
+        "imagen_principal": "imagenes/Folder/folder oficio Vinifan frozen.jpg",
+        "stock_general": null,
+        "colores": [
+            {
+                "nombre": "No Seleccionado",
+                "stock": 50,
+                "imagen": ""
+            },
+            {
+                "nombre": "Azul",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Morado",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rojo",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Amarillo",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Naranja",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Negro",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Marrón",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Celeste",
+                "stock": 5,
+                "imagen": ""
+            }
+        ],
+        "precio_regular": 5.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "FOLD-63",
+        "nombre": "Folder fantasía A4 Dragon Ball 1",
+        "marca": "Vinifán",
+        "subcategorias": [
+            "Fólders"
+        ],
+        "imagen_principal": "imagenes/Folder/folder A4 Artesco DB 1.jpg",
+        "stock_general": null,
+        "colores": [
+            {
+                "nombre": "No Seleccionado",
+                "stock": 50,
+                "imagen": ""
+            },
+            {
+                "nombre": "Azul",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Morado",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rojo",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Amarillo",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Naranja",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Negro",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Marrón",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Celeste",
+                "stock": 5,
+                "imagen": ""
+            }
+        ],
+        "precio_regular": 5.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "FOLD-64",
+        "nombre": "Folder fantasía A4 Dragon Ball 2",
+        "marca": "Vinifán",
+        "subcategorias": [
+            "Fólders"
+        ],
+        "imagen_principal": "imagenes/Folder/folder A4 Artesco DB 2.jpg",
+        "stock_general": null,
+        "colores": [
+            {
+                "nombre": "No Seleccionado",
+                "stock": 50,
+                "imagen": ""
+            },
+            {
+                "nombre": "Azul",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Morado",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rojo",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Amarillo",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Naranja",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Negro",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Marrón",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Celeste",
+                "stock": 5,
+                "imagen": ""
+            }
+        ],
+        "precio_regular": 5.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "FOLD-71",
+        "nombre": "Folder plástico A4 Superheroes",
         "marca": "Genérico",
         "subcategorias": [
             "Fólders"
         ],
-        "imagen_principal": "nan",
+        "imagen_principal": "imagenes/Folder/folder A4 superheroes.jpg",
         "stock_general": null,
         "colores": [],
         "precio_regular": 4.0,
@@ -3331,16 +4630,80 @@
         "etiqueta": null
     },
     {
-        "sku": "FOLD-71",
-        "nombre": "Folder plástico oficio Frozen",
-        "marca": "Vinifán",
+        "sku": "FOLD-72",
+        "nombre": "Fólder plástico A4 Mario Bros",
+        "marca": "Genérico",
         "subcategorias": [
             "Fólders"
         ],
-        "imagen_principal": "imagenes/Folder/folder oficio Vinifan frozen.jpg",
+        "imagen_principal": "imagenes/Folder/folder A4 mario bros.jpg",
         "stock_general": null,
         "colores": [],
-        "precio_regular": 5.5,
+        "precio_regular": 4.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "FOLD-73",
+        "nombre": "Folder plástico A4 infantil Niñas",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Fólders"
+        ],
+        "imagen_principal": "imagenes/Folder/folder A4 niñas.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 4.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "FOLD-74",
+        "nombre": "Folder plástico A4 juvenil Mujeres",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Fólders"
+        ],
+        "imagen_principal": "imagenes/Folder/folder A4 mujeres.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 4.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "FOLD-75",
+        "nombre": "Folder plástico A4 juvenil Hombres",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Fólders"
+        ],
+        "imagen_principal": "imagenes/Folder/folder A4 hombres.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 4.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "FOLD-76",
+        "nombre": "Folder plástico A4 Capibaras",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Fólders"
+        ],
+        "imagen_principal": "imagenes/Folder/folder A4 capibaras.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 4.0,
         "precio_oferta": null,
         "palabras_clave": [],
         "descripcion_corta": "",
