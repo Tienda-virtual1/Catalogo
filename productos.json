@@ -9015,7 +9015,7 @@
         "etiqueta": null
     },
     {
-        "sku": "CREP-64",
+        "sku": "CREP-62",
         "nombre": "Papel crepé con diseño líneas zigzag",
         "marca": "Genérico",
         "subcategorias": [
@@ -9042,7 +9042,7 @@
         "etiqueta": null
     },
     {
-        "sku": "CREP-66",
+        "sku": "CREP-63",
         "nombre": "Papel crepé con diseño pelotas",
         "marca": "Genérico",
         "subcategorias": [
@@ -9069,7 +9069,7 @@
         "etiqueta": null
     },
     {
-        "sku": "CREP-68",
+        "sku": "CREP-64",
         "nombre": "Papel crepé con diseño flores",
         "marca": "Genérico",
         "subcategorias": [
@@ -9085,7 +9085,7 @@
         "etiqueta": null
     },
     {
-        "sku": "CREP-69",
+        "sku": "CREP-65",
         "nombre": "Papel crepé con diseño perros",
         "marca": "Genérico",
         "subcategorias": [
@@ -9101,7 +9101,7 @@
         "etiqueta": null
     },
     {
-        "sku": "CREP-70",
+        "sku": "CREP-66",
         "nombre": "Papel crepé con diseño amarillo puntos rojos",
         "marca": "Genérico",
         "subcategorias": [
@@ -9117,7 +9117,7 @@
         "etiqueta": null
     },
     {
-        "sku": "CREP-71",
+        "sku": "CREP-67",
         "nombre": "Papel crepé con diseño animal print zebra",
         "marca": "Genérico",
         "subcategorias": [
@@ -9133,7 +9133,7 @@
         "etiqueta": null
     },
     {
-        "sku": "CREP-72",
+        "sku": "CREP-68",
         "nombre": "Papel crepé con diseño azul con estrellas blancas",
         "marca": "Genérico",
         "subcategorias": [
@@ -9149,23 +9149,7 @@
         "etiqueta": null
     },
     {
-        "sku": "CREP-73",
-        "nombre": "Papel crepé con diseño rojo con puntos blancos",
-        "marca": "Genérico",
-        "subcategorias": [
-            "Papel Crepé"
-        ],
-        "imagen_principal": "imagenes/crepe/crepe rojo lunares blancos.jpg",
-        "stock_general": null,
-        "colores": [],
-        "precio_regular": 2.0,
-        "precio_oferta": null,
-        "palabras_clave": [],
-        "descripcion_corta": "",
-        "etiqueta": null
-    },
-    {
-        "sku": "CREP-74",
+        "sku": "CREP-69",
         "nombre": "Papel crepé con diseño serpentinas",
         "marca": "Genérico",
         "subcategorias": [
