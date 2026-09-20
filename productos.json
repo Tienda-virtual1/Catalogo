@@ -2902,13 +2902,13 @@
         "subcategorias": [
             "Fólders"
         ],
-        "imagen_principal": "nan",
+        "imagen_principal": "imagenes/Folder/folder A4 doble tapa layconsa.jpg",
         "stock_general": null,
         "colores": [
             {
                 "nombre": "Surtido",
                 "stock": 20,
-                "imagen": ""
+                "imagen": "imagenes/Folder/folder A4 doble tapa layconsa.jpg"
             },
             {
                 "nombre": "Rosado",
@@ -2984,13 +2984,13 @@
         "subcategorias": [
             "Fólders"
         ],
-        "imagen_principal": "nan",
+        "imagen_principal": "imagenes/Folder/folder-a-4-doble-tapa-vinifan.jpeg",
         "stock_general": null,
         "colores": [
             {
                 "nombre": "Surtido",
                 "stock": 20,
-                "imagen": ""
+                "imagen": "imagenes/Folder/folder-a-4-doble-tapa-vinifan.jpeg"
             },
             {
                 "nombre": "Rosado",
@@ -3013,7 +3013,7 @@
                 "imagen": "imagenes/Folder/folder vinifan verde limon.webp"
             },
             {
-                "nombre": "Verde claro",
+                "nombre": "Verde",
                 "stock": 2,
                 "imagen": "imagenes/Folder/folder vinifan verde.webp"
             },
