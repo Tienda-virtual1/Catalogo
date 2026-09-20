@@ -3101,6 +3101,69 @@
         "etiqueta": null
     },
     {
+        "sku": "FOLD-05",
+        "nombre": "Folder manila A4 color natural",
+        "marca": "Grafi papel",
+        "subcategorias": [
+            "Fólders"
+        ],
+        "imagen_principal": "imagenes/Folder/file-manila-a4-grafip.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "FOLD-06",
+        "nombre": "Folder manila A4 color",
+        "marca": "Grafi papel",
+        "subcategorias": [
+            "Fólders"
+        ],
+        "imagen_principal": "imagenes/Folder/folder manila colores.webp",
+        "stock_general": null,
+        "colores": [
+            {
+                "nombre": "Surtido",
+                "stock": 100,
+                "imagen": "imagenes/Folder/folder manila colores.webp"
+            },
+            {
+                "nombre": "Rojo",
+                "stock": 25,
+                "imagen": "imagenes/Folder/folder manila rojo.webp"
+            },
+            {
+                "nombre": "Azul",
+                "stock": 25,
+                "imagen": "imagenes/Folder/folder manila azul.webp"
+            },
+            {
+                "nombre": "Amarillo",
+                "stock": 25,
+                "imagen": "imagenes/Folder/folder manila amarillo.webp"
+            },
+            {
+                "nombre": "Verde",
+                "stock": 25,
+                "imagen": "imagenes/Folder/folder manila verde limon.webp"
+            },
+            {
+                "nombre": "Naranja",
+                "stock": 25,
+                "imagen": "imagenes/Folder/folder manila naranja.webp"
+            }
+        ],
+        "precio_regular": 1.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
         "sku": "FOLD-11",
         "nombre": "Folder Duramax A4 Infantil Niño 1",
         "marca": "Artesco",
@@ -3371,11 +3434,11 @@
     {
         "sku": "FOLD-22",
         "nombre": "Folder plástico A4 Infantil Niña 2",
-        "marca": "Vinifán",
+        "marca": "Artesco",
         "subcategorias": [
             "Fólders"
         ],
-        "imagen_principal": "imagenes/Folder/folder vinifan Mujer 2.jpeg",
+        "imagen_principal": "imagenes/Folder/folder A4 Artesco girl 2.jpeg",
         "stock_general": null,
         "colores": [
             {
@@ -3570,7 +3633,7 @@
         "etiqueta": null
     },
     {
-        "sku": "FOLD-25",
+        "sku": "FOLD-26",
         "nombre": "Folder Duramax A4 juvenil Mujer 1",
         "marca": "Artesco",
         "subcategorias": [
@@ -3637,7 +3700,7 @@
         "etiqueta": null
     },
     {
-        "sku": "FOLD-26",
+        "sku": "FOLD-27",
         "nombre": "Folder Duramax A4 Juvenil Mujer 2",
         "marca": "Artesco",
         "subcategorias": [
@@ -4053,7 +4116,7 @@
         "etiqueta": null
     },
     {
-        "sku": "FOLD-51",
+        "sku": "FOLD-46",
         "nombre": "Folder fantasía A4 Dragon Ball 1",
         "marca": "Vinifán",
         "subcategorias": [
@@ -4100,7 +4163,7 @@
         "etiqueta": null
     },
     {
-        "sku": "FOLD-52",
+        "sku": "FOLD-47",
         "nombre": "Folder fantasía A4 Dragon Ball 2",
         "marca": "Vinifán",
         "subcategorias": [
@@ -4147,7 +4210,7 @@
         "etiqueta": null
     },
     {
-        "sku": "FOLD-61",
+        "sku": "nan",
         "nombre": "Folder plástico A4 Superheroes",
         "marca": "Genérico",
         "subcategorias": [
@@ -4209,7 +4272,7 @@
         "etiqueta": null
     },
     {
-        "sku": "FOLD-62",
+        "sku": "nan",
         "nombre": "Fólder plástico A4 Mario Bros",
         "marca": "Genérico",
         "subcategorias": [
@@ -4271,7 +4334,7 @@
         "etiqueta": null
     },
     {
-        "sku": "FOLD-63",
+        "sku": "FOLD-51",
         "nombre": "Folder plástico A4 infantil Niñas",
         "marca": "Genérico",
         "subcategorias": [
@@ -4333,7 +4396,7 @@
         "etiqueta": null
     },
     {
-        "sku": "FOLD-64",
+        "sku": "FOLD-52",
         "nombre": "Folder plástico A4 juvenil Mujeres",
         "marca": "Genérico",
         "subcategorias": [
@@ -4395,7 +4458,7 @@
         "etiqueta": null
     },
     {
-        "sku": "FOLD-65",
+        "sku": "FOLD-53",
         "nombre": "Folder plástico A4 juvenil Hombres",
         "marca": "Genérico",
         "subcategorias": [
@@ -4457,7 +4520,7 @@
         "etiqueta": null
     },
     {
-        "sku": "FOLD-66",
+        "sku": "FOLD-54",
         "nombre": "Folder plástico A4 Capibaras",
         "marca": "Genérico",
         "subcategorias": [
@@ -4519,7 +4582,7 @@
         "etiqueta": null
     },
     {
-        "sku": "FOLD-71",
+        "sku": "FOLD-61",
         "nombre": "Folder plástico oficio Frozen",
         "marca": "Vinifán",
         "subcategorias": [
@@ -4551,7 +4614,7 @@
         "etiqueta": null
     },
     {
-        "sku": "FOLD-75",
+        "sku": "FOLD-66",
         "nombre": "Folder plástico oficio Dragon Ball 1",
         "marca": "Vinifán",
         "subcategorias": [
@@ -4583,7 +4646,7 @@
         "etiqueta": null
     },
     {
-        "sku": "FOLD-76",
+        "sku": "FOLD-67",
         "nombre": "Folder plástico oficio Dragon Ball 2",
         "marca": "Vinifán",
         "subcategorias": [
@@ -4615,7 +4678,7 @@
         "etiqueta": null
     },
     {
-        "sku": "FOLD-81",
+        "sku": "FOLD-71",
         "nombre": "Folder plástico Oficio Barbie",
         "marca": "Genérico",
         "subcategorias": [
@@ -4702,7 +4765,7 @@
         "etiqueta": null
     },
     {
-        "sku": "FOLD-82",
+        "sku": "FOLD-72",
         "nombre": "Folder plástico Oficio Capibaras",
         "marca": "Genérico",
         "subcategorias": [
@@ -4789,7 +4852,7 @@
         "etiqueta": null
     },
     {
-        "sku": "FOLD-83",
+        "sku": "FOLD-73",
         "nombre": "Folder plástico Oficio Dinosaurios",
         "marca": "Genérico",
         "subcategorias": [
@@ -4876,7 +4939,7 @@
         "etiqueta": null
     },
     {
-        "sku": "FOLD-84",
+        "sku": "FOLD-74",
         "nombre": "Folder plástico Oficio Juvenil Hombres",
         "marca": "Genérico",
         "subcategorias": [
@@ -4963,7 +5026,7 @@
         "etiqueta": null
     },
     {
-        "sku": "FOLD-85",
+        "sku": "FOLD-75",
         "nombre": "Folder plástico Oficio Mario Bros",
         "marca": "Genérico",
         "subcategorias": [
@@ -5050,7 +5113,7 @@
         "etiqueta": null
     },
     {
-        "sku": "FOLD-86",
+        "sku": "FOLD-76",
         "nombre": "Folder plástico Oficio Juvenil Mujeres",
         "marca": "Genérico",
         "subcategorias": [
@@ -5137,7 +5200,7 @@
         "etiqueta": null
     },
     {
-        "sku": "FOLD-87",
+        "sku": "FOLD-77",
         "nombre": "Folder plástico Oficio Ladybug",
         "marca": "Genérico",
         "subcategorias": [
@@ -5224,7 +5287,7 @@
         "etiqueta": null
     },
     {
-        "sku": "FOLD-88",
+        "sku": "FOLD-78",
         "nombre": "Folder plástico Oficio Niñas",
         "marca": "Genérico",
         "subcategorias": [
@@ -5311,7 +5374,7 @@
         "etiqueta": null
     },
     {
-        "sku": "FOLD-89",
+        "sku": "FOLD-79",
         "nombre": "Folder plástico Oficio Infantil Niñas",
         "marca": "Genérico",
         "subcategorias": [
@@ -5398,63 +5461,522 @@
         "etiqueta": null
     },
     {
-        "sku": "FOLD-91",
-        "nombre": "Folder manila A4 color natural",
-        "marca": "Grafi papel",
+        "sku": "FOLD-80",
+        "nombre": "Folder plástico Oficio Villano Favorito",
+        "marca": "Genérico",
         "subcategorias": [
             "Fólders"
         ],
-        "imagen_principal": "nan",
+        "imagen_principal": "imagenes/Folder/folde oficio Villano favorito.jpeg",
         "stock_general": null,
-        "colores": [],
-        "precio_regular": 1.0,
+        "colores": [
+            {
+                "nombre": "No seleccionado",
+                "stock": 25,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde limón",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Azul marino",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Azulino",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Amarillo",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Naranja",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Blanco",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Negro",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rojo",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rosado chicle",
+                "stock": 1,
+                "imagen": ""
+            },
+            {
+                "nombre": "Lila",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Morado",
+                "stock": 1,
+                "imagen": ""
+            },
+            {
+                "nombre": "Turquesa",
+                "stock": 1,
+                "imagen": ""
+            }
+        ],
+        "precio_regular": 5.0,
         "precio_oferta": null,
         "palabras_clave": [],
         "descripcion_corta": "",
         "etiqueta": null
     },
     {
-        "sku": "FOLD-92",
-        "nombre": "Folder manila A4 color",
-        "marca": "Grafi papel",
+        "sku": "FOLD-81",
+        "nombre": "Folder plástico Oficio Spiderman",
+        "marca": "Genérico",
         "subcategorias": [
             "Fólders"
         ],
-        "imagen_principal": "nan",
+        "imagen_principal": "imagenes/Folder/folder oficio Spiderman.jpeg",
         "stock_general": null,
         "colores": [
             {
-                "nombre": "Surtido",
-                "stock": 100,
-                "imagen": ""
-            },
-            {
-                "nombre": "Rojo",
-                "stock": 25,
-                "imagen": ""
-            },
-            {
-                "nombre": "Azul",
-                "stock": 25,
-                "imagen": ""
-            },
-            {
-                "nombre": "Amarillo",
+                "nombre": "No seleccionado",
                 "stock": 25,
                 "imagen": ""
             },
             {
                 "nombre": "Verde",
-                "stock": 25,
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde limón",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Azul marino",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Azulino",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Amarillo",
+                "stock": 5,
                 "imagen": ""
             },
             {
                 "nombre": "Naranja",
-                "stock": 25,
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Blanco",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Negro",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rojo",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rosado chicle",
+                "stock": 1,
+                "imagen": ""
+            },
+            {
+                "nombre": "Lila",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Morado",
+                "stock": 1,
+                "imagen": ""
+            },
+            {
+                "nombre": "Turquesa",
+                "stock": 1,
                 "imagen": ""
             }
         ],
-        "precio_regular": 1.0,
+        "precio_regular": 5.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "FOLD-82",
+        "nombre": "Folder plástico Oficio Princesas Disney",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Fólders"
+        ],
+        "imagen_principal": "imagenes/Folder/folder oficio princesas.jpeg",
+        "stock_general": null,
+        "colores": [
+            {
+                "nombre": "No seleccionado",
+                "stock": 25,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde limón",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Azul marino",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Azulino",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Amarillo",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Naranja",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Blanco",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Negro",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rojo",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rosado chicle",
+                "stock": 1,
+                "imagen": ""
+            },
+            {
+                "nombre": "Lila",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Morado",
+                "stock": 1,
+                "imagen": ""
+            },
+            {
+                "nombre": "Turquesa",
+                "stock": 1,
+                "imagen": ""
+            }
+        ],
+        "precio_regular": 5.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "FOLD-83",
+        "nombre": "Folder plástico Oficio Rapunzel",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Fólders"
+        ],
+        "imagen_principal": "imagenes/Folder/folder oficio rapunzel.jpeg",
+        "stock_general": null,
+        "colores": [
+            {
+                "nombre": "No seleccionado",
+                "stock": 25,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde limón",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Azul marino",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Azulino",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Amarillo",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Naranja",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Blanco",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Negro",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rojo",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rosado chicle",
+                "stock": 1,
+                "imagen": ""
+            },
+            {
+                "nombre": "Lila",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Morado",
+                "stock": 1,
+                "imagen": ""
+            },
+            {
+                "nombre": "Turquesa",
+                "stock": 1,
+                "imagen": ""
+            }
+        ],
+        "precio_regular": 5.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "FOLD-84",
+        "nombre": "Folder plástico Oficio Intensamente",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Fólders"
+        ],
+        "imagen_principal": "imagenes/Folder/folder oficio intensamente.jpeg",
+        "stock_general": null,
+        "colores": [
+            {
+                "nombre": "No seleccionado",
+                "stock": 25,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde limón",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Azul marino",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Azulino",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Amarillo",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Naranja",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Blanco",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Negro",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rojo",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rosado chicle",
+                "stock": 1,
+                "imagen": ""
+            },
+            {
+                "nombre": "Lila",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Morado",
+                "stock": 1,
+                "imagen": ""
+            },
+            {
+                "nombre": "Turquesa",
+                "stock": 1,
+                "imagen": ""
+            }
+        ],
+        "precio_regular": 5.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "FOLD-85",
+        "nombre": "Folder plástico Oficio Paw Patrol",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Fólders"
+        ],
+        "imagen_principal": "imagenes/Folder/folder oficio paw patrol.jpeg",
+        "stock_general": null,
+        "colores": [
+            {
+                "nombre": "No seleccionado",
+                "stock": 25,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Verde limón",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Azul marino",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Azulino",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Amarillo",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Naranja",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Blanco",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Negro",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rojo",
+                "stock": 5,
+                "imagen": ""
+            },
+            {
+                "nombre": "Rosado chicle",
+                "stock": 1,
+                "imagen": ""
+            },
+            {
+                "nombre": "Lila",
+                "stock": 2,
+                "imagen": ""
+            },
+            {
+                "nombre": "Morado",
+                "stock": 1,
+                "imagen": ""
+            },
+            {
+                "nombre": "Turquesa",
+                "stock": 1,
+                "imagen": ""
+            }
+        ],
+        "precio_regular": 5.0,
         "precio_oferta": null,
         "palabras_clave": [],
         "descripcion_corta": "",
@@ -7848,12 +8370,12 @@
     },
     {
         "sku": "BOLI-24",
-        "nombre": "Lapicero trimax GL-32M amarillo",
+        "nombre": "Lapicero trimax GL-32M verde",
         "marca": "Artesco",
         "subcategorias": [
             "Lapiceros"
         ],
-        "imagen_principal": "nan",
+        "imagen_principal": "imagenes/Lapiceros/lapicero artesco verde limon.jpg",
         "stock_general": null,
         "colores": [],
         "precio_regular": 1.0,
@@ -7866,12 +8388,12 @@
     },
     {
         "sku": "BOLI-25",
-        "nombre": "Lapicero trimax GL-32M verde",
+        "nombre": "Lapicero trimax GL-32M fucsia",
         "marca": "Artesco",
         "subcategorias": [
             "Lapiceros"
         ],
-        "imagen_principal": "nan",
+        "imagen_principal": "imagenes/Lapiceros/lapicero artesco fucsia.jpg",
         "stock_general": null,
         "colores": [],
         "precio_regular": 1.0,
@@ -7884,12 +8406,12 @@
     },
     {
         "sku": "BOLI-26",
-        "nombre": "Lapicero trimax GL-32M fucsia",
+        "nombre": "Lapicero trimax GL-32M rosado",
         "marca": "Artesco",
         "subcategorias": [
             "Lapiceros"
         ],
-        "imagen_principal": "nan",
+        "imagen_principal": "imagenes/Lapiceros/lapicero artesco rosado.jpg",
         "stock_general": null,
         "colores": [],
         "precio_regular": 1.0,
@@ -7902,12 +8424,12 @@
     },
     {
         "sku": "BOLI-27",
-        "nombre": "Lapicero trimax GL-32M rosado",
+        "nombre": "Lapicero trimax GL-32M celeste",
         "marca": "Artesco",
         "subcategorias": [
             "Lapiceros"
         ],
-        "imagen_principal": "nan",
+        "imagen_principal": "imagenes/Lapiceros/lapicero artesco celeste.jpg",
         "stock_general": null,
         "colores": [],
         "precio_regular": 1.0,
@@ -7920,12 +8442,12 @@
     },
     {
         "sku": "BOLI-28",
-        "nombre": "Lapicero trimax GL-32M celeste",
+        "nombre": "Lapicero trimax GL-32M marrón",
         "marca": "Artesco",
         "subcategorias": [
             "Lapiceros"
         ],
-        "imagen_principal": "nan",
+        "imagen_principal": "imagenes/Lapiceros/lapicero artesco marron.jpg",
         "stock_general": null,
         "colores": [],
         "precio_regular": 1.0,
@@ -7938,12 +8460,12 @@
     },
     {
         "sku": "BOLI-29",
-        "nombre": "Lapicero trimax GL-32M marrón",
+        "nombre": "Lapicero trimax GL-32M morado",
         "marca": "Artesco",
         "subcategorias": [
             "Lapiceros"
         ],
-        "imagen_principal": "nan",
+        "imagen_principal": "imagenes/Lapiceros/lapicero artesco morado.jpg",
         "stock_general": null,
         "colores": [],
         "precio_regular": 1.0,
@@ -7956,12 +8478,12 @@
     },
     {
         "sku": "BOLI-30",
-        "nombre": "Lapicero trimax GL-32M morado",
+        "nombre": "Lapicero trimax GL-32M naranja",
         "marca": "Artesco",
         "subcategorias": [
             "Lapiceros"
         ],
-        "imagen_principal": "nan",
+        "imagen_principal": "imagenes/Lapiceros/lapicero artesco naranja.jpg",
         "stock_general": null,
         "colores": [],
         "precio_regular": 1.0,
@@ -7974,30 +8496,12 @@
     },
     {
         "sku": "BOLI-31",
-        "nombre": "Lapicero trimax GL-32M naranja",
-        "marca": "Artesco",
-        "subcategorias": [
-            "Lapiceros"
-        ],
-        "imagen_principal": "nan",
-        "stock_general": null,
-        "colores": [],
-        "precio_regular": 1.0,
-        "precio_oferta": null,
-        "palabras_clave": [
-            "bolígrafo"
-        ],
-        "descripcion_corta": "",
-        "etiqueta": null
-    },
-    {
-        "sku": "BOLI-32",
         "nombre": "Lapicero trimax GL-32M dorado",
         "marca": "Artesco",
         "subcategorias": [
             "Lapiceros"
         ],
-        "imagen_principal": "nan",
+        "imagen_principal": "imagenes/Lapiceros/lapicero artesco dorado.jpg",
         "stock_general": null,
         "colores": [],
         "precio_regular": 1.0,
@@ -8015,7 +8519,7 @@
         "subcategorias": [
             "Lapiceros"
         ],
-        "imagen_principal": "nan",
+        "imagen_principal": "imagenes/Lapiceros/lapicero borrable artesco azul.jpg",
         "stock_general": null,
         "colores": [],
         "precio_regular": 3.5,
@@ -8033,7 +8537,7 @@
         "subcategorias": [
             "Lapiceros"
         ],
-        "imagen_principal": "nan",
+        "imagen_principal": "imagenes/Lapiceros/lapicero borrable artesco rojo.jpg",
         "stock_general": null,
         "colores": [],
         "precio_regular": 3.5,
@@ -8051,7 +8555,7 @@
         "subcategorias": [
             "Lapiceros"
         ],
-        "imagen_principal": "nan",
+        "imagen_principal": "imagenes/Lapiceros/lapicero borrable artesco negro.jpg",
         "stock_general": null,
         "colores": [],
         "precio_regular": 3.5,
@@ -8428,22 +8932,6 @@
         "marca": "Genérico",
         "subcategorias": [
             "Hojas de colores"
-        ],
-        "imagen_principal": "nan",
-        "stock_general": null,
-        "colores": [],
-        "precio_regular": 0.0,
-        "precio_oferta": null,
-        "palabras_clave": [],
-        "descripcion_corta": "",
-        "etiqueta": null
-    },
-    {
-        "sku": "nan",
-        "nombre": "nan",
-        "marca": "",
-        "subcategorias": [
-            "nan"
         ],
         "imagen_principal": "nan",
         "stock_general": null,
