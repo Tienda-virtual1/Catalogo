@@ -11298,5 +11298,117 @@
         "palabras_clave": [],
         "descripcion_corta": "",
         "etiqueta": null
+    },
+    {
+        "sku": "BORR-01",
+        "nombre": "Borrador mixto",
+        "marca": "Layconsa",
+        "subcategorias": [
+            "Borradores y Correctores"
+        ],
+        "imagen_principal": "imagenes/Borrador/borrador mixto layconsa.webp",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "BORR-02",
+        "nombre": "Borrador blanco chico",
+        "marca": "Artesco",
+        "subcategorias": [
+            "Borradores y Correctores"
+        ],
+        "imagen_principal": "imagenes/Borrador/borrador-artesco-blanco-chico.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "BORR-03",
+        "nombre": "Borrador blanco grande",
+        "marca": "Artesco",
+        "subcategorias": [
+            "Borradores y Correctores"
+        ],
+        "imagen_principal": "imagenes/Borrador/BORRADOR-BLANCO-GRANDE-ARTESCO.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "BORR-04",
+        "nombre": "Borrador negro",
+        "marca": "Artesco",
+        "subcategorias": [
+            "Borradores y Correctores"
+        ],
+        "imagen_principal": "imagenes/Borrador/borrador-artesco-negro-rock.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "BORR-11",
+        "nombre": "Corrector tipo lapicero 9ml",
+        "marca": "Faber Castell",
+        "subcategorias": [
+            "Borradores y Correctores"
+        ],
+        "imagen_principal": "imagenes/Borrador/LAPIZ-CORRECTOR-9ML-FC.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "BORR-16",
+        "nombre": "Corrector tipo lapicero 9ml",
+        "marca": "Artesco",
+        "subcategorias": [
+            "Borradores y Correctores"
+        ],
+        "imagen_principal": "imagenes/Borrador/corrector-9-ml-artesco.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "BORR-21",
+        "nombre": "Corrector tipo lapicero 9ml",
+        "marca": "Ove",
+        "subcategorias": [
+            "Borradores y Correctores"
+        ],
+        "imagen_principal": "imagenes/Borrador/corrector-tipo-lapicero-ove-9-ml.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
     }
 ]
