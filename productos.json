@@ -6022,7 +6022,7 @@
             "Cuentos"
         ],
         "imagen_principal": "imagenes/Cuentos/Los 3 cerditos.jpg",
-        "stock_general": "1",
+        "stock_general": "0",
         "colores": [],
         "precio_regular": 5.0,
         "precio_oferta": null,
@@ -6038,7 +6038,7 @@
             "Cuentos"
         ],
         "imagen_principal": "imagenes/Cuentos/Pinocho.jpg",
-        "stock_general": "1",
+        "stock_general": "0",
         "colores": [],
         "precio_regular": 5.0,
         "precio_oferta": null,
@@ -6102,7 +6102,7 @@
             "Cuentos"
         ],
         "imagen_principal": "imagenes/Cuentos/El mago de Oz.jpg",
-        "stock_general": "0",
+        "stock_general": "1",
         "colores": [],
         "precio_regular": 5.0,
         "precio_oferta": null,
@@ -6150,7 +6150,7 @@
             "Cuentos"
         ],
         "imagen_principal": "imagenes/Cuentos/Caperucita roja.jpg",
-        "stock_general": "1",
+        "stock_general": "0",
         "colores": [],
         "precio_regular": 5.0,
         "precio_oferta": null,
@@ -6575,16 +6575,32 @@
         "etiqueta": null
     },
     {
+        "sku": "PLUM-20",
+        "nombre": "Plumones gruesos winner 47 surtidos caja x 12 und",
+        "marca": "Faber-Castell",
+        "subcategorias": [
+            "Plumones"
+        ],
+        "imagen_principal": "imagenes/Plumones/caja plumones winner 47.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 24.0,
+        "precio_oferta": 18.0,
+        "palabras_clave": [],
+        "descripcion_corta": "Colores escogidos por el cliente según stock disponible",
+        "etiqueta": null
+    },
+    {
         "sku": "PLUM-21",
-        "nombre": "Plumón grueso jumbo 47 negro",
+        "nombre": "Plumón grueso winner 47 negro",
         "marca": "Faber-Castell",
         "subcategorias": [
             "Plumones"
         ],
         "imagen_principal": "imagenes/Plumones/plumon-jumbo-faber-castell-47-negro.jpg",
-        "stock_general": null,
+        "stock_general": "0",
         "colores": [],
-        "precio_regular": 1.5,
+        "precio_regular": 2.0,
         "precio_oferta": null,
         "palabras_clave": [],
         "descripcion_corta": "",
@@ -6592,7 +6608,7 @@
     },
     {
         "sku": "PLUM-22",
-        "nombre": "Plumón grueso jumbo 47 azul",
+        "nombre": "Plumón grueso winner 47 azul",
         "marca": "Faber-Castell",
         "subcategorias": [
             "Plumones"
@@ -6600,7 +6616,7 @@
         "imagen_principal": "imagenes/Plumones/plumon grueso Faber azul.jpg",
         "stock_general": null,
         "colores": [],
-        "precio_regular": 1.5,
+        "precio_regular": 2.0,
         "precio_oferta": null,
         "palabras_clave": [],
         "descripcion_corta": "",
@@ -6608,7 +6624,7 @@
     },
     {
         "sku": "PLUM-23",
-        "nombre": "Plumón grueso jumbo 47 rojo",
+        "nombre": "Plumón grueso winner 47 rojo",
         "marca": "Faber-Castell",
         "subcategorias": [
             "Plumones"
@@ -6616,7 +6632,7 @@
         "imagen_principal": "imagenes/Plumones/plumon grueso Faber rojo.jpg",
         "stock_general": null,
         "colores": [],
-        "precio_regular": 1.5,
+        "precio_regular": 2.0,
         "precio_oferta": null,
         "palabras_clave": [],
         "descripcion_corta": "",
@@ -6624,15 +6640,15 @@
     },
     {
         "sku": "PLUM-24",
-        "nombre": "Plumón grueso jumbo 47 verde",
+        "nombre": "Plumón grueso winner 47 verde",
         "marca": "Faber-Castell",
         "subcategorias": [
             "Plumones"
         ],
         "imagen_principal": "imagenes/Plumones/plumon-jumbo-faber-castell-47-verde.jpg",
-        "stock_general": null,
+        "stock_general": "0",
         "colores": [],
-        "precio_regular": 1.5,
+        "precio_regular": 2.0,
         "precio_oferta": null,
         "palabras_clave": [],
         "descripcion_corta": "",
@@ -6751,6 +6767,22 @@
         "etiqueta": null
     },
     {
+        "sku": "PLUM-50",
+        "nombre": "Plumones gruesos Maxicolor 47 colores surtidos caja x12 und",
+        "marca": "Twins",
+        "subcategorias": [
+            "Plumones"
+        ],
+        "imagen_principal": "imagenes/Plumones/Plumones-TWINS-Jumbo-Maxicolor-47.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 12.0,
+        "precio_oferta": 9.5,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": "Descuento"
+    },
+    {
         "sku": "PLUM-51",
         "nombre": "Plumón grueso jumbo Maxicolor 47 rojo",
         "marca": "Twins",
@@ -6800,7 +6832,7 @@
     },
     {
         "sku": "PLUM-54",
-        "nombre": "Plumón grueso verde jumbo Maxicolor 47",
+        "nombre": "Plumón grueso jumbo Maxicolor 47 verde",
         "marca": "Twins",
         "subcategorias": [
             "Plumones"
@@ -7114,7 +7146,7 @@
     },
     {
         "sku": "PLUM-91",
-        "nombre": "plumones gruesos x6",
+        "nombre": "plumones gruesos x12 und",
         "marca": "Genérico",
         "subcategorias": [
             "Plumones"
@@ -11325,7 +11357,7 @@
         "imagen_principal": "imagenes/Borrador/borrador-artesco-blanco-chico.jpg",
         "stock_general": null,
         "colores": [],
-        "precio_regular": 0.0,
+        "precio_regular": 0.5,
         "precio_oferta": null,
         "palabras_clave": [],
         "descripcion_corta": "",
@@ -11341,7 +11373,7 @@
         "imagen_principal": "imagenes/Borrador/BORRADOR-BLANCO-GRANDE-ARTESCO.jpg",
         "stock_general": null,
         "colores": [],
-        "precio_regular": 0.0,
+        "precio_regular": 1.0,
         "precio_oferta": null,
         "palabras_clave": [],
         "descripcion_corta": "",
@@ -11357,7 +11389,7 @@
         "imagen_principal": "imagenes/Borrador/borrador-artesco-negro-rock.jpg",
         "stock_general": null,
         "colores": [],
-        "precio_regular": 0.0,
+        "precio_regular": 1.0,
         "precio_oferta": null,
         "palabras_clave": [],
         "descripcion_corta": "",
@@ -11373,7 +11405,7 @@
         "imagen_principal": "imagenes/Borrador/LAPIZ-CORRECTOR-9ML-FC.jpg",
         "stock_general": null,
         "colores": [],
-        "precio_regular": 0.0,
+        "precio_regular": 2.0,
         "precio_oferta": null,
         "palabras_clave": [],
         "descripcion_corta": "",
@@ -11389,7 +11421,7 @@
         "imagen_principal": "imagenes/Borrador/corrector-9-ml-artesco.jpg",
         "stock_general": null,
         "colores": [],
-        "precio_regular": 0.0,
+        "precio_regular": 2.0,
         "precio_oferta": null,
         "palabras_clave": [],
         "descripcion_corta": "",
@@ -11405,7 +11437,7 @@
         "imagen_principal": "imagenes/Borrador/corrector-tipo-lapicero-ove-9-ml.jpg",
         "stock_general": null,
         "colores": [],
-        "precio_regular": 0.0,
+        "precio_regular": 1.5,
         "precio_oferta": null,
         "palabras_clave": [],
         "descripcion_corta": "",
