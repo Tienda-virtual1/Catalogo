@@ -6588,7 +6588,7 @@
         "precio_oferta": 18.0,
         "palabras_clave": [],
         "descripcion_corta": "Colores escogidos por el cliente según stock disponible",
-        "etiqueta": null
+        "etiqueta": "Descuento"
     },
     {
         "sku": "PLUM-21",
@@ -6768,7 +6768,7 @@
     },
     {
         "sku": "PLUM-50",
-        "nombre": "Plumones gruesos Maxicolor 47 colores surtidos caja x12 und",
+        "nombre": "Plumones gruesos Maxicolor 47 colores surtidos caja x 12 und",
         "marca": "Twins",
         "subcategorias": [
             "Plumones"
