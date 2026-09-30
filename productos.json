@@ -4210,7 +4210,7 @@
         "etiqueta": null
     },
     {
-        "sku": "nan",
+        "sku": "FOLD-48",
         "nombre": "Folder plástico A4 Superheroes",
         "marca": "Genérico",
         "subcategorias": [
@@ -4272,7 +4272,7 @@
         "etiqueta": null
     },
     {
-        "sku": "nan",
+        "sku": "FOLD-49",
         "nombre": "Fólder plástico A4 Mario Bros",
         "marca": "Genérico",
         "subcategorias": [
@@ -6688,7 +6688,7 @@
     },
     {
         "sku": "PLUM-28",
-        "nombre": "Plumón de pizarra Winner 152 rojo",
+        "nombre": "Plumón de pizarra Winner 132 rojo",
         "marca": "Faber-Castell",
         "subcategorias": [
             "Plumones"
@@ -6704,7 +6704,7 @@
     },
     {
         "sku": "PLUM-29",
-        "nombre": "Plumón de pizarra Winner 152 verde",
+        "nombre": "Plumón de pizarra Winner 132 verde",
         "marca": "Faber-Castell",
         "subcategorias": [
             "Plumones"
@@ -7159,22 +7159,6 @@
         "palabras_clave": [],
         "descripcion_corta": "",
         "etiqueta": null
-    },
-    {
-        "sku": "PLUM-92",
-        "nombre": "Plumones acrílicos de pizarra x12",
-        "marca": "Genérico",
-        "subcategorias": [
-            "Plumones"
-        ],
-        "imagen_principal": "nan",
-        "stock_general": "0",
-        "colores": [],
-        "precio_regular": 6.5,
-        "precio_oferta": null,
-        "palabras_clave": [],
-        "descripcion_corta": "",
-        "etiqueta": "Agotado"
     },
     {
         "sku": "PINT-01",
@@ -11438,6 +11422,80 @@
         "stock_general": null,
         "colores": [],
         "precio_regular": 1.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "BORR-31",
+        "nombre": "Cinta correctora + engrapadora + grapas Azul",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Borradores y Correctores",
+            "Oficina"
+        ],
+        "imagen_principal": "imagenes/Borrador/combo Cinta engrapadora Azul.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "BORR-32",
+        "nombre": "Cinta correctora + engrapadora + grapas Rosa",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Borradores y Correctores",
+            "Oficina"
+        ],
+        "imagen_principal": "imagenes/Borrador/combo Cinta engrapadora Rosa.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "LAPI-51",
+        "nombre": "Set: Lápiz x2 + borrador + tajador + crayolas",
+        "marca": "Genérico",
+        "subcategorias": [
+            "Lápices",
+            "Borradores y Correctores",
+            "Tajador",
+            "Crayolas"
+        ],
+        "imagen_principal": "imagenes/Lapices/set escolar.jpg",
+        "stock_general": null,
+        "colores": [
+            {
+                "nombre": "Surtido",
+                "stock": 10,
+                "imagen": "imagenes/Lapices/set escolar.jpg"
+            },
+            {
+                "nombre": "Azul",
+                "stock": 3,
+                "imagen": "imagenes/Lapices/set escolar azul.jpg"
+            },
+            {
+                "nombre": "Rosado",
+                "stock": 3,
+                "imagen": "imagenes/Lapices/set escolar rosado.jpg"
+            },
+            {
+                "nombre": "Verde",
+                "stock": 3,
+                "imagen": "imagenes/Lapices/set escolar verde.jpg"
+            }
+        ],
+        "precio_regular": 0.0,
         "precio_oferta": null,
         "palabras_clave": [],
         "descripcion_corta": "",
