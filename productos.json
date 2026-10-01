@@ -7071,9 +7071,45 @@
         "subcategorias": [
             "Plumones"
         ],
-        "imagen_principal": "nan",
+        "imagen_principal": "imagenes/Plumones/resaltador pastel Artesco.jpg",
         "stock_general": null,
-        "colores": [],
+        "colores": [
+            {
+                "nombre": "Surtido",
+                "stock": 10,
+                "imagen": "imagenes/Plumones/resaltador pastel Artesco.jpg"
+            },
+            {
+                "nombre": "Verde",
+                "stock": 3,
+                "imagen": "imagenes/Plumones/RESALTADOR PASTEL ARTESCO (MENTA PASTEL).jpg"
+            },
+            {
+                "nombre": "Celeste",
+                "stock": 3,
+                "imagen": "imagenes/Plumones/RESALTADOR PASTEL ARTESCO (TURQUEZA PASTEL).jpg"
+            },
+            {
+                "nombre": "Amarillo",
+                "stock": 3,
+                "imagen": "imagenes/Plumones/RESALTADOR PASTEL ARTESCO (AMARILLO PASTEL).jpg"
+            },
+            {
+                "nombre": "Lila",
+                "stock": 3,
+                "imagen": "imagenes/Plumones/RESALTADOR PASTEL ARTESCO (LILA PASTEL).jpg"
+            },
+            {
+                "nombre": "Melón",
+                "stock": 3,
+                "imagen": "imagenes/Plumones/RESALTADOR PASTEL ARTESCO (DURAZNO PASTEL).jpg"
+            },
+            {
+                "nombre": "Rosado",
+                "stock": 3,
+                "imagen": "imagenes/Plumones/RESALTADOR PASTEL ARTESCO (ROSADO PASTEL).jpg"
+            }
+        ],
         "precio_regular": 2.0,
         "precio_oferta": null,
         "palabras_clave": [],
@@ -11325,7 +11361,7 @@
         "imagen_principal": "imagenes/Borrador/borrador mixto layconsa.webp",
         "stock_general": null,
         "colores": [],
-        "precio_regular": 0.0,
+        "precio_regular": 1.0,
         "precio_oferta": null,
         "palabras_clave": [],
         "descripcion_corta": "",
@@ -11380,7 +11416,87 @@
         "etiqueta": null
     },
     {
+        "sku": "BORR-05",
+        "nombre": "Borrador colors 33 x 2und",
+        "marca": "Artesco",
+        "subcategorias": [
+            "Borradores y Correctores"
+        ],
+        "imagen_principal": "imagenes/Borrador/borrador-artesco-colors-33-x-2.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 2.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "BORR-06",
+        "nombre": "Borrador corrector de postura",
+        "marca": "Artesco",
+        "subcategorias": [
+            "Borradores y Correctores"
+        ],
+        "imagen_principal": "imagenes/Borrador/borrador corrector postura Artesco.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
         "sku": "BORR-11",
+        "nombre": "Borrador x 2 und",
+        "marca": "Faber Castell",
+        "subcategorias": [
+            "Borradores y Correctores"
+        ],
+        "imagen_principal": "imagenes/Borrador/borrador faber azul x2.jpeg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 2.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "BORR-16",
+        "nombre": "Borrador Croc Croc",
+        "marca": "Maped",
+        "subcategorias": [
+            "Borradores y Correctores"
+        ],
+        "imagen_principal": "imagenes/Borrador/borrador maped conejo.webp",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 2.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "BORR-17",
+        "nombre": "Borrador Technic 600",
+        "marca": "Maped",
+        "subcategorias": [
+            "Borradores y Correctores"
+        ],
+        "imagen_principal": "imagenes/Borrador/borrador maped technic.webp",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 2.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "BORR-21",
         "nombre": "Corrector tipo lapicero 9ml",
         "marca": "Faber Castell",
         "subcategorias": [
@@ -11396,7 +11512,7 @@
         "etiqueta": null
     },
     {
-        "sku": "BORR-16",
+        "sku": "BORR-22",
         "nombre": "Corrector tipo lapicero 9ml",
         "marca": "Artesco",
         "subcategorias": [
@@ -11412,7 +11528,7 @@
         "etiqueta": null
     },
     {
-        "sku": "BORR-21",
+        "sku": "BORR-31",
         "nombre": "Corrector tipo lapicero 9ml",
         "marca": "Ove",
         "subcategorias": [
@@ -11428,7 +11544,7 @@
         "etiqueta": null
     },
     {
-        "sku": "BORR-31",
+        "sku": "BORR-51",
         "nombre": "Cinta correctora + engrapadora + grapas Azul",
         "marca": "Genérico",
         "subcategorias": [
@@ -11438,14 +11554,14 @@
         "imagen_principal": "imagenes/Borrador/combo Cinta engrapadora Azul.jpg",
         "stock_general": null,
         "colores": [],
-        "precio_regular": 3.5,
+        "precio_regular": 5.5,
         "precio_oferta": null,
         "palabras_clave": [],
         "descripcion_corta": "",
         "etiqueta": null
     },
     {
-        "sku": "BORR-32",
+        "sku": "BORR-52",
         "nombre": "Cinta correctora + engrapadora + grapas Rosa",
         "marca": "Genérico",
         "subcategorias": [
@@ -11455,7 +11571,7 @@
         "imagen_principal": "imagenes/Borrador/combo Cinta engrapadora Rosa.jpg",
         "stock_general": null,
         "colores": [],
-        "precio_regular": 3.5,
+        "precio_regular": 5.5,
         "precio_oferta": null,
         "palabras_clave": [],
         "descripcion_corta": "",
@@ -11495,7 +11611,7 @@
                 "imagen": "imagenes/Lapices/set escolar verde.jpg"
             }
         ],
-        "precio_regular": 5.5,
+        "precio_regular": 3.5,
         "precio_oferta": null,
         "palabras_clave": [],
         "descripcion_corta": "",
