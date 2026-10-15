@@ -11512,6 +11512,22 @@
         "etiqueta": null
     },
     {
+        "sku": "BORR-23",
+        "nombre": "Corretor tipo lapicero 7ml",
+        "marca": "Artesco Smartz",
+        "subcategorias": [
+            "Borradores y Correctores"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
         "sku": "BORR-31",
         "nombre": "Corrector tipo lapicero 9ml",
         "marca": "Ove",
@@ -11562,7 +11578,167 @@
         "etiqueta": null
     },
     {
+        "sku": "LAPI-01",
+        "nombre": "Lápiz de grafito 2B",
+        "marca": "Artesco",
+        "subcategorias": [
+            "Lápices"
+        ],
+        "imagen_principal": "imagenes/Lapices/lapiz grafito artesco.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.8,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "LAPI-02",
+        "nombre": "Lápiz de grafito HB #2",
+        "marca": "Mongol",
+        "subcategorias": [
+            "Lápices"
+        ],
+        "imagen_principal": "imagenes/Lapices/LAPIZ mongol.webp",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "LAPI-11",
+        "nombre": "Lápiz chequeo",
+        "marca": "Artesco",
+        "subcategorias": [
+            "Lápices"
+        ],
+        "imagen_principal": "imagenes/Lapices/LAPIZ-CHEQUEO-ARTESCO.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "LAPI-12",
+        "nombre": "Lápiz chequeo",
+        "marca": "Artesco Smartz",
+        "subcategorias": [
+            "Lápices"
+        ],
+        "imagen_principal": "imagenes/Lapices/lapiz chequeo smartz.webp",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "LAPI-21",
+        "nombre": "Lápiz jumbo",
+        "marca": "Artesco",
+        "subcategorias": [
+            "Lápices"
+        ],
+        "imagen_principal": "imagenes/Lapices/LAPIZ-JUMBO-ARTESCO.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "LAPI-31",
+        "nombre": "Lápiz chequeo jumbo",
+        "marca": "Artesco",
+        "subcategorias": [
+            "Lápices"
+        ],
+        "imagen_principal": "nan",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
         "sku": "LAPI-51",
+        "nombre": "Lápiz de grafito 2B caja x 12 und",
+        "marca": "Artesco",
+        "subcategorias": [
+            "Lápices"
+        ],
+        "imagen_principal": "imagenes/Lapices/lapiz-2b-grafito-artesco-caja.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 5.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "LAPI-52",
+        "nombre": "Lápiz de grafito HB #2 caja x 12 und",
+        "marca": "Mongol",
+        "subcategorias": [
+            "Lápices"
+        ],
+        "imagen_principal": "imagenes/Lapices/caja lapiz mongol.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 8.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "LAPI-56",
+        "nombre": "Lápiz chequeo caja x 12",
+        "marca": "Artesco",
+        "subcategorias": [
+            "Lápices"
+        ],
+        "imagen_principal": "imagenes/Lapices/lapiz-chequeo-rojo-artesco-caja.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 6.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "LAPI-57",
+        "nombre": "Lápiz chequeo caja x 12",
+        "marca": "Artesco Smartz",
+        "subcategorias": [
+            "Lápices"
+        ],
+        "imagen_principal": "imagenes/Lapices/lapiz chequeo smartz caja.webp",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 4.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "LAPI-91",
         "nombre": "Set: Lápiz x2 + borrador + tajador + crayolas",
         "marca": "Genérico",
         "subcategorias": [
