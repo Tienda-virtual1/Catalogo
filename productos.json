@@ -7155,26 +7155,10 @@
         "subcategorias": [
             "Plumones"
         ],
-        "imagen_principal": "nan",
+        "imagen_principal": "imagenes/Plumones/mini resaltador osito.jpg",
         "stock_general": null,
         "colores": [],
         "precio_regular": 5.0,
-        "precio_oferta": null,
-        "palabras_clave": [],
-        "descripcion_corta": "",
-        "etiqueta": null
-    },
-    {
-        "sku": "PLUM-89",
-        "nombre": "Resaltadores pastel x6 estuche",
-        "marca": "Genérico",
-        "subcategorias": [
-            "Plumones"
-        ],
-        "imagen_principal": "nan",
-        "stock_general": null,
-        "colores": [],
-        "precio_regular": 6.0,
         "precio_oferta": null,
         "palabras_clave": [],
         "descripcion_corta": "",
@@ -8783,11 +8767,11 @@
     {
         "sku": "BOLI-71",
         "nombre": "Lapicero escarchado x12",
-        "marca": "Yimi",
+        "marca": "Dialé",
         "subcategorias": [
             "Lapiceros"
         ],
-        "imagen_principal": "nan",
+        "imagen_principal": "imagenes/Lapiceros/lapicero escarchado diale.jpg",
         "stock_general": null,
         "colores": [],
         "precio_regular": 5.0,
@@ -8798,12 +8782,12 @@
     },
     {
         "sku": "BOLI-81",
-        "nombre": "Lapicero capibara",
+        "nombre": "Lapicero multicolor capibara",
         "marca": "Genérico",
         "subcategorias": [
             "Lapiceros"
         ],
-        "imagen_principal": "nan",
+        "imagen_principal": "imagenes/Lapiceros/Bolígrafos de capibara multicolor.jpg",
         "stock_general": null,
         "colores": [],
         "precio_regular": 2.0,
@@ -8821,7 +8805,7 @@
         "subcategorias": [
             "Lapiceros"
         ],
-        "imagen_principal": "nan",
+        "imagen_principal": "imagenes/Lapiceros/lapicero unicornio.jpg",
         "stock_general": null,
         "colores": [],
         "precio_regular": 1.0,
@@ -8839,7 +8823,7 @@
         "subcategorias": [
             "Lapiceros"
         ],
-        "imagen_principal": "nan",
+        "imagen_principal": "imagenes/Lapiceros/lapicero borrable.jpg",
         "stock_general": null,
         "colores": [],
         "precio_regular": 1.0,
