@@ -6352,6 +6352,22 @@
     },
     {
         "sku": "COLO-12",
+        "nombre": "Colores largos triangulares x12 + 2 lápices + tajador",
+        "marca": "Artesco",
+        "subcategorias": [
+            "Colores"
+        ],
+        "imagen_principal": "imagenes/Colores/colores-largos-artesco-triangulares.jpeg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 0.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "COLO-15",
         "nombre": "Colores jumbo x12",
         "marca": "Artesco",
         "subcategorias": [
