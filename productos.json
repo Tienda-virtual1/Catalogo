@@ -6360,7 +6360,7 @@
         "imagen_principal": "imagenes/Colores/colores-largos-artesco-triangulares.jpg",
         "stock_general": null,
         "colores": [],
-        "precio_regular": 0.0,
+        "precio_regular": 5.5,
         "precio_oferta": null,
         "palabras_clave": [],
         "descripcion_corta": "",
@@ -11788,6 +11788,70 @@
             }
         ],
         "precio_regular": 3.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "TAJA-01",
+        "nombre": "Tajador con depósito",
+        "marca": "Artesco",
+        "subcategorias": [
+            "Tajadores"
+        ],
+        "imagen_principal": "imagenes/tajador/tajador simple Artesco.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "TAJA-02",
+        "nombre": "Tajador doble con depósito",
+        "marca": "Artesco",
+        "subcategorias": [
+            "Tajadores"
+        ],
+        "imagen_principal": "imagenes/tajador/tajador doble Artesco.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 2.0,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "TAJA-11",
+        "nombre": "Tajador panda",
+        "marca": "Artesco",
+        "subcategorias": [
+            "Tajadores"
+        ],
+        "imagen_principal": "imagenes/tajador/tajador panda.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 1.5,
+        "precio_oferta": null,
+        "palabras_clave": [],
+        "descripcion_corta": "",
+        "etiqueta": null
+    },
+    {
+        "sku": "TAJA-12",
+        "nombre": "Tajador dinosaurio",
+        "marca": "Artesco",
+        "subcategorias": [
+            "Tajadores"
+        ],
+        "imagen_principal": "imagenes/tajador/tajador dinosaurio.jpg",
+        "stock_general": null,
+        "colores": [],
+        "precio_regular": 2.5,
         "precio_oferta": null,
         "palabras_clave": [],
         "descripcion_corta": "",
